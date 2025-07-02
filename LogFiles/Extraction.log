@@ -1,0 +1,2131 @@
+2025-07-02 08:35:27,918-INFO-Oracle conenction is getting established
+2025-07-02 08:35:28,111-INFO-Oracle conenction has been established
+2025-07-02 08:35:28,111-INFO-mysql conenction is getting established
+2025-07-02 08:35:28,113-INFO-mysql conenction has been established
+2025-07-02 08:35:28,113-INFO-Test case execution for sales_data extarction has started....
+2025-07-02 08:35:28,127-INFO-The expected data in the file is :   store_id    store_name
+0         1       Walmart
+1         2        Target
+2         3      Best Buy
+3         4        Costco
+4         5    Home Depot
+5         6        Lowe's
+6         7   Apple Store
+7         8          IKEA
+8         9     Walgreens
+9        10  CVS Pharmacy
+2025-07-02 08:35:28,158-INFO-The actual data in the file is :   store_id    store_name
+0         1       Walmart
+1         2        Target
+2         3      Best Buy
+3         4        Costco
+4         5    Home Depot
+5         6        Lowe's
+6         7   Apple Store
+7         8          IKEA
+8         9     Walgreens
+9        10  CVS Pharmacy
+2025-07-02 08:35:28,159-INFO-Test case execution for stores data extarction has completed....
+2025-07-02 08:35:28,160-INFO-Oracle conenction has been closed
+2025-07-02 08:36:30,735-INFO-Oracle conenction is getting established
+2025-07-02 08:36:30,912-INFO-Oracle conenction has been established
+2025-07-02 08:36:30,912-INFO-mysql conenction is getting established
+2025-07-02 08:36:30,933-INFO-mysql conenction has been established
+2025-07-02 08:36:30,933-INFO-Test case execution for sales_data extarction has started....
+2025-07-02 08:36:30,947-INFO-The expected data in the file is :   store_id    store_name
+0         1       Walmart
+1         2        Target
+2         3      Best Buy
+3         4        Costco
+4         5    Home Depot
+5         6        Lowe's
+6         7   Apple Store
+7         8          IKEA
+8         9     Walgreens
+9        10  CVS Pharmacy
+2025-07-02 08:36:30,954-INFO-The actual data in the file is :   store_id    store_name
+0         1       Walmart
+1         2        Target
+2         3      Best Buy
+3         4        Costco
+4         5    Home Depot
+5         6        Lowe's
+6         7   Apple Store
+7         8          IKEA
+8         9     Walgreens
+9        10  CVS Pharmacy
+2025-07-02 08:36:30,954-INFO-Test case execution for stores data extarction has completed....
+2025-07-02 08:36:30,955-INFO-mysql conenction has been closed
+2025-07-02 08:36:30,955-INFO-Oracle conenction has been closed
+2025-07-02 16:44:41,833-INFO-Test case execution for sales_data extraction has started....
+2025-07-02 16:44:42,058-INFO-The expected data in the file is :    sales_id  product_id  store_id  quantity  price   sale_date region
+0          1         101         1        10   15.0  2024-09-01   High
+1          2         102         1         5   25.0  2024-09-01    Low
+2          3         103         2         7   20.0  2024-09-02   High
+3          4         104         2         3   30.0  2024-09-03    Low
+4          5         105         1        12   12.0  2024-09-05   High
+5          6         106         3         8   18.0  2024-09-06    Low
+6          7         107         1         4   22.0  2024-09-07   High
+7          8         108         2         6   24.0  2024-09-08    Low
+8          9         109         3        11   19.0  2024-09-09   High
+9         10         110         4         9   17.0  2024-09-10    Low
+10        11         101         4        15   14.0  2024-09-11   High
+11        12         102         5         9   27.0  2024-09-12    Low
+12        13         103         6        10   22.0  2024-09-13   High
+13        14         104         7         8   31.0  2024-09-14    Low
+14        15         105         4        12   11.0  2024-09-15   High
+15        16         106         5         5   23.0  2024-09-16    Low
+16        17         107         6         3   26.0  2024-09-17   High
+17        18         108         7         6   28.0  2024-09-18    Low
+18        19         109         8        11   20.0  2024-09-19   High
+19        20         110         9         9   19.5  2024-09-20    Low
+20        21         101         1        14   15.5  2024-09-21   High
+21        22         102         2         8   22.0  2024-09-22    Low
+22        23         103         3         7   18.0  2024-09-23   High
+23        24         104         4         6   25.0  2024-09-24    Low
+24        25         105         2        12   13.5  2024-09-25   High
+25        26         106         3         5   21.0  2024-09-26    Low
+26        27         107         1        10   19.0  2024-09-27   High
+27        28         108         5         6   27.0  2024-09-28    Low
+28        29         109         6         9   24.0  2024-09-29   High
+29        30         110         7         7   23.5  2024-09-30    Low
+30        31         101         4        13   14.5  2024-10-01   High
+31        32         102         5         6   29.0  2024-10-02    Low
+32        33         103         6         8   21.0  2024-10-03   High
+33        34         104         7         5   30.0  2024-10-04    Low
+34        35         105         4         7   15.0  2024-10-05   High
+35        36         106         5         3   25.0  2024-10-06    Low
+36        37         107         6        12   18.0  2024-10-07   High
+37        38         108         7         9   20.0  2024-10-08    Low
+38        39         109         8        10   22.0  2024-10-09   High
+39        40         110         9         6   26.0  2024-10-10    Low
+40        41         101         3         5   15.0  2024-10-11   High
+41        42         102         4         4   20.0  2024-10-12    Low
+42        43         103         5         9   19.0  2024-10-13   High
+43        44         104         6         7   28.0  2024-10-14    Low
+44        45         105         7        10   25.0  2024-10-15   High
+45        46         106         8         8   22.5  2024-10-16    Low
+46        47         107         9         6   24.0  2024-10-17   High
+47        48         108         1         3   27.0  2024-10-18    Low
+48        49         109         2        11   18.5  2024-10-19   High
+49        50         110         3        12   21.0  2024-10-20    Low
+50        51         101         1        10   15.0  2024-08-01   High
+51        52         101         1         5   25.0  2024-08-01    Low
+52        53         101         2         7   20.0  2023-09-02   High
+53        54         101         2         3   30.0  2023-09-03    Low
+54        55         105         1        12   12.0  2024-09-05   High
+55        56         106         3         8   18.0  2024-09-06    Low
+56        57         107         1         4   22.0  2024-09-07   High
+57        58         108         2         6   24.0  2024-09-08    Low
+58        59         109         3        11   19.0  2024-09-09   High
+59        60         110         4         9   17.0  2024-09-10    Low
+2025-07-02 16:44:42,322-INFO-The actual data in the stag table is :    sales_id  product_id  store_id  quantity  price   sale_date region
+0          1         101         1        10   15.0  2024-09-01   High
+1          2         102         1         5   25.0  2024-09-01    Low
+2          3         103         2         7   20.0  2024-09-02   High
+3          4         104         2         3   30.0  2024-09-03    Low
+4          5         105         1        12   12.0  2024-09-05   High
+5          6         106         3         8   18.0  2024-09-06    Low
+6          7         107         1         4   22.0  2024-09-07   High
+7          8         108         2         6   24.0  2024-09-08    Low
+8          9         109         3        11   19.0  2024-09-09   High
+9         10         110         4         9   17.0  2024-09-10    Low
+10        11         101         4        15   14.0  2024-09-11   High
+11        12         102         5         9   27.0  2024-09-12    Low
+12        13         103         6        10   22.0  2024-09-13   High
+13        14         104         7         8   31.0  2024-09-14    Low
+14        15         105         4        12   11.0  2024-09-15   High
+15        16         106         5         5   23.0  2024-09-16    Low
+16        17         107         6         3   26.0  2024-09-17   High
+17        18         108         7         6   28.0  2024-09-18    Low
+18        19         109         8        11   20.0  2024-09-19   High
+19        20         110         9         9   19.5  2024-09-20    Low
+20        21         101         1        14   15.5  2024-09-21   High
+21        22         102         2         8   22.0  2024-09-22    Low
+22        23         103         3         7   18.0  2024-09-23   High
+23        24         104         4         6   25.0  2024-09-24    Low
+24        25         105         2        12   13.5  2024-09-25   High
+25        26         106         3         5   21.0  2024-09-26    Low
+26        27         107         1        10   19.0  2024-09-27   High
+27        28         108         5         6   27.0  2024-09-28    Low
+28        29         109         6         9   24.0  2024-09-29   High
+29        30         110         7         7   23.5  2024-09-30    Low
+30        31         101         4        13   14.5  2024-10-01   High
+31        32         102         5         6   29.0  2024-10-02    Low
+32        33         103         6         8   21.0  2024-10-03   High
+33        34         104         7         5   30.0  2024-10-04    Low
+34        35         105         4         7   15.0  2024-10-05   High
+35        36         106         5         3   25.0  2024-10-06    Low
+36        37         107         6        12   18.0  2024-10-07   High
+37        38         108         7         9   20.0  2024-10-08    Low
+38        39         109         8        10   22.0  2024-10-09   High
+39        40         110         9         6   26.0  2024-10-10    Low
+40        41         101         3         5   15.0  2024-10-11   High
+41        42         102         4         4   20.0  2024-10-12    Low
+42        43         103         5         9   19.0  2024-10-13   High
+43        44         104         6         7   28.0  2024-10-14    Low
+44        45         105         7        10   25.0  2024-10-15   High
+45        46         106         8         8   22.5  2024-10-16    Low
+46        47         107         9         6   24.0  2024-10-17   High
+47        48         108         1         3   27.0  2024-10-18    Low
+48        49         109         2        11   18.5  2024-10-19   High
+49        50         110         3        12   21.0  2024-10-20    Low
+50        51         101         1        10   15.0  2024-08-01   High
+51        52         101         1         5   25.0  2024-08-01    Low
+52        53         101         2         7   20.0  2023-09-02   High
+53        54         101         2         3   30.0  2023-09-03    Low
+54        55         105         1        12   12.0  2024-09-05   High
+55        56         106         3         8   18.0  2024-09-06    Low
+56        57         107         1         4   22.0  2024-09-07   High
+57        58         108         2         6   24.0  2024-09-08    Low
+58        59         109         3        11   19.0  2024-09-09   High
+59        60         110         4         9   17.0  2024-09-10    Low
+2025-07-02 16:44:42,348-INFO-Test case execution for sales_data extraction has completed....
+2025-07-02 16:44:42,350-INFO-Test case execution for product_data extraction has started....
+2025-07-02 16:44:42,375-INFO-The expected data in the file is :   product_id        product_name     category  price  stock_quantity    brand  rating
+0         101           iPhone 15  Smartphones    999              50    Apple     4.8
+1         102  Samsung Galaxy S23  Smartphones    899              75  Samsung     4.7
+2         103         Dell XPS 13      Laptops   1200              30     Dell     4.6
+3         104      MacBook Pro 14      Laptops   2000              25    Apple     4.9
+4         105     Sony WH-1000XM5   Headphones    350             100     Sony     4.7
+5         106       Nike Air Zoom     Sneakers    120             200     Nike     4.5
+6         107      Samsung 55" TV  Electronics    700              40  Samsung     4.4
+7         108    Philips Hue Bulb   Smart Home     50             500  Philips     4.8
+8         109     Fitbit Charge 5    Wearables    150             150   Fitbit     4.6
+9         110   Kindle Paperwhite     eReaders    130              80   Amazon     4.7
+2025-07-02 16:44:42,390-INFO-The actual data in the stag table is :   product_id        product_name     category  price  stock_quantity    brand  rating
+0         101           iPhone 15  Smartphones    999              50    Apple     4.8
+1         102  Samsung Galaxy S23  Smartphones    899              75  Samsung     4.7
+2         103         Dell XPS 13      Laptops   1200              30     Dell     4.6
+3         104      MacBook Pro 14      Laptops   2000              25    Apple     4.9
+4         105     Sony WH-1000XM5   Headphones    350             100     Sony     4.7
+5         106       Nike Air Zoom     Sneakers    120             200     Nike     4.5
+6         107      Samsung 55" TV  Electronics    700              40  Samsung     4.4
+7         108    Philips Hue Bulb   Smart Home     50             500  Philips     4.8
+8         109     Fitbit Charge 5    Wearables    150             150   Fitbit     4.6
+9         110   Kindle Paperwhite     eReaders    130              80   Amazon     4.7
+2025-07-02 16:44:42,409-INFO-Test case execution for product_data extraction has completed....
+2025-07-02 16:44:42,411-INFO-Test case execution for supplier_data extraction has started....
+2025-07-02 16:44:42,471-INFO-The expected data in the file is :   supplier_id         supplier_name    contact_name                      contact_email     contact_phone    country  rating last_order_date
+0            1      ABC Distributors        John Doe                johndoe@abcdist.com       +1-555-0100        USA     4.8      2024-11-20
+1            2     Global Goods Inc.      Jane Smith          janesmith@globalgoods.com       +1-555-0200     Canada     4.3      2024-11-19
+2            3   GreenTech Solutions  Robert Johnson       robert.johnson@greentech.com  +44-20-7946-0100         UK     4.6      2024-11-18
+3            4              EuroWare     Emily White          emily.white@euro-ware.com  +49-30-9876-5432    Germany     4.2      2024-11-22
+4            5      Pacific Products   Michael Brown  michael.brown@pacificproducts.com   +61-2-9345-6789  Australia     4.7      2024-11-17
+5            6     Fresh Produce Co.    Sarah Taylor      sarah.taylor@freshproduce.com   +33-1-7035-6789     France     4.4      2024-11-21
+6            7  TechCore Electronics       David Lee             david.lee@techcore.com   +81-3-4567-8901      Japan     4.9      2024-11-23
+7            8       HanYang Trading      Laura King             laura.king@hanyang.com  +86-10-8888-7777      China     4.1      2024-11-16
+8            9         Indo Supplies  James Williams             james@indosupplies.com  +91-22-2678-9101      India     4.3      2024-11-25
+9           10         LatAm Imports   Olivia Harris     olivia.harris@latamimports.com  +52-55-2345-6789     Mexico     4.5      2024-11-20
+2025-07-02 16:44:42,486-INFO-The actual data in the stag table is :   supplier_id         supplier_name    contact_name                      contact_email     contact_phone    country  rating last_order_date
+0            1      ABC Distributors        John Doe                johndoe@abcdist.com       +1-555-0100        USA     4.8      2024-11-20
+1            2     Global Goods Inc.      Jane Smith          janesmith@globalgoods.com       +1-555-0200     Canada     4.3      2024-11-19
+2            3   GreenTech Solutions  Robert Johnson       robert.johnson@greentech.com  +44-20-7946-0100         UK     4.6      2024-11-18
+3            4              EuroWare     Emily White          emily.white@euro-ware.com  +49-30-9876-5432    Germany     4.2      2024-11-22
+4            5      Pacific Products   Michael Brown  michael.brown@pacificproducts.com   +61-2-9345-6789  Australia     4.7      2024-11-17
+5            6     Fresh Produce Co.    Sarah Taylor      sarah.taylor@freshproduce.com   +33-1-7035-6789     France     4.4      2024-11-21
+6            7  TechCore Electronics       David Lee             david.lee@techcore.com   +81-3-4567-8901      Japan     4.9      2024-11-23
+7            8       HanYang Trading      Laura King             laura.king@hanyang.com  +86-10-8888-7777      China     4.1      2024-11-16
+8            9         Indo Supplies  James Williams             james@indosupplies.com  +91-22-2678-9101      India     4.3      2024-11-25
+9           10         LatAm Imports   Olivia Harris     olivia.harris@latamimports.com  +52-55-2345-6789     Mexico     4.5      2024-11-20
+2025-07-02 16:44:42,487-INFO-Test case execution for supplier_data extraction has completed....
+2025-07-02 16:44:42,489-INFO-Test case execution for inventory_data extraction has started....
+2025-07-02 16:44:42,489-ERROR-test case Execution for inventory data extraction has failedlxml not found, please install or use the etree parser.
+2025-07-02 16:44:42,868-INFO-Oracle connection is getting established
+2025-07-02 16:44:43,207-INFO-Oracle connection has been established
+2025-07-02 16:44:43,207-INFO-mysql connection is getting established
+2025-07-02 16:44:43,232-INFO-mysql connection has been established
+2025-07-02 16:44:43,232-INFO-Test case execution for sales_data extraction has started....
+2025-07-02 16:44:43,355-INFO-The expected data in the source table is :   store_id    store_name
+0         1       Walmart
+1         2        Target
+2         3      Best Buy
+3         4        Costco
+4         5    Home Depot
+5         6        Lowe's
+6         7   Apple Store
+7         8          IKEA
+8         9     Walgreens
+9        10  CVS Pharmacy
+2025-07-02 16:44:43,369-INFO-The actual data in the stag table is :   store_id    store_name
+0         1       Walmart
+1         2        Target
+2         3      Best Buy
+3         4        Costco
+4         5    Home Depot
+5         6        Lowe's
+6         7   Apple Store
+7         8          IKEA
+8         9     Walgreens
+9        10  CVS Pharmacy
+2025-07-02 16:44:43,369-INFO-Test case execution for stores data extraction has completed....
+2025-07-02 16:44:43,371-INFO-mysql connection has been closed
+2025-07-02 16:44:43,371-INFO-Oracle connection has been closed
+2025-07-02 16:53:20,757-INFO-Test case execution for sales_data extraction has started....
+2025-07-02 16:53:20,845-INFO-The expected data in the file is :    sales_id  product_id  store_id  quantity  price   sale_date region
+0          1         101         1        10   15.0  2024-09-01   High
+1          2         102         1         5   25.0  2024-09-01    Low
+2          3         103         2         7   20.0  2024-09-02   High
+3          4         104         2         3   30.0  2024-09-03    Low
+4          5         105         1        12   12.0  2024-09-05   High
+5          6         106         3         8   18.0  2024-09-06    Low
+6          7         107         1         4   22.0  2024-09-07   High
+7          8         108         2         6   24.0  2024-09-08    Low
+8          9         109         3        11   19.0  2024-09-09   High
+9         10         110         4         9   17.0  2024-09-10    Low
+10        11         101         4        15   14.0  2024-09-11   High
+11        12         102         5         9   27.0  2024-09-12    Low
+12        13         103         6        10   22.0  2024-09-13   High
+13        14         104         7         8   31.0  2024-09-14    Low
+14        15         105         4        12   11.0  2024-09-15   High
+15        16         106         5         5   23.0  2024-09-16    Low
+16        17         107         6         3   26.0  2024-09-17   High
+17        18         108         7         6   28.0  2024-09-18    Low
+18        19         109         8        11   20.0  2024-09-19   High
+19        20         110         9         9   19.5  2024-09-20    Low
+20        21         101         1        14   15.5  2024-09-21   High
+21        22         102         2         8   22.0  2024-09-22    Low
+22        23         103         3         7   18.0  2024-09-23   High
+23        24         104         4         6   25.0  2024-09-24    Low
+24        25         105         2        12   13.5  2024-09-25   High
+25        26         106         3         5   21.0  2024-09-26    Low
+26        27         107         1        10   19.0  2024-09-27   High
+27        28         108         5         6   27.0  2024-09-28    Low
+28        29         109         6         9   24.0  2024-09-29   High
+29        30         110         7         7   23.5  2024-09-30    Low
+30        31         101         4        13   14.5  2024-10-01   High
+31        32         102         5         6   29.0  2024-10-02    Low
+32        33         103         6         8   21.0  2024-10-03   High
+33        34         104         7         5   30.0  2024-10-04    Low
+34        35         105         4         7   15.0  2024-10-05   High
+35        36         106         5         3   25.0  2024-10-06    Low
+36        37         107         6        12   18.0  2024-10-07   High
+37        38         108         7         9   20.0  2024-10-08    Low
+38        39         109         8        10   22.0  2024-10-09   High
+39        40         110         9         6   26.0  2024-10-10    Low
+40        41         101         3         5   15.0  2024-10-11   High
+41        42         102         4         4   20.0  2024-10-12    Low
+42        43         103         5         9   19.0  2024-10-13   High
+43        44         104         6         7   28.0  2024-10-14    Low
+44        45         105         7        10   25.0  2024-10-15   High
+45        46         106         8         8   22.5  2024-10-16    Low
+46        47         107         9         6   24.0  2024-10-17   High
+47        48         108         1         3   27.0  2024-10-18    Low
+48        49         109         2        11   18.5  2024-10-19   High
+49        50         110         3        12   21.0  2024-10-20    Low
+50        51         101         1        10   15.0  2024-08-01   High
+51        52         101         1         5   25.0  2024-08-01    Low
+52        53         101         2         7   20.0  2023-09-02   High
+53        54         101         2         3   30.0  2023-09-03    Low
+54        55         105         1        12   12.0  2024-09-05   High
+55        56         106         3         8   18.0  2024-09-06    Low
+56        57         107         1         4   22.0  2024-09-07   High
+57        58         108         2         6   24.0  2024-09-08    Low
+58        59         109         3        11   19.0  2024-09-09   High
+59        60         110         4         9   17.0  2024-09-10    Low
+2025-07-02 16:53:20,913-INFO-The actual data in the stag table is :    sales_id  product_id  store_id  quantity  price   sale_date region
+0          1         101         1        10   15.0  2024-09-01   High
+1          2         102         1         5   25.0  2024-09-01    Low
+2          3         103         2         7   20.0  2024-09-02   High
+3          4         104         2         3   30.0  2024-09-03    Low
+4          5         105         1        12   12.0  2024-09-05   High
+5          6         106         3         8   18.0  2024-09-06    Low
+6          7         107         1         4   22.0  2024-09-07   High
+7          8         108         2         6   24.0  2024-09-08    Low
+8          9         109         3        11   19.0  2024-09-09   High
+9         10         110         4         9   17.0  2024-09-10    Low
+10        11         101         4        15   14.0  2024-09-11   High
+11        12         102         5         9   27.0  2024-09-12    Low
+12        13         103         6        10   22.0  2024-09-13   High
+13        14         104         7         8   31.0  2024-09-14    Low
+14        15         105         4        12   11.0  2024-09-15   High
+15        16         106         5         5   23.0  2024-09-16    Low
+16        17         107         6         3   26.0  2024-09-17   High
+17        18         108         7         6   28.0  2024-09-18    Low
+18        19         109         8        11   20.0  2024-09-19   High
+19        20         110         9         9   19.5  2024-09-20    Low
+20        21         101         1        14   15.5  2024-09-21   High
+21        22         102         2         8   22.0  2024-09-22    Low
+22        23         103         3         7   18.0  2024-09-23   High
+23        24         104         4         6   25.0  2024-09-24    Low
+24        25         105         2        12   13.5  2024-09-25   High
+25        26         106         3         5   21.0  2024-09-26    Low
+26        27         107         1        10   19.0  2024-09-27   High
+27        28         108         5         6   27.0  2024-09-28    Low
+28        29         109         6         9   24.0  2024-09-29   High
+29        30         110         7         7   23.5  2024-09-30    Low
+30        31         101         4        13   14.5  2024-10-01   High
+31        32         102         5         6   29.0  2024-10-02    Low
+32        33         103         6         8   21.0  2024-10-03   High
+33        34         104         7         5   30.0  2024-10-04    Low
+34        35         105         4         7   15.0  2024-10-05   High
+35        36         106         5         3   25.0  2024-10-06    Low
+36        37         107         6        12   18.0  2024-10-07   High
+37        38         108         7         9   20.0  2024-10-08    Low
+38        39         109         8        10   22.0  2024-10-09   High
+39        40         110         9         6   26.0  2024-10-10    Low
+40        41         101         3         5   15.0  2024-10-11   High
+41        42         102         4         4   20.0  2024-10-12    Low
+42        43         103         5         9   19.0  2024-10-13   High
+43        44         104         6         7   28.0  2024-10-14    Low
+44        45         105         7        10   25.0  2024-10-15   High
+45        46         106         8         8   22.5  2024-10-16    Low
+46        47         107         9         6   24.0  2024-10-17   High
+47        48         108         1         3   27.0  2024-10-18    Low
+48        49         109         2        11   18.5  2024-10-19   High
+49        50         110         3        12   21.0  2024-10-20    Low
+50        51         101         1        10   15.0  2024-08-01   High
+51        52         101         1         5   25.0  2024-08-01    Low
+52        53         101         2         7   20.0  2023-09-02   High
+53        54         101         2         3   30.0  2023-09-03    Low
+54        55         105         1        12   12.0  2024-09-05   High
+55        56         106         3         8   18.0  2024-09-06    Low
+56        57         107         1         4   22.0  2024-09-07   High
+57        58         108         2         6   24.0  2024-09-08    Low
+58        59         109         3        11   19.0  2024-09-09   High
+59        60         110         4         9   17.0  2024-09-10    Low
+2025-07-02 16:53:20,926-INFO-Test case execution for sales_data extraction has completed....
+2025-07-02 16:53:20,927-INFO-Test case execution for product_data extraction has started....
+2025-07-02 16:53:20,953-INFO-The expected data in the file is :   product_id        product_name     category  price  stock_quantity    brand  rating
+0         101           iPhone 15  Smartphones    999              50    Apple     4.8
+1         102  Samsung Galaxy S23  Smartphones    899              75  Samsung     4.7
+2         103         Dell XPS 13      Laptops   1200              30     Dell     4.6
+3         104      MacBook Pro 14      Laptops   2000              25    Apple     4.9
+4         105     Sony WH-1000XM5   Headphones    350             100     Sony     4.7
+5         106       Nike Air Zoom     Sneakers    120             200     Nike     4.5
+6         107      Samsung 55" TV  Electronics    700              40  Samsung     4.4
+7         108    Philips Hue Bulb   Smart Home     50             500  Philips     4.8
+8         109     Fitbit Charge 5    Wearables    150             150   Fitbit     4.6
+9         110   Kindle Paperwhite     eReaders    130              80   Amazon     4.7
+2025-07-02 16:53:20,965-INFO-The actual data in the stag table is :   product_id        product_name     category  price  stock_quantity    brand  rating
+0         101           iPhone 15  Smartphones    999              50    Apple     4.8
+1         102  Samsung Galaxy S23  Smartphones    899              75  Samsung     4.7
+2         103         Dell XPS 13      Laptops   1200              30     Dell     4.6
+3         104      MacBook Pro 14      Laptops   2000              25    Apple     4.9
+4         105     Sony WH-1000XM5   Headphones    350             100     Sony     4.7
+5         106       Nike Air Zoom     Sneakers    120             200     Nike     4.5
+6         107      Samsung 55" TV  Electronics    700              40  Samsung     4.4
+7         108    Philips Hue Bulb   Smart Home     50             500  Philips     4.8
+8         109     Fitbit Charge 5    Wearables    150             150   Fitbit     4.6
+9         110   Kindle Paperwhite     eReaders    130              80   Amazon     4.7
+2025-07-02 16:53:20,967-INFO-Test case execution for product_data extraction has completed....
+2025-07-02 16:53:20,971-INFO-Test case execution for supplier_data extraction has started....
+2025-07-02 16:53:21,011-INFO-The expected data in the file is :   supplier_id         supplier_name    contact_name                      contact_email     contact_phone    country  rating last_order_date
+0            1      ABC Distributors        John Doe                johndoe@abcdist.com       +1-555-0100        USA     4.8      2024-11-20
+1            2     Global Goods Inc.      Jane Smith          janesmith@globalgoods.com       +1-555-0200     Canada     4.3      2024-11-19
+2            3   GreenTech Solutions  Robert Johnson       robert.johnson@greentech.com  +44-20-7946-0100         UK     4.6      2024-11-18
+3            4              EuroWare     Emily White          emily.white@euro-ware.com  +49-30-9876-5432    Germany     4.2      2024-11-22
+4            5      Pacific Products   Michael Brown  michael.brown@pacificproducts.com   +61-2-9345-6789  Australia     4.7      2024-11-17
+5            6     Fresh Produce Co.    Sarah Taylor      sarah.taylor@freshproduce.com   +33-1-7035-6789     France     4.4      2024-11-21
+6            7  TechCore Electronics       David Lee             david.lee@techcore.com   +81-3-4567-8901      Japan     4.9      2024-11-23
+7            8       HanYang Trading      Laura King             laura.king@hanyang.com  +86-10-8888-7777      China     4.1      2024-11-16
+8            9         Indo Supplies  James Williams             james@indosupplies.com  +91-22-2678-9101      India     4.3      2024-11-25
+9           10         LatAm Imports   Olivia Harris     olivia.harris@latamimports.com  +52-55-2345-6789     Mexico     4.5      2024-11-20
+2025-07-02 16:53:21,025-INFO-The actual data in the stag table is :   supplier_id         supplier_name    contact_name                      contact_email     contact_phone    country  rating last_order_date
+0            1      ABC Distributors        John Doe                johndoe@abcdist.com       +1-555-0100        USA     4.8      2024-11-20
+1            2     Global Goods Inc.      Jane Smith          janesmith@globalgoods.com       +1-555-0200     Canada     4.3      2024-11-19
+2            3   GreenTech Solutions  Robert Johnson       robert.johnson@greentech.com  +44-20-7946-0100         UK     4.6      2024-11-18
+3            4              EuroWare     Emily White          emily.white@euro-ware.com  +49-30-9876-5432    Germany     4.2      2024-11-22
+4            5      Pacific Products   Michael Brown  michael.brown@pacificproducts.com   +61-2-9345-6789  Australia     4.7      2024-11-17
+5            6     Fresh Produce Co.    Sarah Taylor      sarah.taylor@freshproduce.com   +33-1-7035-6789     France     4.4      2024-11-21
+6            7  TechCore Electronics       David Lee             david.lee@techcore.com   +81-3-4567-8901      Japan     4.9      2024-11-23
+7            8       HanYang Trading      Laura King             laura.king@hanyang.com  +86-10-8888-7777      China     4.1      2024-11-16
+8            9         Indo Supplies  James Williams             james@indosupplies.com  +91-22-2678-9101      India     4.3      2024-11-25
+9           10         LatAm Imports   Olivia Harris     olivia.harris@latamimports.com  +52-55-2345-6789     Mexico     4.5      2024-11-20
+2025-07-02 16:53:21,026-INFO-Test case execution for supplier_data extraction has completed....
+2025-07-02 16:53:21,027-INFO-Test case execution for inventory_data extraction has started....
+2025-07-02 16:53:21,075-INFO-The expected data in the file is :    product_id  store_id  quantity_on_hand last_updated
+0          101         1                50   2024-09-01
+1          102         1                30   2024-09-02
+2          103         2                40   2024-09-03
+3          106         3                25   2024-09-06
+4          107         1                35   2024-09-07
+5          108         2                45   2024-09-08
+6          109         3                55   2024-09-09
+7          110         3                65   2024-09-10
+8          101         4                50   2024-09-11
+9          102         4                40   2024-09-12
+10         103         5                30   2024-09-13
+11         104         5                20   2024-09-14
+12         105         6                50   2024-09-15
+13         106         6                60   2024-09-16
+14         107         7                30   2024-09-17
+15         108         7                40   2024-09-18
+16         109         8                45   2024-09-19
+17         110         8                55   2024-09-20
+18         101         9                65   2024-09-21
+19         102         9                75   2024-09-22
+20         103        10                80   2024-09-23
+21         104        10                90   2024-09-24
+22         106         2               110   2024-09-26
+23         107         3               120   2024-09-27
+24         108         4               130   2024-09-28
+25         109         5               140   2024-09-29
+26         110         6               150   2024-09-30
+27         101         7               160   2024-10-01
+28         102         8               170   2024-10-02
+29         103         9               180   2024-10-03
+2025-07-02 16:53:21,087-INFO-The actual data in the stag table is :    product_id  store_id  quantity_on_hand last_updated
+0          101         1                50   2024-09-01
+1          102         1                30   2024-09-02
+2          103         2                40   2024-09-03
+3          106         3                25   2024-09-06
+4          107         1                35   2024-09-07
+5          108         2                45   2024-09-08
+6          109         3                55   2024-09-09
+7          110         3                65   2024-09-10
+8          101         4                50   2024-09-11
+9          102         4                40   2024-09-12
+10         103         5                30   2024-09-13
+11         104         5                20   2024-09-14
+12         105         6                50   2024-09-15
+13         106         6                60   2024-09-16
+14         107         7                30   2024-09-17
+15         108         7                40   2024-09-18
+16         109         8                45   2024-09-19
+17         110         8                55   2024-09-20
+18         101         9                65   2024-09-21
+19         102         9                75   2024-09-22
+20         103        10                80   2024-09-23
+21         104        10                90   2024-09-24
+22         106         2               110   2024-09-26
+23         107         3               120   2024-09-27
+24         108         4               130   2024-09-28
+25         109         5               140   2024-09-29
+26         110         6               150   2024-09-30
+27         101         7               160   2024-10-01
+28         102         8               170   2024-10-02
+29         103         9               180   2024-10-03
+2025-07-02 16:53:21,087-INFO-Test case execution for inventory_data extraction has completed....
+2025-07-02 16:53:21,088-INFO-Oracle connection is getting established
+2025-07-02 16:53:21,248-INFO-Oracle connection has been established
+2025-07-02 16:53:21,248-INFO-mysql connection is getting established
+2025-07-02 16:53:21,257-INFO-mysql connection has been established
+2025-07-02 16:53:21,257-INFO-Test case execution for sales_data extraction has started....
+2025-07-02 16:53:21,271-INFO-The expected data in the source table is :   store_id    store_name
+0         1       Walmart
+1         2        Target
+2         3      Best Buy
+3         4        Costco
+4         5    Home Depot
+5         6        Lowe's
+6         7   Apple Store
+7         8          IKEA
+8         9     Walgreens
+9        10  CVS Pharmacy
+2025-07-02 16:53:21,284-INFO-The actual data in the stag table is :   store_id    store_name
+0         1       Walmart
+1         2        Target
+2         3      Best Buy
+3         4        Costco
+4         5    Home Depot
+5         6        Lowe's
+6         7   Apple Store
+7         8          IKEA
+8         9     Walgreens
+9        10  CVS Pharmacy
+2025-07-02 16:53:21,284-INFO-Test case execution for stores data extraction has completed....
+2025-07-02 16:53:21,285-INFO-mysql connection has been closed
+2025-07-02 16:53:21,286-INFO-Oracle connection has been closed
+2025-07-02 17:03:02,811-INFO-Test case execution for sales_data extraction has started....
+2025-07-02 17:03:02,911-INFO-The expected data in the file is :    sales_id  product_id  store_id  quantity  price   sale_date region
+0          1         101         1        10   15.0  2024-09-01   High
+1          2         102         1         5   25.0  2024-09-01    Low
+2          3         103         2         7   20.0  2024-09-02   High
+3          4         104         2         3   30.0  2024-09-03    Low
+4          5         105         1        12   12.0  2024-09-05   High
+5          6         106         3         8   18.0  2024-09-06    Low
+6          7         107         1         4   22.0  2024-09-07   High
+7          8         108         2         6   24.0  2024-09-08    Low
+8          9         109         3        11   19.0  2024-09-09   High
+9         10         110         4         9   17.0  2024-09-10    Low
+10        11         101         4        15   14.0  2024-09-11   High
+11        12         102         5         9   27.0  2024-09-12    Low
+12        13         103         6        10   22.0  2024-09-13   High
+13        14         104         7         8   31.0  2024-09-14    Low
+14        15         105         4        12   11.0  2024-09-15   High
+15        16         106         5         5   23.0  2024-09-16    Low
+16        17         107         6         3   26.0  2024-09-17   High
+17        18         108         7         6   28.0  2024-09-18    Low
+18        19         109         8        11   20.0  2024-09-19   High
+19        20         110         9         9   19.5  2024-09-20    Low
+20        21         101         1        14   15.5  2024-09-21   High
+21        22         102         2         8   22.0  2024-09-22    Low
+22        23         103         3         7   18.0  2024-09-23   High
+23        24         104         4         6   25.0  2024-09-24    Low
+24        25         105         2        12   13.5  2024-09-25   High
+25        26         106         3         5   21.0  2024-09-26    Low
+26        27         107         1        10   19.0  2024-09-27   High
+27        28         108         5         6   27.0  2024-09-28    Low
+28        29         109         6         9   24.0  2024-09-29   High
+29        30         110         7         7   23.5  2024-09-30    Low
+30        31         101         4        13   14.5  2024-10-01   High
+31        32         102         5         6   29.0  2024-10-02    Low
+32        33         103         6         8   21.0  2024-10-03   High
+33        34         104         7         5   30.0  2024-10-04    Low
+34        35         105         4         7   15.0  2024-10-05   High
+35        36         106         5         3   25.0  2024-10-06    Low
+36        37         107         6        12   18.0  2024-10-07   High
+37        38         108         7         9   20.0  2024-10-08    Low
+38        39         109         8        10   22.0  2024-10-09   High
+39        40         110         9         6   26.0  2024-10-10    Low
+40        41         101         3         5   15.0  2024-10-11   High
+41        42         102         4         4   20.0  2024-10-12    Low
+42        43         103         5         9   19.0  2024-10-13   High
+43        44         104         6         7   28.0  2024-10-14    Low
+44        45         105         7        10   25.0  2024-10-15   High
+45        46         106         8         8   22.5  2024-10-16    Low
+46        47         107         9         6   24.0  2024-10-17   High
+47        48         108         1         3   27.0  2024-10-18    Low
+48        49         109         2        11   18.5  2024-10-19   High
+49        50         110         3        12   21.0  2024-10-20    Low
+50        51         101         1        10   15.0  2024-08-01   High
+51        52         101         1         5   25.0  2024-08-01    Low
+52        53         101         2         7   20.0  2023-09-02   High
+53        54         101         2         3   30.0  2023-09-03    Low
+54        55         105         1        12   12.0  2024-09-05   High
+55        56         106         3         8   18.0  2024-09-06    Low
+56        57         107         1         4   22.0  2024-09-07   High
+57        58         108         2         6   24.0  2024-09-08    Low
+58        59         109         3        11   19.0  2024-09-09   High
+59        60         110         4         9   17.0  2024-09-10    Low
+2025-07-02 17:03:02,976-INFO-The actual data in the stag table is :    sales_id  product_id  store_id  quantity  price   sale_date region
+0          1         101         1        10   15.0  2024-09-01   High
+1          2         102         1         5   25.0  2024-09-01    Low
+2          3         103         2         7   20.0  2024-09-02   High
+3          4         104         2         3   30.0  2024-09-03    Low
+4          5         105         1        12   12.0  2024-09-05   High
+5          6         106         3         8   18.0  2024-09-06    Low
+6          7         107         1         4   22.0  2024-09-07   High
+7          8         108         2         6   24.0  2024-09-08    Low
+8          9         109         3        11   19.0  2024-09-09   High
+9         10         110         4         9   17.0  2024-09-10    Low
+10        11         101         4        15   14.0  2024-09-11   High
+11        12         102         5         9   27.0  2024-09-12    Low
+12        13         103         6        10   22.0  2024-09-13   High
+13        14         104         7         8   31.0  2024-09-14    Low
+14        15         105         4        12   11.0  2024-09-15   High
+15        16         106         5         5   23.0  2024-09-16    Low
+16        17         107         6         3   26.0  2024-09-17   High
+17        18         108         7         6   28.0  2024-09-18    Low
+18        19         109         8        11   20.0  2024-09-19   High
+19        20         110         9         9   19.5  2024-09-20    Low
+20        21         101         1        14   15.5  2024-09-21   High
+21        22         102         2         8   22.0  2024-09-22    Low
+22        23         103         3         7   18.0  2024-09-23   High
+23        24         104         4         6   25.0  2024-09-24    Low
+24        25         105         2        12   13.5  2024-09-25   High
+25        26         106         3         5   21.0  2024-09-26    Low
+26        27         107         1        10   19.0  2024-09-27   High
+27        28         108         5         6   27.0  2024-09-28    Low
+28        29         109         6         9   24.0  2024-09-29   High
+29        30         110         7         7   23.5  2024-09-30    Low
+30        31         101         4        13   14.5  2024-10-01   High
+31        32         102         5         6   29.0  2024-10-02    Low
+32        33         103         6         8   21.0  2024-10-03   High
+33        34         104         7         5   30.0  2024-10-04    Low
+34        35         105         4         7   15.0  2024-10-05   High
+35        36         106         5         3   25.0  2024-10-06    Low
+36        37         107         6        12   18.0  2024-10-07   High
+37        38         108         7         9   20.0  2024-10-08    Low
+38        39         109         8        10   22.0  2024-10-09   High
+39        40         110         9         6   26.0  2024-10-10    Low
+40        41         101         3         5   15.0  2024-10-11   High
+41        42         102         4         4   20.0  2024-10-12    Low
+42        43         103         5         9   19.0  2024-10-13   High
+43        44         104         6         7   28.0  2024-10-14    Low
+44        45         105         7        10   25.0  2024-10-15   High
+45        46         106         8         8   22.5  2024-10-16    Low
+46        47         107         9         6   24.0  2024-10-17   High
+47        48         108         1         3   27.0  2024-10-18    Low
+48        49         109         2        11   18.5  2024-10-19   High
+49        50         110         3        12   21.0  2024-10-20    Low
+50        51         101         1        10   15.0  2024-08-01   High
+51        52         101         1         5   25.0  2024-08-01    Low
+52        53         101         2         7   20.0  2023-09-02   High
+53        54         101         2         3   30.0  2023-09-03    Low
+54        55         105         1        12   12.0  2024-09-05   High
+55        56         106         3         8   18.0  2024-09-06    Low
+56        57         107         1         4   22.0  2024-09-07   High
+57        58         108         2         6   24.0  2024-09-08    Low
+58        59         109         3        11   19.0  2024-09-09   High
+59        60         110         4         9   17.0  2024-09-10    Low
+2025-07-02 17:03:02,981-INFO-Test case execution for sales_data extraction has completed....
+2025-07-02 17:03:02,982-INFO-Test case execution for product_data extraction has started....
+2025-07-02 17:03:03,010-INFO-The expected data in the file is :   product_id        product_name     category  price  stock_quantity    brand  rating
+0         101           iPhone 15  Smartphones    999              50    Apple     4.8
+1         102  Samsung Galaxy S23  Smartphones    899              75  Samsung     4.7
+2         103         Dell XPS 13      Laptops   1200              30     Dell     4.6
+3         104      MacBook Pro 14      Laptops   2000              25    Apple     4.9
+4         105     Sony WH-1000XM5   Headphones    350             100     Sony     4.7
+5         106       Nike Air Zoom     Sneakers    120             200     Nike     4.5
+6         107      Samsung 55" TV  Electronics    700              40  Samsung     4.4
+7         108    Philips Hue Bulb   Smart Home     50             500  Philips     4.8
+8         109     Fitbit Charge 5    Wearables    150             150   Fitbit     4.6
+9         110   Kindle Paperwhite     eReaders    130              80   Amazon     4.7
+2025-07-02 17:03:03,023-INFO-The actual data in the stag table is :   product_id        product_name     category  price  stock_quantity    brand  rating
+0         101           iPhone 15  Smartphones    999              50    Apple     4.8
+1         102  Samsung Galaxy S23  Smartphones    899              75  Samsung     4.7
+2         103         Dell XPS 13      Laptops   1200              30     Dell     4.6
+3         104      MacBook Pro 14      Laptops   2000              25    Apple     4.9
+4         105     Sony WH-1000XM5   Headphones    350             100     Sony     4.7
+5         106       Nike Air Zoom     Sneakers    120             200     Nike     4.5
+6         107      Samsung 55" TV  Electronics    700              40  Samsung     4.4
+7         108    Philips Hue Bulb   Smart Home     50             500  Philips     4.8
+8         109     Fitbit Charge 5    Wearables    150             150   Fitbit     4.6
+9         110   Kindle Paperwhite     eReaders    130              80   Amazon     4.7
+2025-07-02 17:03:03,025-INFO-Test case execution for product_data extraction has completed....
+2025-07-02 17:03:03,026-INFO-Test case execution for supplier_data extraction has started....
+2025-07-02 17:03:03,067-INFO-The expected data in the file is :   supplier_id         supplier_name    contact_name                      contact_email     contact_phone    country  rating last_order_date
+0            1      ABC Distributors        John Doe                johndoe@abcdist.com       +1-555-0100        USA     4.8      2024-11-20
+1            2     Global Goods Inc.      Jane Smith          janesmith@globalgoods.com       +1-555-0200     Canada     4.3      2024-11-19
+2            3   GreenTech Solutions  Robert Johnson       robert.johnson@greentech.com  +44-20-7946-0100         UK     4.6      2024-11-18
+3            4              EuroWare     Emily White          emily.white@euro-ware.com  +49-30-9876-5432    Germany     4.2      2024-11-22
+4            5      Pacific Products   Michael Brown  michael.brown@pacificproducts.com   +61-2-9345-6789  Australia     4.7      2024-11-17
+5            6     Fresh Produce Co.    Sarah Taylor      sarah.taylor@freshproduce.com   +33-1-7035-6789     France     4.4      2024-11-21
+6            7  TechCore Electronics       David Lee             david.lee@techcore.com   +81-3-4567-8901      Japan     4.9      2024-11-23
+7            8       HanYang Trading      Laura King             laura.king@hanyang.com  +86-10-8888-7777      China     4.1      2024-11-16
+8            9         Indo Supplies  James Williams             james@indosupplies.com  +91-22-2678-9101      India     4.3      2024-11-25
+9           10         LatAm Imports   Olivia Harris     olivia.harris@latamimports.com  +52-55-2345-6789     Mexico     4.5      2024-11-20
+2025-07-02 17:03:03,082-INFO-The actual data in the stag table is :   supplier_id         supplier_name    contact_name                      contact_email     contact_phone    country  rating last_order_date
+0            1      ABC Distributors        John Doe                johndoe@abcdist.com       +1-555-0100        USA     4.8      2024-11-20
+1            2     Global Goods Inc.      Jane Smith          janesmith@globalgoods.com       +1-555-0200     Canada     4.3      2024-11-19
+2            3   GreenTech Solutions  Robert Johnson       robert.johnson@greentech.com  +44-20-7946-0100         UK     4.6      2024-11-18
+3            4              EuroWare     Emily White          emily.white@euro-ware.com  +49-30-9876-5432    Germany     4.2      2024-11-22
+4            5      Pacific Products   Michael Brown  michael.brown@pacificproducts.com   +61-2-9345-6789  Australia     4.7      2024-11-17
+5            6     Fresh Produce Co.    Sarah Taylor      sarah.taylor@freshproduce.com   +33-1-7035-6789     France     4.4      2024-11-21
+6            7  TechCore Electronics       David Lee             david.lee@techcore.com   +81-3-4567-8901      Japan     4.9      2024-11-23
+7            8       HanYang Trading      Laura King             laura.king@hanyang.com  +86-10-8888-7777      China     4.1      2024-11-16
+8            9         Indo Supplies  James Williams             james@indosupplies.com  +91-22-2678-9101      India     4.3      2024-11-25
+9           10         LatAm Imports   Olivia Harris     olivia.harris@latamimports.com  +52-55-2345-6789     Mexico     4.5      2024-11-20
+2025-07-02 17:03:03,082-INFO-Test case execution for supplier_data extraction has completed....
+2025-07-02 17:03:03,084-INFO-Test case execution for inventory_data extraction has started....
+2025-07-02 17:03:03,324-INFO-The expected data in the file is :    product_id  store_id  quantity_on_hand last_updated
+0          101         1                50   2024-09-01
+1          102         1                30   2024-09-02
+2          103         2                40   2024-09-03
+3          106         3                25   2024-09-06
+4          107         1                35   2024-09-07
+5          108         2                45   2024-09-08
+6          109         3                55   2024-09-09
+7          110         3                65   2024-09-10
+8          101         4                50   2024-09-11
+9          102         4                40   2024-09-12
+10         103         5                30   2024-09-13
+11         104         5                20   2024-09-14
+12         105         6                50   2024-09-15
+13         106         6                60   2024-09-16
+14         107         7                30   2024-09-17
+15         108         7                40   2024-09-18
+16         109         8                45   2024-09-19
+17         110         8                55   2024-09-20
+18         101         9                65   2024-09-21
+19         102         9                75   2024-09-22
+20         103        10                80   2024-09-23
+21         104        10                90   2024-09-24
+22         106         2               110   2024-09-26
+23         107         3               120   2024-09-27
+24         108         4               130   2024-09-28
+25         109         5               140   2024-09-29
+26         110         6               150   2024-09-30
+27         101         7               160   2024-10-01
+28         102         8               170   2024-10-02
+29         103         9               180   2024-10-03
+2025-07-02 17:03:03,333-INFO-The actual data in the stag table is :    product_id  store_id  quantity_on_hand last_updated
+0          101         1                50   2024-09-01
+1          102         1                30   2024-09-02
+2          103         2                40   2024-09-03
+3          106         3                25   2024-09-06
+4          107         1                35   2024-09-07
+5          108         2                45   2024-09-08
+6          109         3                55   2024-09-09
+7          110         3                65   2024-09-10
+8          101         4                50   2024-09-11
+9          102         4                40   2024-09-12
+10         103         5                30   2024-09-13
+11         104         5                20   2024-09-14
+12         105         6                50   2024-09-15
+13         106         6                60   2024-09-16
+14         107         7                30   2024-09-17
+15         108         7                40   2024-09-18
+16         109         8                45   2024-09-19
+17         110         8                55   2024-09-20
+18         101         9                65   2024-09-21
+19         102         9                75   2024-09-22
+20         103        10                80   2024-09-23
+21         104        10                90   2024-09-24
+22         106         2               110   2024-09-26
+23         107         3               120   2024-09-27
+24         108         4               130   2024-09-28
+25         109         5               140   2024-09-29
+26         110         6               150   2024-09-30
+27         101         7               160   2024-10-01
+28         102         8               170   2024-10-02
+29         103         9               180   2024-10-03
+2025-07-02 17:03:03,334-INFO-Test case execution for inventory_data extraction has completed....
+2025-07-02 17:03:03,335-INFO-Oracle connection is getting established
+2025-07-02 17:03:03,472-INFO-Oracle connection has been established
+2025-07-02 17:03:03,473-INFO-mysql connection is getting established
+2025-07-02 17:03:03,481-INFO-mysql connection has been established
+2025-07-02 17:03:03,481-INFO-Test case execution for sales_data extraction has started....
+2025-07-02 17:03:03,494-INFO-The expected data in the source table is :   store_id    store_name
+0         1       Walmart
+1         2        Target
+2         3      Best Buy
+3         4        Costco
+4         5    Home Depot
+5         6        Lowe's
+6         7   Apple Store
+7         8          IKEA
+8         9     Walgreens
+9        10  CVS Pharmacy
+2025-07-02 17:03:03,504-INFO-The actual data in the stag table is :   store_id    store_name
+0         1       Walmart
+1         2        Target
+2         3      Best Buy
+3         4        Costco
+4         5    Home Depot
+5         6        Lowe's
+6         7   Apple Store
+7         8          IKEA
+8         9     Walgreens
+9        10  CVS Pharmacy
+2025-07-02 17:03:03,504-INFO-Test case execution for stores data extraction has completed....
+2025-07-02 17:03:03,505-INFO-mysql connection has been closed
+2025-07-02 17:03:03,506-INFO-Oracle connection has been closed
+2025-07-02 17:04:46,985-INFO-Test case execution for sales_data extraction has started....
+2025-07-02 17:04:47,007-INFO-The expected data in the file is :    sales_id  product_id  store_id  quantity  price   sale_date region
+0          1         101         1        10   15.0  2024-09-01   High
+1          2         102         1         5   25.0  2024-09-01    Low
+2          3         103         2         7   20.0  2024-09-02   High
+3          4         104         2         3   30.0  2024-09-03    Low
+4          5         105         1        12   12.0  2024-09-05   High
+5          6         106         3         8   18.0  2024-09-06    Low
+6          7         107         1         4   22.0  2024-09-07   High
+7          8         108         2         6   24.0  2024-09-08    Low
+8          9         109         3        11   19.0  2024-09-09   High
+9         10         110         4         9   17.0  2024-09-10    Low
+10        11         101         4        15   14.0  2024-09-11   High
+11        12         102         5         9   27.0  2024-09-12    Low
+12        13         103         6        10   22.0  2024-09-13   High
+13        14         104         7         8   31.0  2024-09-14    Low
+14        15         105         4        12   11.0  2024-09-15   High
+15        16         106         5         5   23.0  2024-09-16    Low
+16        17         107         6         3   26.0  2024-09-17   High
+17        18         108         7         6   28.0  2024-09-18    Low
+18        19         109         8        11   20.0  2024-09-19   High
+19        20         110         9         9   19.5  2024-09-20    Low
+20        21         101         1        14   15.5  2024-09-21   High
+21        22         102         2         8   22.0  2024-09-22    Low
+22        23         103         3         7   18.0  2024-09-23   High
+23        24         104         4         6   25.0  2024-09-24    Low
+24        25         105         2        12   13.5  2024-09-25   High
+25        26         106         3         5   21.0  2024-09-26    Low
+26        27         107         1        10   19.0  2024-09-27   High
+27        28         108         5         6   27.0  2024-09-28    Low
+28        29         109         6         9   24.0  2024-09-29   High
+29        30         110         7         7   23.5  2024-09-30    Low
+30        31         101         4        13   14.5  2024-10-01   High
+31        32         102         5         6   29.0  2024-10-02    Low
+32        33         103         6         8   21.0  2024-10-03   High
+33        34         104         7         5   30.0  2024-10-04    Low
+34        35         105         4         7   15.0  2024-10-05   High
+35        36         106         5         3   25.0  2024-10-06    Low
+36        37         107         6        12   18.0  2024-10-07   High
+37        38         108         7         9   20.0  2024-10-08    Low
+38        39         109         8        10   22.0  2024-10-09   High
+39        40         110         9         6   26.0  2024-10-10    Low
+40        41         101         3         5   15.0  2024-10-11   High
+41        42         102         4         4   20.0  2024-10-12    Low
+42        43         103         5         9   19.0  2024-10-13   High
+43        44         104         6         7   28.0  2024-10-14    Low
+44        45         105         7        10   25.0  2024-10-15   High
+45        46         106         8         8   22.5  2024-10-16    Low
+46        47         107         9         6   24.0  2024-10-17   High
+47        48         108         1         3   27.0  2024-10-18    Low
+48        49         109         2        11   18.5  2024-10-19   High
+49        50         110         3        12   21.0  2024-10-20    Low
+50        51         101         1        10   15.0  2024-08-01   High
+51        52         101         1         5   25.0  2024-08-01    Low
+52        53         101         2         7   20.0  2023-09-02   High
+53        54         101         2         3   30.0  2023-09-03    Low
+54        55         105         1        12   12.0  2024-09-05   High
+55        56         106         3         8   18.0  2024-09-06    Low
+56        57         107         1         4   22.0  2024-09-07   High
+57        58         108         2         6   24.0  2024-09-08    Low
+58        59         109         3        11   19.0  2024-09-09   High
+59        60         110         4         9   17.0  2024-09-10    Low
+2025-07-02 17:04:47,052-INFO-The actual data in the stag table is :    sales_id  product_id  store_id  quantity  price   sale_date region
+0          1         101         1        10   15.0  2024-09-01   High
+1          2         102         1         5   25.0  2024-09-01    Low
+2          3         103         2         7   20.0  2024-09-02   High
+3          4         104         2         3   30.0  2024-09-03    Low
+4          5         105         1        12   12.0  2024-09-05   High
+5          6         106         3         8   18.0  2024-09-06    Low
+6          7         107         1         4   22.0  2024-09-07   High
+7          8         108         2         6   24.0  2024-09-08    Low
+8          9         109         3        11   19.0  2024-09-09   High
+9         10         110         4         9   17.0  2024-09-10    Low
+10        11         101         4        15   14.0  2024-09-11   High
+11        12         102         5         9   27.0  2024-09-12    Low
+12        13         103         6        10   22.0  2024-09-13   High
+13        14         104         7         8   31.0  2024-09-14    Low
+14        15         105         4        12   11.0  2024-09-15   High
+15        16         106         5         5   23.0  2024-09-16    Low
+16        17         107         6         3   26.0  2024-09-17   High
+17        18         108         7         6   28.0  2024-09-18    Low
+18        19         109         8        11   20.0  2024-09-19   High
+19        20         110         9         9   19.5  2024-09-20    Low
+20        21         101         1        14   15.5  2024-09-21   High
+21        22         102         2         8   22.0  2024-09-22    Low
+22        23         103         3         7   18.0  2024-09-23   High
+23        24         104         4         6   25.0  2024-09-24    Low
+24        25         105         2        12   13.5  2024-09-25   High
+25        26         106         3         5   21.0  2024-09-26    Low
+26        27         107         1        10   19.0  2024-09-27   High
+27        28         108         5         6   27.0  2024-09-28    Low
+28        29         109         6         9   24.0  2024-09-29   High
+29        30         110         7         7   23.5  2024-09-30    Low
+30        31         101         4        13   14.5  2024-10-01   High
+31        32         102         5         6   29.0  2024-10-02    Low
+32        33         103         6         8   21.0  2024-10-03   High
+33        34         104         7         5   30.0  2024-10-04    Low
+34        35         105         4         7   15.0  2024-10-05   High
+35        36         106         5         3   25.0  2024-10-06    Low
+36        37         107         6        12   18.0  2024-10-07   High
+37        38         108         7         9   20.0  2024-10-08    Low
+38        39         109         8        10   22.0  2024-10-09   High
+39        40         110         9         6   26.0  2024-10-10    Low
+40        41         101         3         5   15.0  2024-10-11   High
+41        42         102         4         4   20.0  2024-10-12    Low
+42        43         103         5         9   19.0  2024-10-13   High
+43        44         104         6         7   28.0  2024-10-14    Low
+44        45         105         7        10   25.0  2024-10-15   High
+45        46         106         8         8   22.5  2024-10-16    Low
+46        47         107         9         6   24.0  2024-10-17   High
+47        48         108         1         3   27.0  2024-10-18    Low
+48        49         109         2        11   18.5  2024-10-19   High
+49        50         110         3        12   21.0  2024-10-20    Low
+50        51         101         1        10   15.0  2024-08-01   High
+51        52         101         1         5   25.0  2024-08-01    Low
+52        53         101         2         7   20.0  2023-09-02   High
+53        54         101         2         3   30.0  2023-09-03    Low
+54        55         105         1        12   12.0  2024-09-05   High
+55        56         106         3         8   18.0  2024-09-06    Low
+56        57         107         1         4   22.0  2024-09-07   High
+57        58         108         2         6   24.0  2024-09-08    Low
+58        59         109         3        11   19.0  2024-09-09   High
+59        60         110         4         9   17.0  2024-09-10    Low
+2025-07-02 17:04:47,053-INFO-Test case execution for sales_data extraction has completed....
+2025-07-02 17:04:47,055-INFO-Test case execution for product_data extraction has started....
+2025-07-02 17:04:47,067-INFO-The expected data in the file is :   product_id        product_name     category  price  stock_quantity    brand  rating
+0         101           iPhone 15  Smartphones    999              50    Apple     4.8
+1         102  Samsung Galaxy S23  Smartphones    899              75  Samsung     4.7
+2         103         Dell XPS 13      Laptops   1200              30     Dell     4.6
+3         104      MacBook Pro 14      Laptops   2000              25    Apple     4.9
+4         105     Sony WH-1000XM5   Headphones    350             100     Sony     4.7
+5         106       Nike Air Zoom     Sneakers    120             200     Nike     4.5
+6         107      Samsung 55" TV  Electronics    700              40  Samsung     4.4
+7         108    Philips Hue Bulb   Smart Home     50             500  Philips     4.8
+8         109     Fitbit Charge 5    Wearables    150             150   Fitbit     4.6
+9         110   Kindle Paperwhite     eReaders    130              80   Amazon     4.7
+2025-07-02 17:04:47,080-INFO-The actual data in the stag table is :   product_id        product_name     category  price  stock_quantity    brand  rating
+0         101           iPhone 15  Smartphones    999              50    Apple     4.8
+1         102  Samsung Galaxy S23  Smartphones    899              75  Samsung     4.7
+2         103         Dell XPS 13      Laptops   1200              30     Dell     4.6
+3         104      MacBook Pro 14      Laptops   2000              25    Apple     4.9
+4         105     Sony WH-1000XM5   Headphones    350             100     Sony     4.7
+5         106       Nike Air Zoom     Sneakers    120             200     Nike     4.5
+6         107      Samsung 55" TV  Electronics    700              40  Samsung     4.4
+7         108    Philips Hue Bulb   Smart Home     50             500  Philips     4.8
+8         109     Fitbit Charge 5    Wearables    150             150   Fitbit     4.6
+9         110   Kindle Paperwhite     eReaders    130              80   Amazon     4.7
+2025-07-02 17:04:47,080-INFO-Test case execution for product_data extraction has completed....
+2025-07-02 17:04:47,082-INFO-Test case execution for supplier_data extraction has started....
+2025-07-02 17:04:47,098-INFO-The expected data in the file is :   supplier_id         supplier_name    contact_name                      contact_email     contact_phone    country  rating last_order_date
+0            1      ABC Distributors        John Doe                johndoe@abcdist.com       +1-555-0100        USA     4.8      2024-11-20
+1            2     Global Goods Inc.      Jane Smith          janesmith@globalgoods.com       +1-555-0200     Canada     4.3      2024-11-19
+2            3   GreenTech Solutions  Robert Johnson       robert.johnson@greentech.com  +44-20-7946-0100         UK     4.6      2024-11-18
+3            4              EuroWare     Emily White          emily.white@euro-ware.com  +49-30-9876-5432    Germany     4.2      2024-11-22
+4            5      Pacific Products   Michael Brown  michael.brown@pacificproducts.com   +61-2-9345-6789  Australia     4.7      2024-11-17
+5            6     Fresh Produce Co.    Sarah Taylor      sarah.taylor@freshproduce.com   +33-1-7035-6789     France     4.4      2024-11-21
+6            7  TechCore Electronics       David Lee             david.lee@techcore.com   +81-3-4567-8901      Japan     4.9      2024-11-23
+7            8       HanYang Trading      Laura King             laura.king@hanyang.com  +86-10-8888-7777      China     4.1      2024-11-16
+8            9         Indo Supplies  James Williams             james@indosupplies.com  +91-22-2678-9101      India     4.3      2024-11-25
+9           10         LatAm Imports   Olivia Harris     olivia.harris@latamimports.com  +52-55-2345-6789     Mexico     4.5      2024-11-20
+2025-07-02 17:04:47,111-INFO-The actual data in the stag table is :   supplier_id         supplier_name    contact_name                      contact_email     contact_phone    country  rating last_order_date
+0            1      ABC Distributors        John Doe                johndoe@abcdist.com       +1-555-0100        USA     4.8      2024-11-20
+1            2     Global Goods Inc.      Jane Smith          janesmith@globalgoods.com       +1-555-0200     Canada     4.3      2024-11-19
+2            3   GreenTech Solutions  Robert Johnson       robert.johnson@greentech.com  +44-20-7946-0100         UK     4.6      2024-11-18
+3            4              EuroWare     Emily White          emily.white@euro-ware.com  +49-30-9876-5432    Germany     4.2      2024-11-22
+4            5      Pacific Products   Michael Brown  michael.brown@pacificproducts.com   +61-2-9345-6789  Australia     4.7      2024-11-17
+5            6     Fresh Produce Co.    Sarah Taylor      sarah.taylor@freshproduce.com   +33-1-7035-6789     France     4.4      2024-11-21
+6            7  TechCore Electronics       David Lee             david.lee@techcore.com   +81-3-4567-8901      Japan     4.9      2024-11-23
+7            8       HanYang Trading      Laura King             laura.king@hanyang.com  +86-10-8888-7777      China     4.1      2024-11-16
+8            9         Indo Supplies  James Williams             james@indosupplies.com  +91-22-2678-9101      India     4.3      2024-11-25
+9           10         LatAm Imports   Olivia Harris     olivia.harris@latamimports.com  +52-55-2345-6789     Mexico     4.5      2024-11-20
+2025-07-02 17:04:47,112-INFO-Test case execution for supplier_data extraction has completed....
+2025-07-02 17:04:47,113-INFO-Test case execution for inventory_data extraction has started....
+2025-07-02 17:04:47,139-INFO-The expected data in the file is :    product_id  store_id  quantity_on_hand last_updated
+0          101         1                50   2024-09-01
+1          102         1                30   2024-09-02
+2          103         2                40   2024-09-03
+3          106         3                25   2024-09-06
+4          107         1                35   2024-09-07
+5          108         2                45   2024-09-08
+6          109         3                55   2024-09-09
+7          110         3                65   2024-09-10
+8          101         4                50   2024-09-11
+9          102         4                40   2024-09-12
+10         103         5                30   2024-09-13
+11         104         5                20   2024-09-14
+12         105         6                50   2024-09-15
+13         106         6                60   2024-09-16
+14         107         7                30   2024-09-17
+15         108         7                40   2024-09-18
+16         109         8                45   2024-09-19
+17         110         8                55   2024-09-20
+18         101         9                65   2024-09-21
+19         102         9                75   2024-09-22
+20         103        10                80   2024-09-23
+21         104        10                90   2024-09-24
+22         106         2               110   2024-09-26
+23         107         3               120   2024-09-27
+24         108         4               130   2024-09-28
+25         109         5               140   2024-09-29
+26         110         6               150   2024-09-30
+27         101         7               160   2024-10-01
+28         102         8               170   2024-10-02
+29         103         9               180   2024-10-03
+2025-07-02 17:04:47,147-INFO-The actual data in the stag table is :    product_id  store_id  quantity_on_hand last_updated
+0          101         1                50   2024-09-01
+1          102         1                30   2024-09-02
+2          103         2                40   2024-09-03
+3          106         3                25   2024-09-06
+4          107         1                35   2024-09-07
+5          108         2                45   2024-09-08
+6          109         3                55   2024-09-09
+7          110         3                65   2024-09-10
+8          101         4                50   2024-09-11
+9          102         4                40   2024-09-12
+10         103         5                30   2024-09-13
+11         104         5                20   2024-09-14
+12         105         6                50   2024-09-15
+13         106         6                60   2024-09-16
+14         107         7                30   2024-09-17
+15         108         7                40   2024-09-18
+16         109         8                45   2024-09-19
+17         110         8                55   2024-09-20
+18         101         9                65   2024-09-21
+19         102         9                75   2024-09-22
+20         103        10                80   2024-09-23
+21         104        10                90   2024-09-24
+22         106         2               110   2024-09-26
+23         107         3               120   2024-09-27
+24         108         4               130   2024-09-28
+25         109         5               140   2024-09-29
+26         110         6               150   2024-09-30
+27         101         7               160   2024-10-01
+28         102         8               170   2024-10-02
+29         103         9               180   2024-10-03
+2025-07-02 17:04:47,148-INFO-Test case execution for inventory_data extraction has completed....
+2025-07-02 17:04:47,149-INFO-Oracle connection is getting established
+2025-07-02 17:04:47,195-INFO-Oracle connection has been established
+2025-07-02 17:04:47,195-INFO-mysql connection is getting established
+2025-07-02 17:04:47,205-INFO-mysql connection has been established
+2025-07-02 17:04:47,206-INFO-Test case execution for sales_data extraction has started....
+2025-07-02 17:04:47,217-INFO-The expected data in the source table is :   store_id    store_name
+0         1       Walmart
+1         2        Target
+2         3      Best Buy
+3         4        Costco
+4         5    Home Depot
+5         6        Lowe's
+6         7   Apple Store
+7         8          IKEA
+8         9     Walgreens
+9        10  CVS Pharmacy
+2025-07-02 17:04:47,230-INFO-The actual data in the stag table is :   store_id    store_name
+0         1       Walmart
+1         2        Target
+2         3      Best Buy
+3         4        Costco
+4         5    Home Depot
+5         6        Lowe's
+6         7   Apple Store
+7         8          IKEA
+8         9     Walgreens
+9        10  CVS Pharmacy
+2025-07-02 17:04:47,232-INFO-Test case execution for stores data extraction has completed....
+2025-07-02 17:04:47,233-INFO-mysql connection has been closed
+2025-07-02 17:04:47,233-INFO-Oracle connection has been closed
+2025-07-02 17:05:57,626-INFO-Test case execution for sales_data extraction has started....
+2025-07-02 17:05:57,645-INFO-The expected data in the file is :    sales_id  product_id  store_id  quantity  price   sale_date region
+0          1         101         1        10   15.0  2024-09-01   High
+1          2         102         1         5   25.0  2024-09-01    Low
+2          3         103         2         7   20.0  2024-09-02   High
+3          4         104         2         3   30.0  2024-09-03    Low
+4          5         105         1        12   12.0  2024-09-05   High
+5          6         106         3         8   18.0  2024-09-06    Low
+6          7         107         1         4   22.0  2024-09-07   High
+7          8         108         2         6   24.0  2024-09-08    Low
+8          9         109         3        11   19.0  2024-09-09   High
+9         10         110         4         9   17.0  2024-09-10    Low
+10        11         101         4        15   14.0  2024-09-11   High
+11        12         102         5         9   27.0  2024-09-12    Low
+12        13         103         6        10   22.0  2024-09-13   High
+13        14         104         7         8   31.0  2024-09-14    Low
+14        15         105         4        12   11.0  2024-09-15   High
+15        16         106         5         5   23.0  2024-09-16    Low
+16        17         107         6         3   26.0  2024-09-17   High
+17        18         108         7         6   28.0  2024-09-18    Low
+18        19         109         8        11   20.0  2024-09-19   High
+19        20         110         9         9   19.5  2024-09-20    Low
+20        21         101         1        14   15.5  2024-09-21   High
+21        22         102         2         8   22.0  2024-09-22    Low
+22        23         103         3         7   18.0  2024-09-23   High
+23        24         104         4         6   25.0  2024-09-24    Low
+24        25         105         2        12   13.5  2024-09-25   High
+25        26         106         3         5   21.0  2024-09-26    Low
+26        27         107         1        10   19.0  2024-09-27   High
+27        28         108         5         6   27.0  2024-09-28    Low
+28        29         109         6         9   24.0  2024-09-29   High
+29        30         110         7         7   23.5  2024-09-30    Low
+30        31         101         4        13   14.5  2024-10-01   High
+31        32         102         5         6   29.0  2024-10-02    Low
+32        33         103         6         8   21.0  2024-10-03   High
+33        34         104         7         5   30.0  2024-10-04    Low
+34        35         105         4         7   15.0  2024-10-05   High
+35        36         106         5         3   25.0  2024-10-06    Low
+36        37         107         6        12   18.0  2024-10-07   High
+37        38         108         7         9   20.0  2024-10-08    Low
+38        39         109         8        10   22.0  2024-10-09   High
+39        40         110         9         6   26.0  2024-10-10    Low
+40        41         101         3         5   15.0  2024-10-11   High
+41        42         102         4         4   20.0  2024-10-12    Low
+42        43         103         5         9   19.0  2024-10-13   High
+43        44         104         6         7   28.0  2024-10-14    Low
+44        45         105         7        10   25.0  2024-10-15   High
+45        46         106         8         8   22.5  2024-10-16    Low
+46        47         107         9         6   24.0  2024-10-17   High
+47        48         108         1         3   27.0  2024-10-18    Low
+48        49         109         2        11   18.5  2024-10-19   High
+49        50         110         3        12   21.0  2024-10-20    Low
+50        51         101         1        10   15.0  2024-08-01   High
+51        52         101         1         5   25.0  2024-08-01    Low
+52        53         101         2         7   20.0  2023-09-02   High
+53        54         101         2         3   30.0  2023-09-03    Low
+54        55         105         1        12   12.0  2024-09-05   High
+55        56         106         3         8   18.0  2024-09-06    Low
+56        57         107         1         4   22.0  2024-09-07   High
+57        58         108         2         6   24.0  2024-09-08    Low
+58        59         109         3        11   19.0  2024-09-09   High
+59        60         110         4         9   17.0  2024-09-10    Low
+2025-07-02 17:05:57,688-INFO-The actual data in the stag table is :    sales_id  product_id  store_id  quantity  price   sale_date region
+0          1         101         1        10   15.0  2024-09-01   High
+1          2         102         1         5   25.0  2024-09-01    Low
+2          3         103         2         7   20.0  2024-09-02   High
+3          4         104         2         3   30.0  2024-09-03    Low
+4          5         105         1        12   12.0  2024-09-05   High
+5          6         106         3         8   18.0  2024-09-06    Low
+6          7         107         1         4   22.0  2024-09-07   High
+7          8         108         2         6   24.0  2024-09-08    Low
+8          9         109         3        11   19.0  2024-09-09   High
+9         10         110         4         9   17.0  2024-09-10    Low
+10        11         101         4        15   14.0  2024-09-11   High
+11        12         102         5         9   27.0  2024-09-12    Low
+12        13         103         6        10   22.0  2024-09-13   High
+13        14         104         7         8   31.0  2024-09-14    Low
+14        15         105         4        12   11.0  2024-09-15   High
+15        16         106         5         5   23.0  2024-09-16    Low
+16        17         107         6         3   26.0  2024-09-17   High
+17        18         108         7         6   28.0  2024-09-18    Low
+18        19         109         8        11   20.0  2024-09-19   High
+19        20         110         9         9   19.5  2024-09-20    Low
+20        21         101         1        14   15.5  2024-09-21   High
+21        22         102         2         8   22.0  2024-09-22    Low
+22        23         103         3         7   18.0  2024-09-23   High
+23        24         104         4         6   25.0  2024-09-24    Low
+24        25         105         2        12   13.5  2024-09-25   High
+25        26         106         3         5   21.0  2024-09-26    Low
+26        27         107         1        10   19.0  2024-09-27   High
+27        28         108         5         6   27.0  2024-09-28    Low
+28        29         109         6         9   24.0  2024-09-29   High
+29        30         110         7         7   23.5  2024-09-30    Low
+30        31         101         4        13   14.5  2024-10-01   High
+31        32         102         5         6   29.0  2024-10-02    Low
+32        33         103         6         8   21.0  2024-10-03   High
+33        34         104         7         5   30.0  2024-10-04    Low
+34        35         105         4         7   15.0  2024-10-05   High
+35        36         106         5         3   25.0  2024-10-06    Low
+36        37         107         6        12   18.0  2024-10-07   High
+37        38         108         7         9   20.0  2024-10-08    Low
+38        39         109         8        10   22.0  2024-10-09   High
+39        40         110         9         6   26.0  2024-10-10    Low
+40        41         101         3         5   15.0  2024-10-11   High
+41        42         102         4         4   20.0  2024-10-12    Low
+42        43         103         5         9   19.0  2024-10-13   High
+43        44         104         6         7   28.0  2024-10-14    Low
+44        45         105         7        10   25.0  2024-10-15   High
+45        46         106         8         8   22.5  2024-10-16    Low
+46        47         107         9         6   24.0  2024-10-17   High
+47        48         108         1         3   27.0  2024-10-18    Low
+48        49         109         2        11   18.5  2024-10-19   High
+49        50         110         3        12   21.0  2024-10-20    Low
+50        51         101         1        10   15.0  2024-08-01   High
+51        52         101         1         5   25.0  2024-08-01    Low
+52        53         101         2         7   20.0  2023-09-02   High
+53        54         101         2         3   30.0  2023-09-03    Low
+54        55         105         1        12   12.0  2024-09-05   High
+55        56         106         3         8   18.0  2024-09-06    Low
+56        57         107         1         4   22.0  2024-09-07   High
+57        58         108         2         6   24.0  2024-09-08    Low
+58        59         109         3        11   19.0  2024-09-09   High
+59        60         110         4         9   17.0  2024-09-10    Low
+2025-07-02 17:05:57,689-INFO-Test case execution for sales_data extraction has completed....
+2025-07-02 17:05:57,690-INFO-Test case execution for product_data extraction has started....
+2025-07-02 17:05:57,699-INFO-The expected data in the file is :   product_id        product_name     category  price  stock_quantity    brand  rating
+0         101           iPhone 15  Smartphones    999              50    Apple     4.8
+1         102  Samsung Galaxy S23  Smartphones    899              75  Samsung     4.7
+2         103         Dell XPS 13      Laptops   1200              30     Dell     4.6
+3         104      MacBook Pro 14      Laptops   2000              25    Apple     4.9
+4         105     Sony WH-1000XM5   Headphones    350             100     Sony     4.7
+5         106       Nike Air Zoom     Sneakers    120             200     Nike     4.5
+6         107      Samsung 55" TV  Electronics    700              40  Samsung     4.4
+7         108    Philips Hue Bulb   Smart Home     50             500  Philips     4.8
+8         109     Fitbit Charge 5    Wearables    150             150   Fitbit     4.6
+9         110   Kindle Paperwhite     eReaders    130              80   Amazon     4.7
+2025-07-02 17:05:57,714-INFO-The actual data in the stag table is :   product_id        product_name     category  price  stock_quantity    brand  rating
+0         101           iPhone 15  Smartphones    999              50    Apple     4.8
+1         102  Samsung Galaxy S23  Smartphones    899              75  Samsung     4.7
+2         103         Dell XPS 13      Laptops   1200              30     Dell     4.6
+3         104      MacBook Pro 14      Laptops   2000              25    Apple     4.9
+4         105     Sony WH-1000XM5   Headphones    350             100     Sony     4.7
+5         106       Nike Air Zoom     Sneakers    120             200     Nike     4.5
+6         107      Samsung 55" TV  Electronics    700              40  Samsung     4.4
+7         108    Philips Hue Bulb   Smart Home     50             500  Philips     4.8
+8         109     Fitbit Charge 5    Wearables    150             150   Fitbit     4.6
+9         110   Kindle Paperwhite     eReaders    130              80   Amazon     4.7
+2025-07-02 17:05:57,714-INFO-Test case execution for product_data extraction has completed....
+2025-07-02 17:05:57,716-INFO-Test case execution for supplier_data extraction has started....
+2025-07-02 17:05:57,732-INFO-The expected data in the file is :   supplier_id         supplier_name    contact_name                      contact_email     contact_phone    country  rating last_order_date
+0            1      ABC Distributors        John Doe                johndoe@abcdist.com       +1-555-0100        USA     4.8      2024-11-20
+1            2     Global Goods Inc.      Jane Smith          janesmith@globalgoods.com       +1-555-0200     Canada     4.3      2024-11-19
+2            3   GreenTech Solutions  Robert Johnson       robert.johnson@greentech.com  +44-20-7946-0100         UK     4.6      2024-11-18
+3            4              EuroWare     Emily White          emily.white@euro-ware.com  +49-30-9876-5432    Germany     4.2      2024-11-22
+4            5      Pacific Products   Michael Brown  michael.brown@pacificproducts.com   +61-2-9345-6789  Australia     4.7      2024-11-17
+5            6     Fresh Produce Co.    Sarah Taylor      sarah.taylor@freshproduce.com   +33-1-7035-6789     France     4.4      2024-11-21
+6            7  TechCore Electronics       David Lee             david.lee@techcore.com   +81-3-4567-8901      Japan     4.9      2024-11-23
+7            8       HanYang Trading      Laura King             laura.king@hanyang.com  +86-10-8888-7777      China     4.1      2024-11-16
+8            9         Indo Supplies  James Williams             james@indosupplies.com  +91-22-2678-9101      India     4.3      2024-11-25
+9           10         LatAm Imports   Olivia Harris     olivia.harris@latamimports.com  +52-55-2345-6789     Mexico     4.5      2024-11-20
+2025-07-02 17:05:57,748-INFO-The actual data in the stag table is :   supplier_id         supplier_name    contact_name                      contact_email     contact_phone    country  rating last_order_date
+0            1      ABC Distributors        John Doe                johndoe@abcdist.com       +1-555-0100        USA     4.8      2024-11-20
+1            2     Global Goods Inc.      Jane Smith          janesmith@globalgoods.com       +1-555-0200     Canada     4.3      2024-11-19
+2            3   GreenTech Solutions  Robert Johnson       robert.johnson@greentech.com  +44-20-7946-0100         UK     4.6      2024-11-18
+3            4              EuroWare     Emily White          emily.white@euro-ware.com  +49-30-9876-5432    Germany     4.2      2024-11-22
+4            5      Pacific Products   Michael Brown  michael.brown@pacificproducts.com   +61-2-9345-6789  Australia     4.7      2024-11-17
+5            6     Fresh Produce Co.    Sarah Taylor      sarah.taylor@freshproduce.com   +33-1-7035-6789     France     4.4      2024-11-21
+6            7  TechCore Electronics       David Lee             david.lee@techcore.com   +81-3-4567-8901      Japan     4.9      2024-11-23
+7            8       HanYang Trading      Laura King             laura.king@hanyang.com  +86-10-8888-7777      China     4.1      2024-11-16
+8            9         Indo Supplies  James Williams             james@indosupplies.com  +91-22-2678-9101      India     4.3      2024-11-25
+9           10         LatAm Imports   Olivia Harris     olivia.harris@latamimports.com  +52-55-2345-6789     Mexico     4.5      2024-11-20
+2025-07-02 17:05:57,749-INFO-Test case execution for supplier_data extraction has completed....
+2025-07-02 17:05:57,751-INFO-Test case execution for inventory_data extraction has started....
+2025-07-02 17:05:57,774-INFO-The expected data in the file is :    product_id  store_id  quantity_on_hand last_updated
+0          101         1                50   2024-09-01
+1          102         1                30   2024-09-02
+2          103         2                40   2024-09-03
+3          106         3                25   2024-09-06
+4          107         1                35   2024-09-07
+5          108         2                45   2024-09-08
+6          109         3                55   2024-09-09
+7          110         3                65   2024-09-10
+8          101         4                50   2024-09-11
+9          102         4                40   2024-09-12
+10         103         5                30   2024-09-13
+11         104         5                20   2024-09-14
+12         105         6                50   2024-09-15
+13         106         6                60   2024-09-16
+14         107         7                30   2024-09-17
+15         108         7                40   2024-09-18
+16         109         8                45   2024-09-19
+17         110         8                55   2024-09-20
+18         101         9                65   2024-09-21
+19         102         9                75   2024-09-22
+20         103        10                80   2024-09-23
+21         104        10                90   2024-09-24
+22         106         2               110   2024-09-26
+23         107         3               120   2024-09-27
+24         108         4               130   2024-09-28
+25         109         5               140   2024-09-29
+26         110         6               150   2024-09-30
+27         101         7               160   2024-10-01
+28         102         8               170   2024-10-02
+29         103         9               180   2024-10-03
+2025-07-02 17:05:57,782-INFO-The actual data in the stag table is :    product_id  store_id  quantity_on_hand last_updated
+0          101         1                50   2024-09-01
+1          102         1                30   2024-09-02
+2          103         2                40   2024-09-03
+3          106         3                25   2024-09-06
+4          107         1                35   2024-09-07
+5          108         2                45   2024-09-08
+6          109         3                55   2024-09-09
+7          110         3                65   2024-09-10
+8          101         4                50   2024-09-11
+9          102         4                40   2024-09-12
+10         103         5                30   2024-09-13
+11         104         5                20   2024-09-14
+12         105         6                50   2024-09-15
+13         106         6                60   2024-09-16
+14         107         7                30   2024-09-17
+15         108         7                40   2024-09-18
+16         109         8                45   2024-09-19
+17         110         8                55   2024-09-20
+18         101         9                65   2024-09-21
+19         102         9                75   2024-09-22
+20         103        10                80   2024-09-23
+21         104        10                90   2024-09-24
+22         106         2               110   2024-09-26
+23         107         3               120   2024-09-27
+24         108         4               130   2024-09-28
+25         109         5               140   2024-09-29
+26         110         6               150   2024-09-30
+27         101         7               160   2024-10-01
+28         102         8               170   2024-10-02
+29         103         9               180   2024-10-03
+2025-07-02 17:05:57,783-INFO-Test case execution for inventory_data extraction has completed....
+2025-07-02 17:05:57,784-INFO-Oracle connection is getting established
+2025-07-02 17:05:57,829-INFO-Oracle connection has been established
+2025-07-02 17:05:57,829-INFO-mysql connection is getting established
+2025-07-02 17:05:57,835-INFO-mysql connection has been established
+2025-07-02 17:05:57,836-INFO-Test case execution for sales_data extraction has started....
+2025-07-02 17:05:57,846-INFO-The expected data in the source table is :   store_id    store_name
+0         1       Walmart
+1         2        Target
+2         3      Best Buy
+3         4        Costco
+4         5    Home Depot
+5         6        Lowe's
+6         7   Apple Store
+7         8          IKEA
+8         9     Walgreens
+9        10  CVS Pharmacy
+2025-07-02 17:05:57,857-INFO-The actual data in the stag table is :   store_id    store_name
+0         1       Walmart
+1         2        Target
+2         3      Best Buy
+3         4        Costco
+4         5    Home Depot
+5         6        Lowe's
+6         7   Apple Store
+7         8          IKEA
+8         9     Walgreens
+9        10  CVS Pharmacy
+2025-07-02 17:05:57,857-INFO-Test case execution for stores data extraction has completed....
+2025-07-02 17:05:57,858-INFO-mysql connection has been closed
+2025-07-02 17:05:57,859-INFO-Oracle connection has been closed
+2025-07-02 17:10:39,382-INFO-Oracle connection is getting established
+2025-07-02 17:10:39,426-INFO-Oracle connection has been established
+2025-07-02 17:10:39,426-INFO-mysql connection is getting established
+2025-07-02 17:10:39,441-INFO-mysql connection has been established
+2025-07-02 17:10:39,447-INFO-mysql connection has been closed
+2025-07-02 17:10:39,447-INFO-Oracle connection has been closed
+2025-07-02 17:12:37,168-INFO-Test case execution for sales_data extraction has started....
+2025-07-02 17:12:37,186-INFO-The expected data in the file is :    sales_id  product_id  store_id  quantity  price   sale_date region
+0          1         101         1        10   15.0  2024-09-01   High
+1          2         102         1         5   25.0  2024-09-01    Low
+2          3         103         2         7   20.0  2024-09-02   High
+3          4         104         2         3   30.0  2024-09-03    Low
+4          5         105         1        12   12.0  2024-09-05   High
+5          6         106         3         8   18.0  2024-09-06    Low
+6          7         107         1         4   22.0  2024-09-07   High
+7          8         108         2         6   24.0  2024-09-08    Low
+8          9         109         3        11   19.0  2024-09-09   High
+9         10         110         4         9   17.0  2024-09-10    Low
+10        11         101         4        15   14.0  2024-09-11   High
+11        12         102         5         9   27.0  2024-09-12    Low
+12        13         103         6        10   22.0  2024-09-13   High
+13        14         104         7         8   31.0  2024-09-14    Low
+14        15         105         4        12   11.0  2024-09-15   High
+15        16         106         5         5   23.0  2024-09-16    Low
+16        17         107         6         3   26.0  2024-09-17   High
+17        18         108         7         6   28.0  2024-09-18    Low
+18        19         109         8        11   20.0  2024-09-19   High
+19        20         110         9         9   19.5  2024-09-20    Low
+20        21         101         1        14   15.5  2024-09-21   High
+21        22         102         2         8   22.0  2024-09-22    Low
+22        23         103         3         7   18.0  2024-09-23   High
+23        24         104         4         6   25.0  2024-09-24    Low
+24        25         105         2        12   13.5  2024-09-25   High
+25        26         106         3         5   21.0  2024-09-26    Low
+26        27         107         1        10   19.0  2024-09-27   High
+27        28         108         5         6   27.0  2024-09-28    Low
+28        29         109         6         9   24.0  2024-09-29   High
+29        30         110         7         7   23.5  2024-09-30    Low
+30        31         101         4        13   14.5  2024-10-01   High
+31        32         102         5         6   29.0  2024-10-02    Low
+32        33         103         6         8   21.0  2024-10-03   High
+33        34         104         7         5   30.0  2024-10-04    Low
+34        35         105         4         7   15.0  2024-10-05   High
+35        36         106         5         3   25.0  2024-10-06    Low
+36        37         107         6        12   18.0  2024-10-07   High
+37        38         108         7         9   20.0  2024-10-08    Low
+38        39         109         8        10   22.0  2024-10-09   High
+39        40         110         9         6   26.0  2024-10-10    Low
+40        41         101         3         5   15.0  2024-10-11   High
+41        42         102         4         4   20.0  2024-10-12    Low
+42        43         103         5         9   19.0  2024-10-13   High
+43        44         104         6         7   28.0  2024-10-14    Low
+44        45         105         7        10   25.0  2024-10-15   High
+45        46         106         8         8   22.5  2024-10-16    Low
+46        47         107         9         6   24.0  2024-10-17   High
+47        48         108         1         3   27.0  2024-10-18    Low
+48        49         109         2        11   18.5  2024-10-19   High
+49        50         110         3        12   21.0  2024-10-20    Low
+50        51         101         1        10   15.0  2024-08-01   High
+51        52         101         1         5   25.0  2024-08-01    Low
+52        53         101         2         7   20.0  2023-09-02   High
+53        54         101         2         3   30.0  2023-09-03    Low
+54        55         105         1        12   12.0  2024-09-05   High
+55        56         106         3         8   18.0  2024-09-06    Low
+56        57         107         1         4   22.0  2024-09-07   High
+57        58         108         2         6   24.0  2024-09-08    Low
+58        59         109         3        11   19.0  2024-09-09   High
+59        60         110         4         9   17.0  2024-09-10    Low
+2025-07-02 17:12:37,238-INFO-The actual data in the stag table is :    sales_id  product_id  store_id  quantity  price   sale_date region
+0          1         101         1        10   15.0  2024-09-01   High
+1          2         102         1         5   25.0  2024-09-01    Low
+2          3         103         2         7   20.0  2024-09-02   High
+3          4         104         2         3   30.0  2024-09-03    Low
+4          5         105         1        12   12.0  2024-09-05   High
+5          6         106         3         8   18.0  2024-09-06    Low
+6          7         107         1         4   22.0  2024-09-07   High
+7          8         108         2         6   24.0  2024-09-08    Low
+8          9         109         3        11   19.0  2024-09-09   High
+9         10         110         4         9   17.0  2024-09-10    Low
+10        11         101         4        15   14.0  2024-09-11   High
+11        12         102         5         9   27.0  2024-09-12    Low
+12        13         103         6        10   22.0  2024-09-13   High
+13        14         104         7         8   31.0  2024-09-14    Low
+14        15         105         4        12   11.0  2024-09-15   High
+15        16         106         5         5   23.0  2024-09-16    Low
+16        17         107         6         3   26.0  2024-09-17   High
+17        18         108         7         6   28.0  2024-09-18    Low
+18        19         109         8        11   20.0  2024-09-19   High
+19        20         110         9         9   19.5  2024-09-20    Low
+20        21         101         1        14   15.5  2024-09-21   High
+21        22         102         2         8   22.0  2024-09-22    Low
+22        23         103         3         7   18.0  2024-09-23   High
+23        24         104         4         6   25.0  2024-09-24    Low
+24        25         105         2        12   13.5  2024-09-25   High
+25        26         106         3         5   21.0  2024-09-26    Low
+26        27         107         1        10   19.0  2024-09-27   High
+27        28         108         5         6   27.0  2024-09-28    Low
+28        29         109         6         9   24.0  2024-09-29   High
+29        30         110         7         7   23.5  2024-09-30    Low
+30        31         101         4        13   14.5  2024-10-01   High
+31        32         102         5         6   29.0  2024-10-02    Low
+32        33         103         6         8   21.0  2024-10-03   High
+33        34         104         7         5   30.0  2024-10-04    Low
+34        35         105         4         7   15.0  2024-10-05   High
+35        36         106         5         3   25.0  2024-10-06    Low
+36        37         107         6        12   18.0  2024-10-07   High
+37        38         108         7         9   20.0  2024-10-08    Low
+38        39         109         8        10   22.0  2024-10-09   High
+39        40         110         9         6   26.0  2024-10-10    Low
+40        41         101         3         5   15.0  2024-10-11   High
+41        42         102         4         4   20.0  2024-10-12    Low
+42        43         103         5         9   19.0  2024-10-13   High
+43        44         104         6         7   28.0  2024-10-14    Low
+44        45         105         7        10   25.0  2024-10-15   High
+45        46         106         8         8   22.5  2024-10-16    Low
+46        47         107         9         6   24.0  2024-10-17   High
+47        48         108         1         3   27.0  2024-10-18    Low
+48        49         109         2        11   18.5  2024-10-19   High
+49        50         110         3        12   21.0  2024-10-20    Low
+50        51         101         1        10   15.0  2024-08-01   High
+51        52         101         1         5   25.0  2024-08-01    Low
+52        53         101         2         7   20.0  2023-09-02   High
+53        54         101         2         3   30.0  2023-09-03    Low
+54        55         105         1        12   12.0  2024-09-05   High
+55        56         106         3         8   18.0  2024-09-06    Low
+56        57         107         1         4   22.0  2024-09-07   High
+57        58         108         2         6   24.0  2024-09-08    Low
+58        59         109         3        11   19.0  2024-09-09   High
+59        60         110         4         9   17.0  2024-09-10    Low
+2025-07-02 17:12:37,239-INFO-Test case execution for sales_data extraction has completed....
+2025-07-02 17:12:37,241-INFO-Test case execution for product_data extraction has started....
+2025-07-02 17:12:37,251-INFO-The expected data in the file is :   product_id        product_name     category  price  stock_quantity    brand  rating
+0         101           iPhone 15  Smartphones    999              50    Apple     4.8
+1         102  Samsung Galaxy S23  Smartphones    899              75  Samsung     4.7
+2         103         Dell XPS 13      Laptops   1200              30     Dell     4.6
+3         104      MacBook Pro 14      Laptops   2000              25    Apple     4.9
+4         105     Sony WH-1000XM5   Headphones    350             100     Sony     4.7
+5         106       Nike Air Zoom     Sneakers    120             200     Nike     4.5
+6         107      Samsung 55" TV  Electronics    700              40  Samsung     4.4
+7         108    Philips Hue Bulb   Smart Home     50             500  Philips     4.8
+8         109     Fitbit Charge 5    Wearables    150             150   Fitbit     4.6
+9         110   Kindle Paperwhite     eReaders    130              80   Amazon     4.7
+2025-07-02 17:12:37,266-INFO-The actual data in the stag table is :   product_id        product_name     category  price  stock_quantity    brand  rating
+0         101           iPhone 15  Smartphones    999              50    Apple     4.8
+1         102  Samsung Galaxy S23  Smartphones    899              75  Samsung     4.7
+2         103         Dell XPS 13      Laptops   1200              30     Dell     4.6
+3         104      MacBook Pro 14      Laptops   2000              25    Apple     4.9
+4         105     Sony WH-1000XM5   Headphones    350             100     Sony     4.7
+5         106       Nike Air Zoom     Sneakers    120             200     Nike     4.5
+6         107      Samsung 55" TV  Electronics    700              40  Samsung     4.4
+7         108    Philips Hue Bulb   Smart Home     50             500  Philips     4.8
+8         109     Fitbit Charge 5    Wearables    150             150   Fitbit     4.6
+9         110   Kindle Paperwhite     eReaders    130              80   Amazon     4.7
+2025-07-02 17:12:37,267-INFO-Test case execution for product_data extraction has completed....
+2025-07-02 17:12:37,269-INFO-Test case execution for supplier_data extraction has started....
+2025-07-02 17:12:37,285-INFO-The expected data in the file is :   supplier_id         supplier_name    contact_name                      contact_email     contact_phone    country  rating last_order_date
+0            1      ABC Distributors        John Doe                johndoe@abcdist.com       +1-555-0100        USA     4.8      2024-11-20
+1            2     Global Goods Inc.      Jane Smith          janesmith@globalgoods.com       +1-555-0200     Canada     4.3      2024-11-19
+2            3   GreenTech Solutions  Robert Johnson       robert.johnson@greentech.com  +44-20-7946-0100         UK     4.6      2024-11-18
+3            4              EuroWare     Emily White          emily.white@euro-ware.com  +49-30-9876-5432    Germany     4.2      2024-11-22
+4            5      Pacific Products   Michael Brown  michael.brown@pacificproducts.com   +61-2-9345-6789  Australia     4.7      2024-11-17
+5            6     Fresh Produce Co.    Sarah Taylor      sarah.taylor@freshproduce.com   +33-1-7035-6789     France     4.4      2024-11-21
+6            7  TechCore Electronics       David Lee             david.lee@techcore.com   +81-3-4567-8901      Japan     4.9      2024-11-23
+7            8       HanYang Trading      Laura King             laura.king@hanyang.com  +86-10-8888-7777      China     4.1      2024-11-16
+8            9         Indo Supplies  James Williams             james@indosupplies.com  +91-22-2678-9101      India     4.3      2024-11-25
+9           10         LatAm Imports   Olivia Harris     olivia.harris@latamimports.com  +52-55-2345-6789     Mexico     4.5      2024-11-20
+2025-07-02 17:12:37,302-INFO-The actual data in the stag table is :   supplier_id         supplier_name    contact_name                      contact_email     contact_phone    country  rating last_order_date
+0            1      ABC Distributors        John Doe                johndoe@abcdist.com       +1-555-0100        USA     4.8      2024-11-20
+1            2     Global Goods Inc.      Jane Smith          janesmith@globalgoods.com       +1-555-0200     Canada     4.3      2024-11-19
+2            3   GreenTech Solutions  Robert Johnson       robert.johnson@greentech.com  +44-20-7946-0100         UK     4.6      2024-11-18
+3            4              EuroWare     Emily White          emily.white@euro-ware.com  +49-30-9876-5432    Germany     4.2      2024-11-22
+4            5      Pacific Products   Michael Brown  michael.brown@pacificproducts.com   +61-2-9345-6789  Australia     4.7      2024-11-17
+5            6     Fresh Produce Co.    Sarah Taylor      sarah.taylor@freshproduce.com   +33-1-7035-6789     France     4.4      2024-11-21
+6            7  TechCore Electronics       David Lee             david.lee@techcore.com   +81-3-4567-8901      Japan     4.9      2024-11-23
+7            8       HanYang Trading      Laura King             laura.king@hanyang.com  +86-10-8888-7777      China     4.1      2024-11-16
+8            9         Indo Supplies  James Williams             james@indosupplies.com  +91-22-2678-9101      India     4.3      2024-11-25
+9           10         LatAm Imports   Olivia Harris     olivia.harris@latamimports.com  +52-55-2345-6789     Mexico     4.5      2024-11-20
+2025-07-02 17:12:37,302-INFO-Test case execution for supplier_data extraction has completed....
+2025-07-02 17:12:37,305-INFO-Test case execution for inventory_data extraction has started....
+2025-07-02 17:12:37,328-INFO-The expected data in the file is :    product_id  store_id  quantity_on_hand last_updated
+0          101         1                50   2024-09-01
+1          102         1                30   2024-09-02
+2          103         2                40   2024-09-03
+3          106         3                25   2024-09-06
+4          107         1                35   2024-09-07
+5          108         2                45   2024-09-08
+6          109         3                55   2024-09-09
+7          110         3                65   2024-09-10
+8          101         4                50   2024-09-11
+9          102         4                40   2024-09-12
+10         103         5                30   2024-09-13
+11         104         5                20   2024-09-14
+12         105         6                50   2024-09-15
+13         106         6                60   2024-09-16
+14         107         7                30   2024-09-17
+15         108         7                40   2024-09-18
+16         109         8                45   2024-09-19
+17         110         8                55   2024-09-20
+18         101         9                65   2024-09-21
+19         102         9                75   2024-09-22
+20         103        10                80   2024-09-23
+21         104        10                90   2024-09-24
+22         106         2               110   2024-09-26
+23         107         3               120   2024-09-27
+24         108         4               130   2024-09-28
+25         109         5               140   2024-09-29
+26         110         6               150   2024-09-30
+27         101         7               160   2024-10-01
+28         102         8               170   2024-10-02
+29         103         9               180   2024-10-03
+2025-07-02 17:12:37,335-INFO-The actual data in the stag table is :    product_id  store_id  quantity_on_hand last_updated
+0          101         1                50   2024-09-01
+1          102         1                30   2024-09-02
+2          103         2                40   2024-09-03
+3          106         3                25   2024-09-06
+4          107         1                35   2024-09-07
+5          108         2                45   2024-09-08
+6          109         3                55   2024-09-09
+7          110         3                65   2024-09-10
+8          101         4                50   2024-09-11
+9          102         4                40   2024-09-12
+10         103         5                30   2024-09-13
+11         104         5                20   2024-09-14
+12         105         6                50   2024-09-15
+13         106         6                60   2024-09-16
+14         107         7                30   2024-09-17
+15         108         7                40   2024-09-18
+16         109         8                45   2024-09-19
+17         110         8                55   2024-09-20
+18         101         9                65   2024-09-21
+19         102         9                75   2024-09-22
+20         103        10                80   2024-09-23
+21         104        10                90   2024-09-24
+22         106         2               110   2024-09-26
+23         107         3               120   2024-09-27
+24         108         4               130   2024-09-28
+25         109         5               140   2024-09-29
+26         110         6               150   2024-09-30
+27         101         7               160   2024-10-01
+28         102         8               170   2024-10-02
+29         103         9               180   2024-10-03
+2025-07-02 17:12:37,336-INFO-Test case execution for inventory_data extraction has completed....
+2025-07-02 17:12:37,337-INFO-Oracle connection is getting established
+2025-07-02 17:12:37,382-INFO-Oracle connection has been established
+2025-07-02 17:12:37,382-INFO-mysql connection is getting established
+2025-07-02 17:12:37,389-INFO-mysql connection has been established
+2025-07-02 17:12:37,390-INFO-Test case execution for sales_data extraction has started....
+2025-07-02 17:12:37,401-INFO-The expected data in the source table is :   store_id    store_name
+0         1       Walmart
+1         2        Target
+2         3      Best Buy
+3         4        Costco
+4         5    Home Depot
+5         6        Lowe's
+6         7   Apple Store
+7         8          IKEA
+8         9     Walgreens
+9        10  CVS Pharmacy
+2025-07-02 17:12:37,414-INFO-The actual data in the stag table is :   store_id    store_name
+0         1       Walmart
+1         2        Target
+2         3      Best Buy
+3         4        Costco
+4         5    Home Depot
+5         6        Lowe's
+6         7   Apple Store
+7         8          IKEA
+8         9     Walgreens
+9        10  CVS Pharmacy
+2025-07-02 17:12:37,414-INFO-Test case execution for stores data extraction has completed....
+2025-07-02 17:12:37,415-INFO-mysql connection has been closed
+2025-07-02 17:12:37,415-INFO-Oracle connection has been closed
+2025-07-02 17:34:41,004-INFO-Test case execution for sales_data extraction has started....
+2025-07-02 17:34:41,279-INFO-The expected data in the file is :    sales_id  product_id  store_id  quantity  price   sale_date region
+0          1         101         1        10   15.0  2024-09-01   High
+1          2         102         1         5   25.0  2024-09-01    Low
+2          3         103         2         7   20.0  2024-09-02   High
+3          4         104         2         3   30.0  2024-09-03    Low
+4          5         105         1        12   12.0  2024-09-05   High
+5          6         106         3         8   18.0  2024-09-06    Low
+6          7         107         1         4   22.0  2024-09-07   High
+7          8         108         2         6   24.0  2024-09-08    Low
+8          9         109         3        11   19.0  2024-09-09   High
+9         10         110         4         9   17.0  2024-09-10    Low
+10        11         101         4        15   14.0  2024-09-11   High
+11        12         102         5         9   27.0  2024-09-12    Low
+12        13         103         6        10   22.0  2024-09-13   High
+13        14         104         7         8   31.0  2024-09-14    Low
+14        15         105         4        12   11.0  2024-09-15   High
+15        16         106         5         5   23.0  2024-09-16    Low
+16        17         107         6         3   26.0  2024-09-17   High
+17        18         108         7         6   28.0  2024-09-18    Low
+18        19         109         8        11   20.0  2024-09-19   High
+19        20         110         9         9   19.5  2024-09-20    Low
+20        21         101         1        14   15.5  2024-09-21   High
+21        22         102         2         8   22.0  2024-09-22    Low
+22        23         103         3         7   18.0  2024-09-23   High
+23        24         104         4         6   25.0  2024-09-24    Low
+24        25         105         2        12   13.5  2024-09-25   High
+25        26         106         3         5   21.0  2024-09-26    Low
+26        27         107         1        10   19.0  2024-09-27   High
+27        28         108         5         6   27.0  2024-09-28    Low
+28        29         109         6         9   24.0  2024-09-29   High
+29        30         110         7         7   23.5  2024-09-30    Low
+30        31         101         4        13   14.5  2024-10-01   High
+31        32         102         5         6   29.0  2024-10-02    Low
+32        33         103         6         8   21.0  2024-10-03   High
+33        34         104         7         5   30.0  2024-10-04    Low
+34        35         105         4         7   15.0  2024-10-05   High
+35        36         106         5         3   25.0  2024-10-06    Low
+36        37         107         6        12   18.0  2024-10-07   High
+37        38         108         7         9   20.0  2024-10-08    Low
+38        39         109         8        10   22.0  2024-10-09   High
+39        40         110         9         6   26.0  2024-10-10    Low
+40        41         101         3         5   15.0  2024-10-11   High
+41        42         102         4         4   20.0  2024-10-12    Low
+42        43         103         5         9   19.0  2024-10-13   High
+43        44         104         6         7   28.0  2024-10-14    Low
+44        45         105         7        10   25.0  2024-10-15   High
+45        46         106         8         8   22.5  2024-10-16    Low
+46        47         107         9         6   24.0  2024-10-17   High
+47        48         108         1         3   27.0  2024-10-18    Low
+48        49         109         2        11   18.5  2024-10-19   High
+49        50         110         3        12   21.0  2024-10-20    Low
+50        51         101         1        10   15.0  2024-08-01   High
+51        52         101         1         5   25.0  2024-08-01    Low
+52        53         101         2         7   20.0  2023-09-02   High
+53        54         101         2         3   30.0  2023-09-03    Low
+54        55         105         1        12   12.0  2024-09-05   High
+55        56         106         3         8   18.0  2024-09-06    Low
+56        57         107         1         4   22.0  2024-09-07   High
+57        58         108         2         6   24.0  2024-09-08    Low
+58        59         109         3        11   19.0  2024-09-09   High
+59        60         110         4         9   17.0  2024-09-10    Low
+2025-07-02 17:34:41,468-INFO-The actual data in the stag table is :    sales_id  product_id  store_id  quantity  price   sale_date region
+0          1         101         1        10   15.0  2024-09-01   High
+1          2         102         1         5   25.0  2024-09-01    Low
+2          3         103         2         7   20.0  2024-09-02   High
+3          4         104         2         3   30.0  2024-09-03    Low
+4          5         105         1        12   12.0  2024-09-05   High
+5          6         106         3         8   18.0  2024-09-06    Low
+6          7         107         1         4   22.0  2024-09-07   High
+7          8         108         2         6   24.0  2024-09-08    Low
+8          9         109         3        11   19.0  2024-09-09   High
+9         10         110         4         9   17.0  2024-09-10    Low
+10        11         101         4        15   14.0  2024-09-11   High
+11        12         102         5         9   27.0  2024-09-12    Low
+12        13         103         6        10   22.0  2024-09-13   High
+13        14         104         7         8   31.0  2024-09-14    Low
+14        15         105         4        12   11.0  2024-09-15   High
+15        16         106         5         5   23.0  2024-09-16    Low
+16        17         107         6         3   26.0  2024-09-17   High
+17        18         108         7         6   28.0  2024-09-18    Low
+18        19         109         8        11   20.0  2024-09-19   High
+19        20         110         9         9   19.5  2024-09-20    Low
+20        21         101         1        14   15.5  2024-09-21   High
+21        22         102         2         8   22.0  2024-09-22    Low
+22        23         103         3         7   18.0  2024-09-23   High
+23        24         104         4         6   25.0  2024-09-24    Low
+24        25         105         2        12   13.5  2024-09-25   High
+25        26         106         3         5   21.0  2024-09-26    Low
+26        27         107         1        10   19.0  2024-09-27   High
+27        28         108         5         6   27.0  2024-09-28    Low
+28        29         109         6         9   24.0  2024-09-29   High
+29        30         110         7         7   23.5  2024-09-30    Low
+30        31         101         4        13   14.5  2024-10-01   High
+31        32         102         5         6   29.0  2024-10-02    Low
+32        33         103         6         8   21.0  2024-10-03   High
+33        34         104         7         5   30.0  2024-10-04    Low
+34        35         105         4         7   15.0  2024-10-05   High
+35        36         106         5         3   25.0  2024-10-06    Low
+36        37         107         6        12   18.0  2024-10-07   High
+37        38         108         7         9   20.0  2024-10-08    Low
+38        39         109         8        10   22.0  2024-10-09   High
+39        40         110         9         6   26.0  2024-10-10    Low
+40        41         101         3         5   15.0  2024-10-11   High
+41        42         102         4         4   20.0  2024-10-12    Low
+42        43         103         5         9   19.0  2024-10-13   High
+43        44         104         6         7   28.0  2024-10-14    Low
+44        45         105         7        10   25.0  2024-10-15   High
+45        46         106         8         8   22.5  2024-10-16    Low
+46        47         107         9         6   24.0  2024-10-17   High
+47        48         108         1         3   27.0  2024-10-18    Low
+48        49         109         2        11   18.5  2024-10-19   High
+49        50         110         3        12   21.0  2024-10-20    Low
+50        51         101         1        10   15.0  2024-08-01   High
+51        52         101         1         5   25.0  2024-08-01    Low
+52        53         101         2         7   20.0  2023-09-02   High
+53        54         101         2         3   30.0  2023-09-03    Low
+54        55         105         1        12   12.0  2024-09-05   High
+55        56         106         3         8   18.0  2024-09-06    Low
+56        57         107         1         4   22.0  2024-09-07   High
+57        58         108         2         6   24.0  2024-09-08    Low
+58        59         109         3        11   19.0  2024-09-09   High
+59        60         110         4         9   17.0  2024-09-10    Low
+2025-07-02 17:34:41,482-INFO-Test case execution for sales_data extraction has completed....
+2025-07-02 17:34:41,485-INFO-Test case execution for product_data extraction has started....
+2025-07-02 17:34:41,530-INFO-The expected data in the file is :   product_id        product_name     category  price  stock_quantity    brand  rating
+0         101           iPhone 15  Smartphones    999              50    Apple     4.8
+1         102  Samsung Galaxy S23  Smartphones    899              75  Samsung     4.7
+2         103         Dell XPS 13      Laptops   1200              30     Dell     4.6
+3         104      MacBook Pro 14      Laptops   2000              25    Apple     4.9
+4         105     Sony WH-1000XM5   Headphones    350             100     Sony     4.7
+5         106       Nike Air Zoom     Sneakers    120             200     Nike     4.5
+6         107      Samsung 55" TV  Electronics    700              40  Samsung     4.4
+7         108    Philips Hue Bulb   Smart Home     50             500  Philips     4.8
+8         109     Fitbit Charge 5    Wearables    150             150   Fitbit     4.6
+9         110   Kindle Paperwhite     eReaders    130              80   Amazon     4.7
+2025-07-02 17:34:41,544-INFO-The actual data in the stag table is :   product_id        product_name     category  price  stock_quantity    brand  rating
+0         101           iPhone 15  Smartphones    999              50    Apple     4.8
+1         102  Samsung Galaxy S23  Smartphones    899              75  Samsung     4.7
+2         103         Dell XPS 13      Laptops   1200              30     Dell     4.6
+3         104      MacBook Pro 14      Laptops   2000              25    Apple     4.9
+4         105     Sony WH-1000XM5   Headphones    350             100     Sony     4.7
+5         106       Nike Air Zoom     Sneakers    120             200     Nike     4.5
+6         107      Samsung 55" TV  Electronics    700              40  Samsung     4.4
+7         108    Philips Hue Bulb   Smart Home     50             500  Philips     4.8
+8         109     Fitbit Charge 5    Wearables    150             150   Fitbit     4.6
+9         110   Kindle Paperwhite     eReaders    130              80   Amazon     4.7
+2025-07-02 17:34:41,559-INFO-Test case execution for product_data extraction has completed....
+2025-07-02 17:34:41,562-INFO-Test case execution for supplier_data extraction has started....
+2025-07-02 17:34:41,610-INFO-The expected data in the file is :   supplier_id         supplier_name    contact_name                      contact_email     contact_phone    country  rating last_order_date
+0            1      ABC Distributors        John Doe                johndoe@abcdist.com       +1-555-0100        USA     4.8      2024-11-20
+1            2     Global Goods Inc.      Jane Smith          janesmith@globalgoods.com       +1-555-0200     Canada     4.3      2024-11-19
+2            3   GreenTech Solutions  Robert Johnson       robert.johnson@greentech.com  +44-20-7946-0100         UK     4.6      2024-11-18
+3            4              EuroWare     Emily White          emily.white@euro-ware.com  +49-30-9876-5432    Germany     4.2      2024-11-22
+4            5      Pacific Products   Michael Brown  michael.brown@pacificproducts.com   +61-2-9345-6789  Australia     4.7      2024-11-17
+5            6     Fresh Produce Co.    Sarah Taylor      sarah.taylor@freshproduce.com   +33-1-7035-6789     France     4.4      2024-11-21
+6            7  TechCore Electronics       David Lee             david.lee@techcore.com   +81-3-4567-8901      Japan     4.9      2024-11-23
+7            8       HanYang Trading      Laura King             laura.king@hanyang.com  +86-10-8888-7777      China     4.1      2024-11-16
+8            9         Indo Supplies  James Williams             james@indosupplies.com  +91-22-2678-9101      India     4.3      2024-11-25
+9           10         LatAm Imports   Olivia Harris     olivia.harris@latamimports.com  +52-55-2345-6789     Mexico     4.5      2024-11-20
+2025-07-02 17:34:41,624-INFO-The actual data in the stag table is :   supplier_id         supplier_name    contact_name                      contact_email     contact_phone    country  rating last_order_date
+0            1      ABC Distributors        John Doe                johndoe@abcdist.com       +1-555-0100        USA     4.8      2024-11-20
+1            2     Global Goods Inc.      Jane Smith          janesmith@globalgoods.com       +1-555-0200     Canada     4.3      2024-11-19
+2            3   GreenTech Solutions  Robert Johnson       robert.johnson@greentech.com  +44-20-7946-0100         UK     4.6      2024-11-18
+3            4              EuroWare     Emily White          emily.white@euro-ware.com  +49-30-9876-5432    Germany     4.2      2024-11-22
+4            5      Pacific Products   Michael Brown  michael.brown@pacificproducts.com   +61-2-9345-6789  Australia     4.7      2024-11-17
+5            6     Fresh Produce Co.    Sarah Taylor      sarah.taylor@freshproduce.com   +33-1-7035-6789     France     4.4      2024-11-21
+6            7  TechCore Electronics       David Lee             david.lee@techcore.com   +81-3-4567-8901      Japan     4.9      2024-11-23
+7            8       HanYang Trading      Laura King             laura.king@hanyang.com  +86-10-8888-7777      China     4.1      2024-11-16
+8            9         Indo Supplies  James Williams             james@indosupplies.com  +91-22-2678-9101      India     4.3      2024-11-25
+9           10         LatAm Imports   Olivia Harris     olivia.harris@latamimports.com  +52-55-2345-6789     Mexico     4.5      2024-11-20
+2025-07-02 17:34:41,625-INFO-Test case execution for supplier_data extraction has completed....
+2025-07-02 17:34:41,627-INFO-Test case execution for inventory_data extraction has started....
+2025-07-02 17:34:41,902-INFO-The expected data in the file is :    product_id  store_id  quantity_on_hand last_updated
+0          101         1                50   2024-09-01
+1          102         1                30   2024-09-02
+2          103         2                40   2024-09-03
+3          106         3                25   2024-09-06
+4          107         1                35   2024-09-07
+5          108         2                45   2024-09-08
+6          109         3                55   2024-09-09
+7          110         3                65   2024-09-10
+8          101         4                50   2024-09-11
+9          102         4                40   2024-09-12
+10         103         5                30   2024-09-13
+11         104         5                20   2024-09-14
+12         105         6                50   2024-09-15
+13         106         6                60   2024-09-16
+14         107         7                30   2024-09-17
+15         108         7                40   2024-09-18
+16         109         8                45   2024-09-19
+17         110         8                55   2024-09-20
+18         101         9                65   2024-09-21
+19         102         9                75   2024-09-22
+20         103        10                80   2024-09-23
+21         104        10                90   2024-09-24
+22         106         2               110   2024-09-26
+23         107         3               120   2024-09-27
+24         108         4               130   2024-09-28
+25         109         5               140   2024-09-29
+26         110         6               150   2024-09-30
+27         101         7               160   2024-10-01
+28         102         8               170   2024-10-02
+29         103         9               180   2024-10-03
+2025-07-02 17:34:41,911-INFO-The actual data in the stag table is :    product_id  store_id  quantity_on_hand last_updated
+0          101         1                50   2024-09-01
+1          102         1                30   2024-09-02
+2          103         2                40   2024-09-03
+3          106         3                25   2024-09-06
+4          107         1                35   2024-09-07
+5          108         2                45   2024-09-08
+6          109         3                55   2024-09-09
+7          110         3                65   2024-09-10
+8          101         4                50   2024-09-11
+9          102         4                40   2024-09-12
+10         103         5                30   2024-09-13
+11         104         5                20   2024-09-14
+12         105         6                50   2024-09-15
+13         106         6                60   2024-09-16
+14         107         7                30   2024-09-17
+15         108         7                40   2024-09-18
+16         109         8                45   2024-09-19
+17         110         8                55   2024-09-20
+18         101         9                65   2024-09-21
+19         102         9                75   2024-09-22
+20         103        10                80   2024-09-23
+21         104        10                90   2024-09-24
+22         106         2               110   2024-09-26
+23         107         3               120   2024-09-27
+24         108         4               130   2024-09-28
+25         109         5               140   2024-09-29
+26         110         6               150   2024-09-30
+27         101         7               160   2024-10-01
+28         102         8               170   2024-10-02
+29         103         9               180   2024-10-03
+2025-07-02 17:34:41,912-INFO-Test case execution for inventory_data extraction has completed....
+2025-07-02 17:34:41,913-INFO-Oracle connection is getting established
+2025-07-02 17:34:42,130-INFO-Oracle connection has been established
+2025-07-02 17:34:42,131-INFO-mysql connection is getting established
+2025-07-02 17:34:42,140-INFO-mysql connection has been established
+2025-07-02 17:34:42,140-INFO-Test case execution for sales_data extraction has started....
+2025-07-02 17:34:42,153-INFO-The expected data in the source table is :   store_id    store_name
+0         1       Walmart
+1         2        Target
+2         3      Best Buy
+3         4        Costco
+4         5    Home Depot
+5         6        Lowe's
+6         7   Apple Store
+7         8          IKEA
+8         9     Walgreens
+9        10  CVS Pharmacy
+2025-07-02 17:34:42,164-INFO-The actual data in the stag table is :   store_id    store_name
+0         1       Walmart
+1         2        Target
+2         3      Best Buy
+3         4        Costco
+4         5    Home Depot
+5         6        Lowe's
+6         7   Apple Store
+7         8          IKEA
+8         9     Walgreens
+9        10  CVS Pharmacy
+2025-07-02 17:34:42,164-INFO-Test case execution for stores data extraction has completed....
+2025-07-02 17:34:42,165-INFO-mysql connection has been closed
+2025-07-02 17:34:42,166-INFO-Oracle connection has been closed
+2025-07-02 17:49:20,579-INFO-Test case execution for sales_data extraction has started....
+2025-07-02 17:49:20,652-INFO-The expected data in the file is :    sales_id  product_id  store_id  quantity  price   sale_date region
+0          1         101         1        10   15.0  2024-09-01   High
+1          2         102         1         5   25.0  2024-09-01    Low
+2          3         103         2         7   20.0  2024-09-02   High
+3          4         104         2         3   30.0  2024-09-03    Low
+4          5         105         1        12   12.0  2024-09-05   High
+5          6         106         3         8   18.0  2024-09-06    Low
+6          7         107         1         4   22.0  2024-09-07   High
+7          8         108         2         6   24.0  2024-09-08    Low
+8          9         109         3        11   19.0  2024-09-09   High
+9         10         110         4         9   17.0  2024-09-10    Low
+10        11         101         4        15   14.0  2024-09-11   High
+11        12         102         5         9   27.0  2024-09-12    Low
+12        13         103         6        10   22.0  2024-09-13   High
+13        14         104         7         8   31.0  2024-09-14    Low
+14        15         105         4        12   11.0  2024-09-15   High
+15        16         106         5         5   23.0  2024-09-16    Low
+16        17         107         6         3   26.0  2024-09-17   High
+17        18         108         7         6   28.0  2024-09-18    Low
+18        19         109         8        11   20.0  2024-09-19   High
+19        20         110         9         9   19.5  2024-09-20    Low
+20        21         101         1        14   15.5  2024-09-21   High
+21        22         102         2         8   22.0  2024-09-22    Low
+22        23         103         3         7   18.0  2024-09-23   High
+23        24         104         4         6   25.0  2024-09-24    Low
+24        25         105         2        12   13.5  2024-09-25   High
+25        26         106         3         5   21.0  2024-09-26    Low
+26        27         107         1        10   19.0  2024-09-27   High
+27        28         108         5         6   27.0  2024-09-28    Low
+28        29         109         6         9   24.0  2024-09-29   High
+29        30         110         7         7   23.5  2024-09-30    Low
+30        31         101         4        13   14.5  2024-10-01   High
+31        32         102         5         6   29.0  2024-10-02    Low
+32        33         103         6         8   21.0  2024-10-03   High
+33        34         104         7         5   30.0  2024-10-04    Low
+34        35         105         4         7   15.0  2024-10-05   High
+35        36         106         5         3   25.0  2024-10-06    Low
+36        37         107         6        12   18.0  2024-10-07   High
+37        38         108         7         9   20.0  2024-10-08    Low
+38        39         109         8        10   22.0  2024-10-09   High
+39        40         110         9         6   26.0  2024-10-10    Low
+40        41         101         3         5   15.0  2024-10-11   High
+41        42         102         4         4   20.0  2024-10-12    Low
+42        43         103         5         9   19.0  2024-10-13   High
+43        44         104         6         7   28.0  2024-10-14    Low
+44        45         105         7        10   25.0  2024-10-15   High
+45        46         106         8         8   22.5  2024-10-16    Low
+46        47         107         9         6   24.0  2024-10-17   High
+47        48         108         1         3   27.0  2024-10-18    Low
+48        49         109         2        11   18.5  2024-10-19   High
+49        50         110         3        12   21.0  2024-10-20    Low
+50        51         101         1        10   15.0  2024-08-01   High
+51        52         101         1         5   25.0  2024-08-01    Low
+52        53         101         2         7   20.0  2023-09-02   High
+53        54         101         2         3   30.0  2023-09-03    Low
+54        55         105         1        12   12.0  2024-09-05   High
+55        56         106         3         8   18.0  2024-09-06    Low
+56        57         107         1         4   22.0  2024-09-07   High
+57        58         108         2         6   24.0  2024-09-08    Low
+58        59         109         3        11   19.0  2024-09-09   High
+59        60         110         4         9   17.0  2024-09-10    Low
+2025-07-02 17:49:20,785-INFO-The actual data in the stag table is :    sales_id  product_id  store_id  quantity  price   sale_date region
+0          1         101         1        10   15.0  2024-09-01   High
+1          2         102         1         5   25.0  2024-09-01    Low
+2          3         103         2         7   20.0  2024-09-02   High
+3          4         104         2         3   30.0  2024-09-03    Low
+4          5         105         1        12   12.0  2024-09-05   High
+5          6         106         3         8   18.0  2024-09-06    Low
+6          7         107         1         4   22.0  2024-09-07   High
+7          8         108         2         6   24.0  2024-09-08    Low
+8          9         109         3        11   19.0  2024-09-09   High
+9         10         110         4         9   17.0  2024-09-10    Low
+10        11         101         4        15   14.0  2024-09-11   High
+11        12         102         5         9   27.0  2024-09-12    Low
+12        13         103         6        10   22.0  2024-09-13   High
+13        14         104         7         8   31.0  2024-09-14    Low
+14        15         105         4        12   11.0  2024-09-15   High
+15        16         106         5         5   23.0  2024-09-16    Low
+16        17         107         6         3   26.0  2024-09-17   High
+17        18         108         7         6   28.0  2024-09-18    Low
+18        19         109         8        11   20.0  2024-09-19   High
+19        20         110         9         9   19.5  2024-09-20    Low
+20        21         101         1        14   15.5  2024-09-21   High
+21        22         102         2         8   22.0  2024-09-22    Low
+22        23         103         3         7   18.0  2024-09-23   High
+23        24         104         4         6   25.0  2024-09-24    Low
+24        25         105         2        12   13.5  2024-09-25   High
+25        26         106         3         5   21.0  2024-09-26    Low
+26        27         107         1        10   19.0  2024-09-27   High
+27        28         108         5         6   27.0  2024-09-28    Low
+28        29         109         6         9   24.0  2024-09-29   High
+29        30         110         7         7   23.5  2024-09-30    Low
+30        31         101         4        13   14.5  2024-10-01   High
+31        32         102         5         6   29.0  2024-10-02    Low
+32        33         103         6         8   21.0  2024-10-03   High
+33        34         104         7         5   30.0  2024-10-04    Low
+34        35         105         4         7   15.0  2024-10-05   High
+35        36         106         5         3   25.0  2024-10-06    Low
+36        37         107         6        12   18.0  2024-10-07   High
+37        38         108         7         9   20.0  2024-10-08    Low
+38        39         109         8        10   22.0  2024-10-09   High
+39        40         110         9         6   26.0  2024-10-10    Low
+40        41         101         3         5   15.0  2024-10-11   High
+41        42         102         4         4   20.0  2024-10-12    Low
+42        43         103         5         9   19.0  2024-10-13   High
+43        44         104         6         7   28.0  2024-10-14    Low
+44        45         105         7        10   25.0  2024-10-15   High
+45        46         106         8         8   22.5  2024-10-16    Low
+46        47         107         9         6   24.0  2024-10-17   High
+47        48         108         1         3   27.0  2024-10-18    Low
+48        49         109         2        11   18.5  2024-10-19   High
+49        50         110         3        12   21.0  2024-10-20    Low
+50        51         101         1        10   15.0  2024-08-01   High
+51        52         101         1         5   25.0  2024-08-01    Low
+52        53         101         2         7   20.0  2023-09-02   High
+53        54         101         2         3   30.0  2023-09-03    Low
+54        55         105         1        12   12.0  2024-09-05   High
+55        56         106         3         8   18.0  2024-09-06    Low
+56        57         107         1         4   22.0  2024-09-07   High
+57        58         108         2         6   24.0  2024-09-08    Low
+58        59         109         3        11   19.0  2024-09-09   High
+59        60         110         4         9   17.0  2024-09-10    Low
+2025-07-02 17:49:20,788-INFO-Test case execution for sales_data extraction has completed....
+2025-07-02 17:49:20,791-INFO-Test case execution for product_data extraction has started....
+2025-07-02 17:49:20,812-INFO-The expected data in the file is :   product_id        product_name     category  price  stock_quantity    brand  rating
+0         101           iPhone 15  Smartphones    999              50    Apple     4.8
+1         102  Samsung Galaxy S23  Smartphones    899              75  Samsung     4.7
+2         103         Dell XPS 13      Laptops   1200              30     Dell     4.6
+3         104      MacBook Pro 14      Laptops   2000              25    Apple     4.9
+4         105     Sony WH-1000XM5   Headphones    350             100     Sony     4.7
+5         106       Nike Air Zoom     Sneakers    120             200     Nike     4.5
+6         107      Samsung 55" TV  Electronics    700              40  Samsung     4.4
+7         108    Philips Hue Bulb   Smart Home     50             500  Philips     4.8
+8         109     Fitbit Charge 5    Wearables    150             150   Fitbit     4.6
+9         110   Kindle Paperwhite     eReaders    130              80   Amazon     4.7
+2025-07-02 17:49:20,824-INFO-The actual data in the stag table is :   product_id        product_name     category  price  stock_quantity    brand  rating
+0         101           iPhone 15  Smartphones    999              50    Apple     4.8
+1         102  Samsung Galaxy S23  Smartphones    899              75  Samsung     4.7
+2         103         Dell XPS 13      Laptops   1200              30     Dell     4.6
+3         104      MacBook Pro 14      Laptops   2000              25    Apple     4.9
+4         105     Sony WH-1000XM5   Headphones    350             100     Sony     4.7
+5         106       Nike Air Zoom     Sneakers    120             200     Nike     4.5
+6         107      Samsung 55" TV  Electronics    700              40  Samsung     4.4
+7         108    Philips Hue Bulb   Smart Home     50             500  Philips     4.8
+8         109     Fitbit Charge 5    Wearables    150             150   Fitbit     4.6
+9         110   Kindle Paperwhite     eReaders    130              80   Amazon     4.7
+2025-07-02 17:49:20,826-INFO-Test case execution for product_data extraction has completed....
+2025-07-02 17:49:20,827-INFO-Test case execution for supplier_data extraction has started....
+2025-07-02 17:49:20,887-INFO-The expected data in the file is :   supplier_id         supplier_name    contact_name                      contact_email     contact_phone    country  rating last_order_date
+0            1      ABC Distributors        John Doe                johndoe@abcdist.com       +1-555-0100        USA     4.8      2024-11-20
+1            2     Global Goods Inc.      Jane Smith          janesmith@globalgoods.com       +1-555-0200     Canada     4.3      2024-11-19
+2            3   GreenTech Solutions  Robert Johnson       robert.johnson@greentech.com  +44-20-7946-0100         UK     4.6      2024-11-18
+3            4              EuroWare     Emily White          emily.white@euro-ware.com  +49-30-9876-5432    Germany     4.2      2024-11-22
+4            5      Pacific Products   Michael Brown  michael.brown@pacificproducts.com   +61-2-9345-6789  Australia     4.7      2024-11-17
+5            6     Fresh Produce Co.    Sarah Taylor      sarah.taylor@freshproduce.com   +33-1-7035-6789     France     4.4      2024-11-21
+6            7  TechCore Electronics       David Lee             david.lee@techcore.com   +81-3-4567-8901      Japan     4.9      2024-11-23
+7            8       HanYang Trading      Laura King             laura.king@hanyang.com  +86-10-8888-7777      China     4.1      2024-11-16
+8            9         Indo Supplies  James Williams             james@indosupplies.com  +91-22-2678-9101      India     4.3      2024-11-25
+9           10         LatAm Imports   Olivia Harris     olivia.harris@latamimports.com  +52-55-2345-6789     Mexico     4.5      2024-11-20
+2025-07-02 17:49:20,902-INFO-The actual data in the stag table is :   supplier_id         supplier_name    contact_name                      contact_email     contact_phone    country  rating last_order_date
+0            1      ABC Distributors        John Doe                johndoe@abcdist.com       +1-555-0100        USA     4.8      2024-11-20
+1            2     Global Goods Inc.      Jane Smith          janesmith@globalgoods.com       +1-555-0200     Canada     4.3      2024-11-19
+2            3   GreenTech Solutions  Robert Johnson       robert.johnson@greentech.com  +44-20-7946-0100         UK     4.6      2024-11-18
+3            4              EuroWare     Emily White          emily.white@euro-ware.com  +49-30-9876-5432    Germany     4.2      2024-11-22
+4            5      Pacific Products   Michael Brown  michael.brown@pacificproducts.com   +61-2-9345-6789  Australia     4.7      2024-11-17
+5            6     Fresh Produce Co.    Sarah Taylor      sarah.taylor@freshproduce.com   +33-1-7035-6789     France     4.4      2024-11-21
+6            7  TechCore Electronics       David Lee             david.lee@techcore.com   +81-3-4567-8901      Japan     4.9      2024-11-23
+7            8       HanYang Trading      Laura King             laura.king@hanyang.com  +86-10-8888-7777      China     4.1      2024-11-16
+8            9         Indo Supplies  James Williams             james@indosupplies.com  +91-22-2678-9101      India     4.3      2024-11-25
+9           10         LatAm Imports   Olivia Harris     olivia.harris@latamimports.com  +52-55-2345-6789     Mexico     4.5      2024-11-20
+2025-07-02 17:49:20,902-INFO-Test case execution for supplier_data extraction has completed....
+2025-07-02 17:49:20,904-INFO-Test case execution for inventory_data extraction has started....
+2025-07-02 17:49:21,140-INFO-The expected data in the file is :    product_id  store_id  quantity_on_hand last_updated
+0          101         1                50   2024-09-01
+1          102         1                30   2024-09-02
+2          103         2                40   2024-09-03
+3          106         3                25   2024-09-06
+4          107         1                35   2024-09-07
+5          108         2                45   2024-09-08
+6          109         3                55   2024-09-09
+7          110         3                65   2024-09-10
+8          101         4                50   2024-09-11
+9          102         4                40   2024-09-12
+10         103         5                30   2024-09-13
+11         104         5                20   2024-09-14
+12         105         6                50   2024-09-15
+13         106         6                60   2024-09-16
+14         107         7                30   2024-09-17
+15         108         7                40   2024-09-18
+16         109         8                45   2024-09-19
+17         110         8                55   2024-09-20
+18         101         9                65   2024-09-21
+19         102         9                75   2024-09-22
+20         103        10                80   2024-09-23
+21         104        10                90   2024-09-24
+22         106         2               110   2024-09-26
+23         107         3               120   2024-09-27
+24         108         4               130   2024-09-28
+25         109         5               140   2024-09-29
+26         110         6               150   2024-09-30
+27         101         7               160   2024-10-01
+28         102         8               170   2024-10-02
+29         103         9               180   2024-10-03
+2025-07-02 17:49:21,153-INFO-The actual data in the stag table is :    product_id  store_id  quantity_on_hand last_updated
+0          101         1                50   2024-09-01
+1          102         1                30   2024-09-02
+2          103         2                40   2024-09-03
+3          106         3                25   2024-09-06
+4          107         1                35   2024-09-07
+5          108         2                45   2024-09-08
+6          109         3                55   2024-09-09
+7          110         3                65   2024-09-10
+8          101         4                50   2024-09-11
+9          102         4                40   2024-09-12
+10         103         5                30   2024-09-13
+11         104         5                20   2024-09-14
+12         105         6                50   2024-09-15
+13         106         6                60   2024-09-16
+14         107         7                30   2024-09-17
+15         108         7                40   2024-09-18
+16         109         8                45   2024-09-19
+17         110         8                55   2024-09-20
+18         101         9                65   2024-09-21
+19         102         9                75   2024-09-22
+20         103        10                80   2024-09-23
+21         104        10                90   2024-09-24
+22         106         2               110   2024-09-26
+23         107         3               120   2024-09-27
+24         108         4               130   2024-09-28
+25         109         5               140   2024-09-29
+26         110         6               150   2024-09-30
+27         101         7               160   2024-10-01
+28         102         8               170   2024-10-02
+29         103         9               180   2024-10-03
+2025-07-02 17:49:21,153-INFO-Test case execution for inventory_data extraction has completed....
+2025-07-02 17:49:21,155-INFO-Oracle connection is getting established
+2025-07-02 17:49:21,359-INFO-Oracle connection has been established
+2025-07-02 17:49:21,359-INFO-mysql connection is getting established
+2025-07-02 17:49:21,366-INFO-mysql connection has been established
+2025-07-02 17:49:21,366-INFO-Test case execution for sales_data extraction has started....
+2025-07-02 17:49:21,381-INFO-The expected data in the source table is :   store_id    store_name
+0         1       Walmart
+1         2        Target
+2         3      Best Buy
+3         4        Costco
+4         5    Home Depot
+5         6        Lowe's
+6         7   Apple Store
+7         8          IKEA
+8         9     Walgreens
+9        10  CVS Pharmacy
+2025-07-02 17:49:21,397-INFO-The actual data in the stag table is :   store_id    store_name
+0         1       Walmart
+1         2        Target
+2         3      Best Buy
+3         4        Costco
+4         5    Home Depot
+5         6        Lowe's
+6         7   Apple Store
+7         8          IKEA
+8         9     Walgreens
+9        10  CVS Pharmacy
+2025-07-02 17:49:21,399-INFO-Test case execution for stores data extraction has completed....
+2025-07-02 17:49:21,399-INFO-mysql connection has been closed
+2025-07-02 17:49:21,400-INFO-Oracle connection has been closed
