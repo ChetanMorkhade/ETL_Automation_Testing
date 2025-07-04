@@ -1,4 +1,4 @@
-#Test Script
+#Test data Extraction Script
 import pytest
 import logging
 
@@ -14,7 +14,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-#Test cases for diff tables and files
+#Test cases for validation of data extraction for diff tables and files
 def test_DataExtraction_from_sales_data_file_to_staging():
     logger.info(f"Test case execution for sales_data extraction has started....")
     try:
@@ -55,7 +55,7 @@ def test_DataExtraction_from_inventory_data_file_to_staging():
         pytest.fail("test case Execution for inventory data extraction has failed")
     logger.info(f"Test case execution for inventory_data extraction has completed....")
 
-def test_DataExtraction_from_Oracle_stores_table_to_staging(connect_to_oracle_database,connect_to_mysql_database_staging):
+def test_DataExtraction_from_Oracle_stores_table_to_staging(connect_to_oracle_database,connect_to_mysql_database_staging):  #using DB connectors fron fixtures in conftest.py file
     logger.info(f"Test case execution for sales_data extraction has started....")
     try:
         query_expected = """select * from stores"""
