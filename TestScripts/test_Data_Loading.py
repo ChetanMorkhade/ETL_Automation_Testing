@@ -30,8 +30,8 @@ def test_DataLoad_for_Monthly_sales_summary_table_check(connect_to_mysql_databas
 def test_DataLoad_for_fact_sales_table_check(connect_to_mysql_database_staging,connect_to_mysql_database_target):  #using DB connectors fron fixtures in conftest.py file
     logger.info(f"Test case execution for fact_sales_table_check has started....")
     try:
-        query_expected = """select sales_id,product_id,store_id,quantity,total_sales, sale_date from sales_with_details"""
-        query_actual = """select sales_id, product_id, store_id, quantity,total_sales,sale_date from fact_sales"""
+        query_expected = """select sales_id,product_id,store_id,quantity,total_sales, sale_date from sales_with_details order by sales_id"""
+        query_actual = """select sales_id, product_id, store_id, quantity,total_sales,sale_date from fact_sales order by sales_id"""
         Verify_expected_source_table_data_vs_actual_stag_table_data(query_expected,connect_to_mysql_database_staging,query_actual,connect_to_mysql_database_target)  #using from utility functions
     except Exception as e:
         logger.error(f"test case Execution for fact_sales_table_check has failed{e}")
@@ -42,8 +42,8 @@ def test_DataLoad_for_fact_sales_table_check(connect_to_mysql_database_staging,c
 def test_DataLoad_for_fact_inventory_table_check(connect_to_mysql_database_staging,connect_to_mysql_database_target):  #using DB connectors fron fixtures in conftest.py file
     logger.info(f"Test case execution for fact_inventory_table_check has started....")
     try:
-        query_expected = """select * from staging_inventory"""
-        query_actual = """select * from fact_inventory"""
+        query_expected = """select * from staging_inventory order by product_id,store_id"""
+        query_actual = """select * from fact_inventory order by product_id,store_id"""
         Verify_expected_source_table_data_vs_actual_stag_table_data(query_expected,connect_to_mysql_database_staging,query_actual,connect_to_mysql_database_target)  #using from utility functions
     except Exception as e:
         logger.error(f"test case Execution for fact_inventory_table_check has failed{e}")
@@ -53,8 +53,8 @@ def test_DataLoad_for_fact_inventory_table_check(connect_to_mysql_database_stagi
 def test_DataLoad_for_inventory_level_stores_table_check(connect_to_mysql_database_staging,connect_to_mysql_database_target):  #using DB connectors fron fixtures in conftest.py file
     logger.info(f"Test case execution for inventory_level_stores_table_check has started....")
     try:
-        query_expected = """select store_id,total_inventory from aggregated_inventory_level"""
-        query_actual = """select store_id,cast(total_inventory as Double) as total_inventory from inventory_levels_by_store"""
+        query_expected = """select store_id,total_inventory from aggregated_inventory_level order by store_id"""
+        query_actual = """select store_id,cast(total_inventory as Double) as total_inventory from inventory_levels_by_store order by store_id"""
         Verify_expected_source_table_data_vs_actual_stag_table_data(query_expected,connect_to_mysql_database_staging,query_actual,connect_to_mysql_database_target)  #using from utility functions
     except Exception as e:
         logger.error(f"test case Execution for inventory_level_stores_table_check has failed{e}")
