@@ -11740,3 +11740,1631 @@ assert False
 2025-07-09 23:32:21,889-INFO-Test case execution for stores_table_data_null check initiated....
 2025-07-09 23:32:21,894-INFO-Test case execution stores_table_data_null check  has completed....
 2025-07-09 23:32:21,896-INFO-Oracle connection has been closed
+2025-07-11 16:11:08,399-INFO-Test case execution for supplier_data_file availability check initiated....
+2025-07-11 16:11:08,419-INFO-Test case execution supplier_data_file availability check  has completed....
+2025-07-11 16:11:08,424-INFO-Test case execution for supplier_data_file size check initiated....
+2025-07-11 16:11:08,424-INFO-Test case execution supplier_data_file size check  has completed....
+2025-07-11 16:11:08,428-INFO-Test case execution for supplier_data_file duplicate_across_the_columns check initiated....
+2025-07-11 16:11:08,919-INFO-The expected data in the file is :   supplier_id         supplier_name    contact_name                      contact_email     contact_phone    country  rating last_order_date
+0            1      ABC Distributors        John Doe                johndoe@abcdist.com       +1-555-0100        USA     4.8      2024-11-20
+1            2     Global Goods Inc.      Jane Smith          janesmith@globalgoods.com       +1-555-0200     Canada     4.3      2024-11-19
+2            3   GreenTech Solutions  Robert Johnson       robert.johnson@greentech.com  +44-20-7946-0100         UK     4.6      2024-11-18
+3            4              EuroWare     Emily White          emily.white@euro-ware.com  +49-30-9876-5432    Germany     4.2      2024-11-22
+4            5      Pacific Products   Michael Brown  michael.brown@pacificproducts.com   +61-2-9345-6789  Australia     4.7      2024-11-17
+5            6     Fresh Produce Co.    Sarah Taylor      sarah.taylor@freshproduce.com   +33-1-7035-6789     France     4.4      2024-11-21
+6            7  TechCore Electronics       David Lee             david.lee@techcore.com   +81-3-4567-8901      Japan     4.9      2024-11-23
+7            8       HanYang Trading      Laura King             laura.king@hanyang.com  +86-10-8888-7777      China     4.1      2024-11-16
+8            9         Indo Supplies  James Williams             james@indosupplies.com  +91-22-2678-9101      India     4.3      2024-11-25
+9           10         LatAm Imports   Olivia Harris     olivia.harris@latamimports.com  +52-55-2345-6789     Mexico     4.5      2024-11-20
+2025-07-11 16:11:08,985-INFO-Test case execution supplier_data_file duplicate_across_the_columns check  has completed....
+2025-07-11 16:11:08,989-INFO-Test case execution for supplier_data_file duplicate_for_specific_column check initiated....
+2025-07-11 16:11:09,023-INFO-The expected data in the file is :   supplier_id         supplier_name    contact_name                      contact_email     contact_phone    country  rating last_order_date
+0            1      ABC Distributors        John Doe                johndoe@abcdist.com       +1-555-0100        USA     4.8      2024-11-20
+1            2     Global Goods Inc.      Jane Smith          janesmith@globalgoods.com       +1-555-0200     Canada     4.3      2024-11-19
+2            3   GreenTech Solutions  Robert Johnson       robert.johnson@greentech.com  +44-20-7946-0100         UK     4.6      2024-11-18
+3            4              EuroWare     Emily White          emily.white@euro-ware.com  +49-30-9876-5432    Germany     4.2      2024-11-22
+4            5      Pacific Products   Michael Brown  michael.brown@pacificproducts.com   +61-2-9345-6789  Australia     4.7      2024-11-17
+5            6     Fresh Produce Co.    Sarah Taylor      sarah.taylor@freshproduce.com   +33-1-7035-6789     France     4.4      2024-11-21
+6            7  TechCore Electronics       David Lee             david.lee@techcore.com   +81-3-4567-8901      Japan     4.9      2024-11-23
+7            8       HanYang Trading      Laura King             laura.king@hanyang.com  +86-10-8888-7777      China     4.1      2024-11-16
+8            9         Indo Supplies  James Williams             james@indosupplies.com  +91-22-2678-9101      India     4.3      2024-11-25
+9           10         LatAm Imports   Olivia Harris     olivia.harris@latamimports.com  +52-55-2345-6789     Mexico     4.5      2024-11-20
+2025-07-11 16:11:09,026-INFO-Test case execution supplier_data_file duplicate_for_specific_column check  has completed....
+2025-07-11 16:11:09,030-INFO-Test case execution for supplier_data_file null_values check initiated....
+2025-07-11 16:11:09,063-INFO-The expected data in the file is :   supplier_id         supplier_name    contact_name                      contact_email     contact_phone    country  rating last_order_date
+0            1      ABC Distributors        John Doe                johndoe@abcdist.com       +1-555-0100        USA     4.8      2024-11-20
+1            2     Global Goods Inc.      Jane Smith          janesmith@globalgoods.com       +1-555-0200     Canada     4.3      2024-11-19
+2            3   GreenTech Solutions  Robert Johnson       robert.johnson@greentech.com  +44-20-7946-0100         UK     4.6      2024-11-18
+3            4              EuroWare     Emily White          emily.white@euro-ware.com  +49-30-9876-5432    Germany     4.2      2024-11-22
+4            5      Pacific Products   Michael Brown  michael.brown@pacificproducts.com   +61-2-9345-6789  Australia     4.7      2024-11-17
+5            6     Fresh Produce Co.    Sarah Taylor      sarah.taylor@freshproduce.com   +33-1-7035-6789     France     4.4      2024-11-21
+6            7  TechCore Electronics       David Lee             david.lee@techcore.com   +81-3-4567-8901      Japan     4.9      2024-11-23
+7            8       HanYang Trading      Laura King             laura.king@hanyang.com  +86-10-8888-7777      China     4.1      2024-11-16
+8            9         Indo Supplies  James Williams             james@indosupplies.com  +91-22-2678-9101      India     4.3      2024-11-25
+9           10         LatAm Imports   Olivia Harris     olivia.harris@latamimports.com  +52-55-2345-6789     Mexico     4.5      2024-11-20
+2025-07-11 16:11:09,066-INFO-Test case execution supplier_data_file null_values check  has completed....
+2025-07-11 16:11:09,070-INFO-Test case execution for product_data_file availability check initiated....
+2025-07-11 16:11:09,070-INFO-Test case execution product_data_file availability check  has completed....
+2025-07-11 16:11:09,075-INFO-Test case execution for product_data_file size check initiated....
+2025-07-11 16:11:09,076-INFO-Test case execution product_data_file size check  has completed....
+2025-07-11 16:11:09,100-INFO-Test case execution for product_data_file duplicate_across_the_columns check initiated....
+2025-07-11 16:11:09,136-INFO-The expected data in the file is :   product_id        product_name     category  price  stock_quantity    brand  rating
+0         101           iPhone 15  Smartphones    999              50    Apple     4.8
+1         102  Samsung Galaxy S23  Smartphones    899              75  Samsung     4.7
+2         103         Dell XPS 13      Laptops   1200              30     Dell     4.6
+3         104      MacBook Pro 14      Laptops   2000              25    Apple     4.9
+4         105     Sony WH-1000XM5   Headphones    350             100     Sony     4.7
+5         106       Nike Air Zoom     Sneakers    120             200     Nike     4.5
+6         107      Samsung 55" TV  Electronics    700              40  Samsung     4.4
+7         108    Philips Hue Bulb   Smart Home     50             500  Philips     4.8
+8         109     Fitbit Charge 5    Wearables    150             150   Fitbit     4.6
+9         110   Kindle Paperwhite     eReaders    130              80   Amazon     4.7
+2025-07-11 16:11:09,139-INFO-Test case execution product_data_file duplicate_across_the_columns check  has completed....
+2025-07-11 16:11:09,142-INFO-Test case execution for product_data_file duplicate_for_specific_column check initiated....
+2025-07-11 16:11:09,171-INFO-The expected data in the file is :   product_id        product_name     category  price  stock_quantity    brand  rating
+0         101           iPhone 15  Smartphones    999              50    Apple     4.8
+1         102  Samsung Galaxy S23  Smartphones    899              75  Samsung     4.7
+2         103         Dell XPS 13      Laptops   1200              30     Dell     4.6
+3         104      MacBook Pro 14      Laptops   2000              25    Apple     4.9
+4         105     Sony WH-1000XM5   Headphones    350             100     Sony     4.7
+5         106       Nike Air Zoom     Sneakers    120             200     Nike     4.5
+6         107      Samsung 55" TV  Electronics    700              40  Samsung     4.4
+7         108    Philips Hue Bulb   Smart Home     50             500  Philips     4.8
+8         109     Fitbit Charge 5    Wearables    150             150   Fitbit     4.6
+9         110   Kindle Paperwhite     eReaders    130              80   Amazon     4.7
+2025-07-11 16:11:09,172-INFO-Test case execution product_data_file duplicate_for_specific_column check  has completed....
+2025-07-11 16:11:09,175-INFO-Test case execution for product_data_file null_values check initiated....
+2025-07-11 16:11:09,204-INFO-The expected data in the file is :   product_id        product_name     category  price  stock_quantity    brand  rating
+0         101           iPhone 15  Smartphones    999              50    Apple     4.8
+1         102  Samsung Galaxy S23  Smartphones    899              75  Samsung     4.7
+2         103         Dell XPS 13      Laptops   1200              30     Dell     4.6
+3         104      MacBook Pro 14      Laptops   2000              25    Apple     4.9
+4         105     Sony WH-1000XM5   Headphones    350             100     Sony     4.7
+5         106       Nike Air Zoom     Sneakers    120             200     Nike     4.5
+6         107      Samsung 55" TV  Electronics    700              40  Samsung     4.4
+7         108    Philips Hue Bulb   Smart Home     50             500  Philips     4.8
+8         109     Fitbit Charge 5    Wearables    150             150   Fitbit     4.6
+9         110   Kindle Paperwhite     eReaders    130              80   Amazon     4.7
+2025-07-11 16:11:09,205-INFO-Test case execution product_data_file null_values check  has completed....
+2025-07-11 16:11:09,208-INFO-Oracle connection is getting established
+2025-07-11 16:11:09,676-INFO-Oracle connection has been established
+2025-07-11 16:11:09,678-INFO-Test case execution for stores_table_data_count check initiated....
+2025-07-11 16:11:09,800-INFO-Test case execution stores_table_data_count check  has completed....
+2025-07-11 16:11:09,802-INFO-Fetched 20 rows from query.
+2025-07-11 16:11:09,803-INFO-Oracle connection has been closed
+2025-07-11 16:11:09,805-INFO-Oracle connection is getting established
+2025-07-11 16:11:09,854-INFO-Oracle connection has been established
+2025-07-11 16:11:09,856-INFO-Test case execution for stores_table_data_duplicates check initiated....
+2025-07-11 16:11:09,863-INFO-Test case execution stores_table_data_duplicates check  has completed....
+2025-07-11 16:11:09,865-INFO-Oracle connection has been closed
+2025-07-11 16:11:09,869-INFO-Oracle connection is getting established
+2025-07-11 16:11:09,920-INFO-Oracle connection has been established
+2025-07-11 16:11:09,921-INFO-Test case execution for stores_table_data_null check initiated....
+2025-07-11 16:11:09,927-INFO-Test case execution stores_table_data_null check  has completed....
+2025-07-11 16:11:09,928-INFO-Oracle connection has been closed
+2025-07-11 16:11:09,931-INFO-mysql connection is getting established
+2025-07-11 16:11:10,130-INFO-mysql connection has been established
+2025-07-11 16:11:10,130-INFO-mysql connection is getting established
+2025-07-11 16:11:10,149-INFO-mysql connection has been established
+2025-07-11 16:11:10,150-INFO-Test case execution for table_RI check initiated....
+2025-07-11 16:11:10,151-ERROR-Error while checking the table_RI check_table_RI() missing 2 required positional arguments: 'query_actual' and 'mysql_engine_target'
+2025-07-11 16:11:11,173-INFO-mysql connection has been closed
+2025-07-11 16:11:11,173-INFO-mysql connection has been closed
+2025-07-11 16:13:17,054-INFO-Test case execution for supplier_data_file availability check initiated....
+2025-07-11 16:13:17,055-INFO-Test case execution supplier_data_file availability check  has completed....
+2025-07-11 16:13:17,057-INFO-Test case execution for supplier_data_file size check initiated....
+2025-07-11 16:13:17,058-INFO-Test case execution supplier_data_file size check  has completed....
+2025-07-11 16:13:17,066-INFO-Test case execution for supplier_data_file duplicate_across_the_columns check initiated....
+2025-07-11 16:13:17,107-INFO-The expected data in the file is :   supplier_id         supplier_name    contact_name                      contact_email     contact_phone    country  rating last_order_date
+0            1      ABC Distributors        John Doe                johndoe@abcdist.com       +1-555-0100        USA     4.8      2024-11-20
+1            2     Global Goods Inc.      Jane Smith          janesmith@globalgoods.com       +1-555-0200     Canada     4.3      2024-11-19
+2            3   GreenTech Solutions  Robert Johnson       robert.johnson@greentech.com  +44-20-7946-0100         UK     4.6      2024-11-18
+3            4              EuroWare     Emily White          emily.white@euro-ware.com  +49-30-9876-5432    Germany     4.2      2024-11-22
+4            5      Pacific Products   Michael Brown  michael.brown@pacificproducts.com   +61-2-9345-6789  Australia     4.7      2024-11-17
+5            6     Fresh Produce Co.    Sarah Taylor      sarah.taylor@freshproduce.com   +33-1-7035-6789     France     4.4      2024-11-21
+6            7  TechCore Electronics       David Lee             david.lee@techcore.com   +81-3-4567-8901      Japan     4.9      2024-11-23
+7            8       HanYang Trading      Laura King             laura.king@hanyang.com  +86-10-8888-7777      China     4.1      2024-11-16
+8            9         Indo Supplies  James Williams             james@indosupplies.com  +91-22-2678-9101      India     4.3      2024-11-25
+9           10         LatAm Imports   Olivia Harris     olivia.harris@latamimports.com  +52-55-2345-6789     Mexico     4.5      2024-11-20
+2025-07-11 16:13:17,109-INFO-Test case execution supplier_data_file duplicate_across_the_columns check  has completed....
+2025-07-11 16:13:17,115-INFO-Test case execution for supplier_data_file duplicate_for_specific_column check initiated....
+2025-07-11 16:13:17,147-INFO-The expected data in the file is :   supplier_id         supplier_name    contact_name                      contact_email     contact_phone    country  rating last_order_date
+0            1      ABC Distributors        John Doe                johndoe@abcdist.com       +1-555-0100        USA     4.8      2024-11-20
+1            2     Global Goods Inc.      Jane Smith          janesmith@globalgoods.com       +1-555-0200     Canada     4.3      2024-11-19
+2            3   GreenTech Solutions  Robert Johnson       robert.johnson@greentech.com  +44-20-7946-0100         UK     4.6      2024-11-18
+3            4              EuroWare     Emily White          emily.white@euro-ware.com  +49-30-9876-5432    Germany     4.2      2024-11-22
+4            5      Pacific Products   Michael Brown  michael.brown@pacificproducts.com   +61-2-9345-6789  Australia     4.7      2024-11-17
+5            6     Fresh Produce Co.    Sarah Taylor      sarah.taylor@freshproduce.com   +33-1-7035-6789     France     4.4      2024-11-21
+6            7  TechCore Electronics       David Lee             david.lee@techcore.com   +81-3-4567-8901      Japan     4.9      2024-11-23
+7            8       HanYang Trading      Laura King             laura.king@hanyang.com  +86-10-8888-7777      China     4.1      2024-11-16
+8            9         Indo Supplies  James Williams             james@indosupplies.com  +91-22-2678-9101      India     4.3      2024-11-25
+9           10         LatAm Imports   Olivia Harris     olivia.harris@latamimports.com  +52-55-2345-6789     Mexico     4.5      2024-11-20
+2025-07-11 16:13:17,170-INFO-Test case execution supplier_data_file duplicate_for_specific_column check  has completed....
+2025-07-11 16:13:17,173-INFO-Test case execution for supplier_data_file null_values check initiated....
+2025-07-11 16:13:17,199-INFO-The expected data in the file is :   supplier_id         supplier_name    contact_name                      contact_email     contact_phone    country  rating last_order_date
+0            1      ABC Distributors        John Doe                johndoe@abcdist.com       +1-555-0100        USA     4.8      2024-11-20
+1            2     Global Goods Inc.      Jane Smith          janesmith@globalgoods.com       +1-555-0200     Canada     4.3      2024-11-19
+2            3   GreenTech Solutions  Robert Johnson       robert.johnson@greentech.com  +44-20-7946-0100         UK     4.6      2024-11-18
+3            4              EuroWare     Emily White          emily.white@euro-ware.com  +49-30-9876-5432    Germany     4.2      2024-11-22
+4            5      Pacific Products   Michael Brown  michael.brown@pacificproducts.com   +61-2-9345-6789  Australia     4.7      2024-11-17
+5            6     Fresh Produce Co.    Sarah Taylor      sarah.taylor@freshproduce.com   +33-1-7035-6789     France     4.4      2024-11-21
+6            7  TechCore Electronics       David Lee             david.lee@techcore.com   +81-3-4567-8901      Japan     4.9      2024-11-23
+7            8       HanYang Trading      Laura King             laura.king@hanyang.com  +86-10-8888-7777      China     4.1      2024-11-16
+8            9         Indo Supplies  James Williams             james@indosupplies.com  +91-22-2678-9101      India     4.3      2024-11-25
+9           10         LatAm Imports   Olivia Harris     olivia.harris@latamimports.com  +52-55-2345-6789     Mexico     4.5      2024-11-20
+2025-07-11 16:13:17,200-INFO-Test case execution supplier_data_file null_values check  has completed....
+2025-07-11 16:13:17,204-INFO-Test case execution for product_data_file availability check initiated....
+2025-07-11 16:13:17,204-INFO-Test case execution product_data_file availability check  has completed....
+2025-07-11 16:13:17,207-INFO-Test case execution for product_data_file size check initiated....
+2025-07-11 16:13:17,207-INFO-Test case execution product_data_file size check  has completed....
+2025-07-11 16:13:17,212-INFO-Test case execution for product_data_file duplicate_across_the_columns check initiated....
+2025-07-11 16:13:17,231-INFO-The expected data in the file is :   product_id        product_name     category  price  stock_quantity    brand  rating
+0         101           iPhone 15  Smartphones    999              50    Apple     4.8
+1         102  Samsung Galaxy S23  Smartphones    899              75  Samsung     4.7
+2         103         Dell XPS 13      Laptops   1200              30     Dell     4.6
+3         104      MacBook Pro 14      Laptops   2000              25    Apple     4.9
+4         105     Sony WH-1000XM5   Headphones    350             100     Sony     4.7
+5         106       Nike Air Zoom     Sneakers    120             200     Nike     4.5
+6         107      Samsung 55" TV  Electronics    700              40  Samsung     4.4
+7         108    Philips Hue Bulb   Smart Home     50             500  Philips     4.8
+8         109     Fitbit Charge 5    Wearables    150             150   Fitbit     4.6
+9         110   Kindle Paperwhite     eReaders    130              80   Amazon     4.7
+2025-07-11 16:13:17,233-INFO-Test case execution product_data_file duplicate_across_the_columns check  has completed....
+2025-07-11 16:13:17,237-INFO-Test case execution for product_data_file duplicate_for_specific_column check initiated....
+2025-07-11 16:13:17,253-INFO-The expected data in the file is :   product_id        product_name     category  price  stock_quantity    brand  rating
+0         101           iPhone 15  Smartphones    999              50    Apple     4.8
+1         102  Samsung Galaxy S23  Smartphones    899              75  Samsung     4.7
+2         103         Dell XPS 13      Laptops   1200              30     Dell     4.6
+3         104      MacBook Pro 14      Laptops   2000              25    Apple     4.9
+4         105     Sony WH-1000XM5   Headphones    350             100     Sony     4.7
+5         106       Nike Air Zoom     Sneakers    120             200     Nike     4.5
+6         107      Samsung 55" TV  Electronics    700              40  Samsung     4.4
+7         108    Philips Hue Bulb   Smart Home     50             500  Philips     4.8
+8         109     Fitbit Charge 5    Wearables    150             150   Fitbit     4.6
+9         110   Kindle Paperwhite     eReaders    130              80   Amazon     4.7
+2025-07-11 16:13:17,254-INFO-Test case execution product_data_file duplicate_for_specific_column check  has completed....
+2025-07-11 16:13:17,258-INFO-Test case execution for product_data_file null_values check initiated....
+2025-07-11 16:13:17,274-INFO-The expected data in the file is :   product_id        product_name     category  price  stock_quantity    brand  rating
+0         101           iPhone 15  Smartphones    999              50    Apple     4.8
+1         102  Samsung Galaxy S23  Smartphones    899              75  Samsung     4.7
+2         103         Dell XPS 13      Laptops   1200              30     Dell     4.6
+3         104      MacBook Pro 14      Laptops   2000              25    Apple     4.9
+4         105     Sony WH-1000XM5   Headphones    350             100     Sony     4.7
+5         106       Nike Air Zoom     Sneakers    120             200     Nike     4.5
+6         107      Samsung 55" TV  Electronics    700              40  Samsung     4.4
+7         108    Philips Hue Bulb   Smart Home     50             500  Philips     4.8
+8         109     Fitbit Charge 5    Wearables    150             150   Fitbit     4.6
+9         110   Kindle Paperwhite     eReaders    130              80   Amazon     4.7
+2025-07-11 16:13:17,275-INFO-Test case execution product_data_file null_values check  has completed....
+2025-07-11 16:13:17,278-INFO-Oracle connection is getting established
+2025-07-11 16:13:17,369-INFO-Oracle connection has been established
+2025-07-11 16:13:17,370-INFO-Test case execution for stores_table_data_count check initiated....
+2025-07-11 16:13:17,440-INFO-Test case execution stores_table_data_count check  has completed....
+2025-07-11 16:13:17,440-INFO-Fetched 20 rows from query.
+2025-07-11 16:13:17,441-INFO-Oracle connection has been closed
+2025-07-11 16:13:17,444-INFO-Oracle connection is getting established
+2025-07-11 16:13:17,499-INFO-Oracle connection has been established
+2025-07-11 16:13:17,501-INFO-Test case execution for stores_table_data_duplicates check initiated....
+2025-07-11 16:13:17,506-INFO-Test case execution stores_table_data_duplicates check  has completed....
+2025-07-11 16:13:17,508-INFO-Oracle connection has been closed
+2025-07-11 16:13:17,509-INFO-Oracle connection is getting established
+2025-07-11 16:13:17,569-INFO-Oracle connection has been established
+2025-07-11 16:13:17,571-INFO-Test case execution for stores_table_data_null check initiated....
+2025-07-11 16:13:17,580-INFO-Test case execution stores_table_data_null check  has completed....
+2025-07-11 16:13:17,583-INFO-Oracle connection has been closed
+2025-07-11 16:13:17,585-INFO-mysql connection is getting established
+2025-07-11 16:13:17,635-INFO-mysql connection has been established
+2025-07-11 16:13:17,636-INFO-mysql connection is getting established
+2025-07-11 16:13:17,649-INFO-mysql connection has been established
+2025-07-11 16:13:17,650-INFO-Test case execution for table_RI check initiated....
+2025-07-11 16:13:17,899-ERROR-Table not having RI: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-07-11 16:13:17,899-ERROR-Error while checking the table_RI table not having RI
+assert False
+ +  where False = check_table_RI('select store_id from staging_stores order by store_id', <sqlalchemy.engine.base.Connection object at 0x0000020662D2C6D0>, 'select store_id from fact_sales order by store_id', <sqlalchemy.engine.base.Connection object at 0x0000020662D2D4D0>)
+2025-07-11 16:13:18,666-INFO-mysql connection has been closed
+2025-07-11 16:13:18,667-INFO-mysql connection has been closed
+2025-07-11 16:15:22,851-INFO-Test case execution for supplier_data_file availability check initiated....
+2025-07-11 16:15:22,852-INFO-Test case execution supplier_data_file availability check  has completed....
+2025-07-11 16:15:22,854-INFO-Test case execution for supplier_data_file size check initiated....
+2025-07-11 16:15:22,854-INFO-Test case execution supplier_data_file size check  has completed....
+2025-07-11 16:15:22,858-INFO-Test case execution for supplier_data_file duplicate_across_the_columns check initiated....
+2025-07-11 16:15:22,894-INFO-The expected data in the file is :   supplier_id         supplier_name    contact_name                      contact_email     contact_phone    country  rating last_order_date
+0            1      ABC Distributors        John Doe                johndoe@abcdist.com       +1-555-0100        USA     4.8      2024-11-20
+1            2     Global Goods Inc.      Jane Smith          janesmith@globalgoods.com       +1-555-0200     Canada     4.3      2024-11-19
+2            3   GreenTech Solutions  Robert Johnson       robert.johnson@greentech.com  +44-20-7946-0100         UK     4.6      2024-11-18
+3            4              EuroWare     Emily White          emily.white@euro-ware.com  +49-30-9876-5432    Germany     4.2      2024-11-22
+4            5      Pacific Products   Michael Brown  michael.brown@pacificproducts.com   +61-2-9345-6789  Australia     4.7      2024-11-17
+5            6     Fresh Produce Co.    Sarah Taylor      sarah.taylor@freshproduce.com   +33-1-7035-6789     France     4.4      2024-11-21
+6            7  TechCore Electronics       David Lee             david.lee@techcore.com   +81-3-4567-8901      Japan     4.9      2024-11-23
+7            8       HanYang Trading      Laura King             laura.king@hanyang.com  +86-10-8888-7777      China     4.1      2024-11-16
+8            9         Indo Supplies  James Williams             james@indosupplies.com  +91-22-2678-9101      India     4.3      2024-11-25
+9           10         LatAm Imports   Olivia Harris     olivia.harris@latamimports.com  +52-55-2345-6789     Mexico     4.5      2024-11-20
+2025-07-11 16:15:22,896-INFO-Test case execution supplier_data_file duplicate_across_the_columns check  has completed....
+2025-07-11 16:15:22,899-INFO-Test case execution for supplier_data_file duplicate_for_specific_column check initiated....
+2025-07-11 16:15:22,926-INFO-The expected data in the file is :   supplier_id         supplier_name    contact_name                      contact_email     contact_phone    country  rating last_order_date
+0            1      ABC Distributors        John Doe                johndoe@abcdist.com       +1-555-0100        USA     4.8      2024-11-20
+1            2     Global Goods Inc.      Jane Smith          janesmith@globalgoods.com       +1-555-0200     Canada     4.3      2024-11-19
+2            3   GreenTech Solutions  Robert Johnson       robert.johnson@greentech.com  +44-20-7946-0100         UK     4.6      2024-11-18
+3            4              EuroWare     Emily White          emily.white@euro-ware.com  +49-30-9876-5432    Germany     4.2      2024-11-22
+4            5      Pacific Products   Michael Brown  michael.brown@pacificproducts.com   +61-2-9345-6789  Australia     4.7      2024-11-17
+5            6     Fresh Produce Co.    Sarah Taylor      sarah.taylor@freshproduce.com   +33-1-7035-6789     France     4.4      2024-11-21
+6            7  TechCore Electronics       David Lee             david.lee@techcore.com   +81-3-4567-8901      Japan     4.9      2024-11-23
+7            8       HanYang Trading      Laura King             laura.king@hanyang.com  +86-10-8888-7777      China     4.1      2024-11-16
+8            9         Indo Supplies  James Williams             james@indosupplies.com  +91-22-2678-9101      India     4.3      2024-11-25
+9           10         LatAm Imports   Olivia Harris     olivia.harris@latamimports.com  +52-55-2345-6789     Mexico     4.5      2024-11-20
+2025-07-11 16:15:22,928-INFO-Test case execution supplier_data_file duplicate_for_specific_column check  has completed....
+2025-07-11 16:15:22,931-INFO-Test case execution for supplier_data_file null_values check initiated....
+2025-07-11 16:15:22,956-INFO-The expected data in the file is :   supplier_id         supplier_name    contact_name                      contact_email     contact_phone    country  rating last_order_date
+0            1      ABC Distributors        John Doe                johndoe@abcdist.com       +1-555-0100        USA     4.8      2024-11-20
+1            2     Global Goods Inc.      Jane Smith          janesmith@globalgoods.com       +1-555-0200     Canada     4.3      2024-11-19
+2            3   GreenTech Solutions  Robert Johnson       robert.johnson@greentech.com  +44-20-7946-0100         UK     4.6      2024-11-18
+3            4              EuroWare     Emily White          emily.white@euro-ware.com  +49-30-9876-5432    Germany     4.2      2024-11-22
+4            5      Pacific Products   Michael Brown  michael.brown@pacificproducts.com   +61-2-9345-6789  Australia     4.7      2024-11-17
+5            6     Fresh Produce Co.    Sarah Taylor      sarah.taylor@freshproduce.com   +33-1-7035-6789     France     4.4      2024-11-21
+6            7  TechCore Electronics       David Lee             david.lee@techcore.com   +81-3-4567-8901      Japan     4.9      2024-11-23
+7            8       HanYang Trading      Laura King             laura.king@hanyang.com  +86-10-8888-7777      China     4.1      2024-11-16
+8            9         Indo Supplies  James Williams             james@indosupplies.com  +91-22-2678-9101      India     4.3      2024-11-25
+9           10         LatAm Imports   Olivia Harris     olivia.harris@latamimports.com  +52-55-2345-6789     Mexico     4.5      2024-11-20
+2025-07-11 16:15:22,956-INFO-Test case execution supplier_data_file null_values check  has completed....
+2025-07-11 16:15:22,960-INFO-Test case execution for product_data_file availability check initiated....
+2025-07-11 16:15:22,961-INFO-Test case execution product_data_file availability check  has completed....
+2025-07-11 16:15:22,963-INFO-Test case execution for product_data_file size check initiated....
+2025-07-11 16:15:22,964-INFO-Test case execution product_data_file size check  has completed....
+2025-07-11 16:15:22,968-INFO-Test case execution for product_data_file duplicate_across_the_columns check initiated....
+2025-07-11 16:15:22,985-INFO-The expected data in the file is :   product_id        product_name     category  price  stock_quantity    brand  rating
+0         101           iPhone 15  Smartphones    999              50    Apple     4.8
+1         102  Samsung Galaxy S23  Smartphones    899              75  Samsung     4.7
+2         103         Dell XPS 13      Laptops   1200              30     Dell     4.6
+3         104      MacBook Pro 14      Laptops   2000              25    Apple     4.9
+4         105     Sony WH-1000XM5   Headphones    350             100     Sony     4.7
+5         106       Nike Air Zoom     Sneakers    120             200     Nike     4.5
+6         107      Samsung 55" TV  Electronics    700              40  Samsung     4.4
+7         108    Philips Hue Bulb   Smart Home     50             500  Philips     4.8
+8         109     Fitbit Charge 5    Wearables    150             150   Fitbit     4.6
+9         110   Kindle Paperwhite     eReaders    130              80   Amazon     4.7
+2025-07-11 16:15:22,986-INFO-Test case execution product_data_file duplicate_across_the_columns check  has completed....
+2025-07-11 16:15:22,989-INFO-Test case execution for product_data_file duplicate_for_specific_column check initiated....
+2025-07-11 16:15:23,008-INFO-The expected data in the file is :   product_id        product_name     category  price  stock_quantity    brand  rating
+0         101           iPhone 15  Smartphones    999              50    Apple     4.8
+1         102  Samsung Galaxy S23  Smartphones    899              75  Samsung     4.7
+2         103         Dell XPS 13      Laptops   1200              30     Dell     4.6
+3         104      MacBook Pro 14      Laptops   2000              25    Apple     4.9
+4         105     Sony WH-1000XM5   Headphones    350             100     Sony     4.7
+5         106       Nike Air Zoom     Sneakers    120             200     Nike     4.5
+6         107      Samsung 55" TV  Electronics    700              40  Samsung     4.4
+7         108    Philips Hue Bulb   Smart Home     50             500  Philips     4.8
+8         109     Fitbit Charge 5    Wearables    150             150   Fitbit     4.6
+9         110   Kindle Paperwhite     eReaders    130              80   Amazon     4.7
+2025-07-11 16:15:23,009-INFO-Test case execution product_data_file duplicate_for_specific_column check  has completed....
+2025-07-11 16:15:23,015-INFO-Test case execution for product_data_file null_values check initiated....
+2025-07-11 16:15:23,042-INFO-The expected data in the file is :   product_id        product_name     category  price  stock_quantity    brand  rating
+0         101           iPhone 15  Smartphones    999              50    Apple     4.8
+1         102  Samsung Galaxy S23  Smartphones    899              75  Samsung     4.7
+2         103         Dell XPS 13      Laptops   1200              30     Dell     4.6
+3         104      MacBook Pro 14      Laptops   2000              25    Apple     4.9
+4         105     Sony WH-1000XM5   Headphones    350             100     Sony     4.7
+5         106       Nike Air Zoom     Sneakers    120             200     Nike     4.5
+6         107      Samsung 55" TV  Electronics    700              40  Samsung     4.4
+7         108    Philips Hue Bulb   Smart Home     50             500  Philips     4.8
+8         109     Fitbit Charge 5    Wearables    150             150   Fitbit     4.6
+9         110   Kindle Paperwhite     eReaders    130              80   Amazon     4.7
+2025-07-11 16:15:23,042-INFO-Test case execution product_data_file null_values check  has completed....
+2025-07-11 16:15:23,047-INFO-Oracle connection is getting established
+2025-07-11 16:15:23,125-INFO-Oracle connection has been established
+2025-07-11 16:15:23,126-INFO-Test case execution for stores_table_data_count check initiated....
+2025-07-11 16:15:23,190-INFO-Test case execution stores_table_data_count check  has completed....
+2025-07-11 16:15:23,191-INFO-Fetched 20 rows from query.
+2025-07-11 16:15:23,192-INFO-Oracle connection has been closed
+2025-07-11 16:15:23,194-INFO-Oracle connection is getting established
+2025-07-11 16:15:23,243-INFO-Oracle connection has been established
+2025-07-11 16:15:23,244-INFO-Test case execution for stores_table_data_duplicates check initiated....
+2025-07-11 16:15:23,251-INFO-Test case execution stores_table_data_duplicates check  has completed....
+2025-07-11 16:15:23,252-INFO-Oracle connection has been closed
+2025-07-11 16:15:23,254-INFO-Oracle connection is getting established
+2025-07-11 16:15:23,315-INFO-Oracle connection has been established
+2025-07-11 16:15:23,316-INFO-Test case execution for stores_table_data_null check initiated....
+2025-07-11 16:15:23,321-INFO-Test case execution stores_table_data_null check  has completed....
+2025-07-11 16:15:23,323-INFO-Oracle connection has been closed
+2025-07-11 16:15:23,326-INFO-mysql connection is getting established
+2025-07-11 16:15:23,366-INFO-mysql connection has been established
+2025-07-11 16:15:23,367-INFO-mysql connection is getting established
+2025-07-11 16:15:23,384-INFO-mysql connection has been established
+2025-07-11 16:15:23,385-INFO-Test case execution for table_RI check initiated....
+2025-07-11 16:15:23,426-ERROR-Table not having RI: 'NoneType' object has no attribute 'cursor'
+2025-07-11 16:15:23,427-ERROR-Error while checking the table_RI table not having RI
+assert False
+ +  where False = check_table_RI('select store_id from staging_stores order by store_id', Engine(mysql+pymysql://root:***@localhost:3306/stag_retaildwh), 'select store_id from fact_sales order by store_id', None)
+2025-07-11 16:15:24,035-INFO-mysql connection has been closed
+2025-07-11 16:15:24,035-INFO-mysql connection has been closed
+2025-07-11 16:18:54,569-INFO-Test case execution for supplier_data_file availability check initiated....
+2025-07-11 16:18:54,570-INFO-Test case execution supplier_data_file availability check  has completed....
+2025-07-11 16:18:54,572-INFO-Test case execution for supplier_data_file size check initiated....
+2025-07-11 16:18:54,573-INFO-Test case execution supplier_data_file size check  has completed....
+2025-07-11 16:18:54,576-INFO-Test case execution for supplier_data_file duplicate_across_the_columns check initiated....
+2025-07-11 16:18:54,619-INFO-The expected data in the file is :   supplier_id         supplier_name    contact_name                      contact_email     contact_phone    country  rating last_order_date
+0            1      ABC Distributors        John Doe                johndoe@abcdist.com       +1-555-0100        USA     4.8      2024-11-20
+1            2     Global Goods Inc.      Jane Smith          janesmith@globalgoods.com       +1-555-0200     Canada     4.3      2024-11-19
+2            3   GreenTech Solutions  Robert Johnson       robert.johnson@greentech.com  +44-20-7946-0100         UK     4.6      2024-11-18
+3            4              EuroWare     Emily White          emily.white@euro-ware.com  +49-30-9876-5432    Germany     4.2      2024-11-22
+4            5      Pacific Products   Michael Brown  michael.brown@pacificproducts.com   +61-2-9345-6789  Australia     4.7      2024-11-17
+5            6     Fresh Produce Co.    Sarah Taylor      sarah.taylor@freshproduce.com   +33-1-7035-6789     France     4.4      2024-11-21
+6            7  TechCore Electronics       David Lee             david.lee@techcore.com   +81-3-4567-8901      Japan     4.9      2024-11-23
+7            8       HanYang Trading      Laura King             laura.king@hanyang.com  +86-10-8888-7777      China     4.1      2024-11-16
+8            9         Indo Supplies  James Williams             james@indosupplies.com  +91-22-2678-9101      India     4.3      2024-11-25
+9           10         LatAm Imports   Olivia Harris     olivia.harris@latamimports.com  +52-55-2345-6789     Mexico     4.5      2024-11-20
+2025-07-11 16:18:54,622-INFO-Test case execution supplier_data_file duplicate_across_the_columns check  has completed....
+2025-07-11 16:18:54,625-INFO-Test case execution for supplier_data_file duplicate_for_specific_column check initiated....
+2025-07-11 16:18:54,651-INFO-The expected data in the file is :   supplier_id         supplier_name    contact_name                      contact_email     contact_phone    country  rating last_order_date
+0            1      ABC Distributors        John Doe                johndoe@abcdist.com       +1-555-0100        USA     4.8      2024-11-20
+1            2     Global Goods Inc.      Jane Smith          janesmith@globalgoods.com       +1-555-0200     Canada     4.3      2024-11-19
+2            3   GreenTech Solutions  Robert Johnson       robert.johnson@greentech.com  +44-20-7946-0100         UK     4.6      2024-11-18
+3            4              EuroWare     Emily White          emily.white@euro-ware.com  +49-30-9876-5432    Germany     4.2      2024-11-22
+4            5      Pacific Products   Michael Brown  michael.brown@pacificproducts.com   +61-2-9345-6789  Australia     4.7      2024-11-17
+5            6     Fresh Produce Co.    Sarah Taylor      sarah.taylor@freshproduce.com   +33-1-7035-6789     France     4.4      2024-11-21
+6            7  TechCore Electronics       David Lee             david.lee@techcore.com   +81-3-4567-8901      Japan     4.9      2024-11-23
+7            8       HanYang Trading      Laura King             laura.king@hanyang.com  +86-10-8888-7777      China     4.1      2024-11-16
+8            9         Indo Supplies  James Williams             james@indosupplies.com  +91-22-2678-9101      India     4.3      2024-11-25
+9           10         LatAm Imports   Olivia Harris     olivia.harris@latamimports.com  +52-55-2345-6789     Mexico     4.5      2024-11-20
+2025-07-11 16:18:54,653-INFO-Test case execution supplier_data_file duplicate_for_specific_column check  has completed....
+2025-07-11 16:18:54,656-INFO-Test case execution for supplier_data_file null_values check initiated....
+2025-07-11 16:18:54,677-INFO-The expected data in the file is :   supplier_id         supplier_name    contact_name                      contact_email     contact_phone    country  rating last_order_date
+0            1      ABC Distributors        John Doe                johndoe@abcdist.com       +1-555-0100        USA     4.8      2024-11-20
+1            2     Global Goods Inc.      Jane Smith          janesmith@globalgoods.com       +1-555-0200     Canada     4.3      2024-11-19
+2            3   GreenTech Solutions  Robert Johnson       robert.johnson@greentech.com  +44-20-7946-0100         UK     4.6      2024-11-18
+3            4              EuroWare     Emily White          emily.white@euro-ware.com  +49-30-9876-5432    Germany     4.2      2024-11-22
+4            5      Pacific Products   Michael Brown  michael.brown@pacificproducts.com   +61-2-9345-6789  Australia     4.7      2024-11-17
+5            6     Fresh Produce Co.    Sarah Taylor      sarah.taylor@freshproduce.com   +33-1-7035-6789     France     4.4      2024-11-21
+6            7  TechCore Electronics       David Lee             david.lee@techcore.com   +81-3-4567-8901      Japan     4.9      2024-11-23
+7            8       HanYang Trading      Laura King             laura.king@hanyang.com  +86-10-8888-7777      China     4.1      2024-11-16
+8            9         Indo Supplies  James Williams             james@indosupplies.com  +91-22-2678-9101      India     4.3      2024-11-25
+9           10         LatAm Imports   Olivia Harris     olivia.harris@latamimports.com  +52-55-2345-6789     Mexico     4.5      2024-11-20
+2025-07-11 16:18:54,678-INFO-Test case execution supplier_data_file null_values check  has completed....
+2025-07-11 16:18:54,681-INFO-Test case execution for product_data_file availability check initiated....
+2025-07-11 16:18:54,683-INFO-Test case execution product_data_file availability check  has completed....
+2025-07-11 16:18:54,687-INFO-Test case execution for product_data_file size check initiated....
+2025-07-11 16:18:54,687-INFO-Test case execution product_data_file size check  has completed....
+2025-07-11 16:18:54,691-INFO-Test case execution for product_data_file duplicate_across_the_columns check initiated....
+2025-07-11 16:18:54,708-INFO-The expected data in the file is :   product_id        product_name     category  price  stock_quantity    brand  rating
+0         101           iPhone 15  Smartphones    999              50    Apple     4.8
+1         102  Samsung Galaxy S23  Smartphones    899              75  Samsung     4.7
+2         103         Dell XPS 13      Laptops   1200              30     Dell     4.6
+3         104      MacBook Pro 14      Laptops   2000              25    Apple     4.9
+4         105     Sony WH-1000XM5   Headphones    350             100     Sony     4.7
+5         106       Nike Air Zoom     Sneakers    120             200     Nike     4.5
+6         107      Samsung 55" TV  Electronics    700              40  Samsung     4.4
+7         108    Philips Hue Bulb   Smart Home     50             500  Philips     4.8
+8         109     Fitbit Charge 5    Wearables    150             150   Fitbit     4.6
+9         110   Kindle Paperwhite     eReaders    130              80   Amazon     4.7
+2025-07-11 16:18:54,710-INFO-Test case execution product_data_file duplicate_across_the_columns check  has completed....
+2025-07-11 16:18:54,714-INFO-Test case execution for product_data_file duplicate_for_specific_column check initiated....
+2025-07-11 16:18:54,735-INFO-The expected data in the file is :   product_id        product_name     category  price  stock_quantity    brand  rating
+0         101           iPhone 15  Smartphones    999              50    Apple     4.8
+1         102  Samsung Galaxy S23  Smartphones    899              75  Samsung     4.7
+2         103         Dell XPS 13      Laptops   1200              30     Dell     4.6
+3         104      MacBook Pro 14      Laptops   2000              25    Apple     4.9
+4         105     Sony WH-1000XM5   Headphones    350             100     Sony     4.7
+5         106       Nike Air Zoom     Sneakers    120             200     Nike     4.5
+6         107      Samsung 55" TV  Electronics    700              40  Samsung     4.4
+7         108    Philips Hue Bulb   Smart Home     50             500  Philips     4.8
+8         109     Fitbit Charge 5    Wearables    150             150   Fitbit     4.6
+9         110   Kindle Paperwhite     eReaders    130              80   Amazon     4.7
+2025-07-11 16:18:54,736-INFO-Test case execution product_data_file duplicate_for_specific_column check  has completed....
+2025-07-11 16:18:54,738-INFO-Test case execution for product_data_file null_values check initiated....
+2025-07-11 16:18:54,756-INFO-The expected data in the file is :   product_id        product_name     category  price  stock_quantity    brand  rating
+0         101           iPhone 15  Smartphones    999              50    Apple     4.8
+1         102  Samsung Galaxy S23  Smartphones    899              75  Samsung     4.7
+2         103         Dell XPS 13      Laptops   1200              30     Dell     4.6
+3         104      MacBook Pro 14      Laptops   2000              25    Apple     4.9
+4         105     Sony WH-1000XM5   Headphones    350             100     Sony     4.7
+5         106       Nike Air Zoom     Sneakers    120             200     Nike     4.5
+6         107      Samsung 55" TV  Electronics    700              40  Samsung     4.4
+7         108    Philips Hue Bulb   Smart Home     50             500  Philips     4.8
+8         109     Fitbit Charge 5    Wearables    150             150   Fitbit     4.6
+9         110   Kindle Paperwhite     eReaders    130              80   Amazon     4.7
+2025-07-11 16:18:54,757-INFO-Test case execution product_data_file null_values check  has completed....
+2025-07-11 16:18:54,760-INFO-Oracle connection is getting established
+2025-07-11 16:18:54,852-INFO-Oracle connection has been established
+2025-07-11 16:18:54,853-INFO-Test case execution for stores_table_data_count check initiated....
+2025-07-11 16:18:54,927-INFO-Test case execution stores_table_data_count check  has completed....
+2025-07-11 16:18:54,927-INFO-Fetched 20 rows from query.
+2025-07-11 16:18:54,929-INFO-Oracle connection has been closed
+2025-07-11 16:18:54,932-INFO-Oracle connection is getting established
+2025-07-11 16:18:54,987-INFO-Oracle connection has been established
+2025-07-11 16:18:54,988-INFO-Test case execution for stores_table_data_duplicates check initiated....
+2025-07-11 16:18:54,995-INFO-Test case execution stores_table_data_duplicates check  has completed....
+2025-07-11 16:18:54,996-INFO-Oracle connection has been closed
+2025-07-11 16:18:54,999-INFO-Oracle connection is getting established
+2025-07-11 16:18:55,058-INFO-Oracle connection has been established
+2025-07-11 16:18:55,059-INFO-Test case execution for stores_table_data_null check initiated....
+2025-07-11 16:18:55,066-INFO-Test case execution stores_table_data_null check  has completed....
+2025-07-11 16:18:55,068-INFO-Oracle connection has been closed
+2025-07-11 16:18:55,071-INFO-mysql connection is getting established
+2025-07-11 16:18:55,102-INFO-mysql connection has been established
+2025-07-11 16:18:55,103-INFO-mysql connection is getting established
+2025-07-11 16:18:55,112-INFO-mysql connection has been established
+2025-07-11 16:18:55,113-INFO-Test case execution for table_RI check initiated....
+2025-07-11 16:18:55,144-ERROR-Table not having RI: 'NoneType' object has no attribute 'cursor'
+2025-07-11 16:18:55,145-ERROR-Error while checking the table_RI table not having RI
+assert False
+ +  where False = check_table_RI('select store_id from staging_stores order by store_id', Engine(mysql+pymysql://root:***@localhost:3306/stag_retaildwh), 'select store_id from fact_sales order by store_id', None)
+2025-07-11 16:18:55,770-INFO-mysql connection has been closed
+2025-07-11 16:18:55,772-INFO-mysql connection has been closed
+2025-07-11 16:20:31,821-INFO-Test case execution for supplier_data_file availability check initiated....
+2025-07-11 16:20:31,823-INFO-Test case execution supplier_data_file availability check  has completed....
+2025-07-11 16:20:31,825-INFO-Test case execution for supplier_data_file size check initiated....
+2025-07-11 16:20:31,826-INFO-Test case execution supplier_data_file size check  has completed....
+2025-07-11 16:20:31,828-INFO-Test case execution for supplier_data_file duplicate_across_the_columns check initiated....
+2025-07-11 16:20:31,868-INFO-The expected data in the file is :   supplier_id         supplier_name    contact_name                      contact_email     contact_phone    country  rating last_order_date
+0            1      ABC Distributors        John Doe                johndoe@abcdist.com       +1-555-0100        USA     4.8      2024-11-20
+1            2     Global Goods Inc.      Jane Smith          janesmith@globalgoods.com       +1-555-0200     Canada     4.3      2024-11-19
+2            3   GreenTech Solutions  Robert Johnson       robert.johnson@greentech.com  +44-20-7946-0100         UK     4.6      2024-11-18
+3            4              EuroWare     Emily White          emily.white@euro-ware.com  +49-30-9876-5432    Germany     4.2      2024-11-22
+4            5      Pacific Products   Michael Brown  michael.brown@pacificproducts.com   +61-2-9345-6789  Australia     4.7      2024-11-17
+5            6     Fresh Produce Co.    Sarah Taylor      sarah.taylor@freshproduce.com   +33-1-7035-6789     France     4.4      2024-11-21
+6            7  TechCore Electronics       David Lee             david.lee@techcore.com   +81-3-4567-8901      Japan     4.9      2024-11-23
+7            8       HanYang Trading      Laura King             laura.king@hanyang.com  +86-10-8888-7777      China     4.1      2024-11-16
+8            9         Indo Supplies  James Williams             james@indosupplies.com  +91-22-2678-9101      India     4.3      2024-11-25
+9           10         LatAm Imports   Olivia Harris     olivia.harris@latamimports.com  +52-55-2345-6789     Mexico     4.5      2024-11-20
+2025-07-11 16:20:31,870-INFO-Test case execution supplier_data_file duplicate_across_the_columns check  has completed....
+2025-07-11 16:20:31,873-INFO-Test case execution for supplier_data_file duplicate_for_specific_column check initiated....
+2025-07-11 16:20:31,897-INFO-The expected data in the file is :   supplier_id         supplier_name    contact_name                      contact_email     contact_phone    country  rating last_order_date
+0            1      ABC Distributors        John Doe                johndoe@abcdist.com       +1-555-0100        USA     4.8      2024-11-20
+1            2     Global Goods Inc.      Jane Smith          janesmith@globalgoods.com       +1-555-0200     Canada     4.3      2024-11-19
+2            3   GreenTech Solutions  Robert Johnson       robert.johnson@greentech.com  +44-20-7946-0100         UK     4.6      2024-11-18
+3            4              EuroWare     Emily White          emily.white@euro-ware.com  +49-30-9876-5432    Germany     4.2      2024-11-22
+4            5      Pacific Products   Michael Brown  michael.brown@pacificproducts.com   +61-2-9345-6789  Australia     4.7      2024-11-17
+5            6     Fresh Produce Co.    Sarah Taylor      sarah.taylor@freshproduce.com   +33-1-7035-6789     France     4.4      2024-11-21
+6            7  TechCore Electronics       David Lee             david.lee@techcore.com   +81-3-4567-8901      Japan     4.9      2024-11-23
+7            8       HanYang Trading      Laura King             laura.king@hanyang.com  +86-10-8888-7777      China     4.1      2024-11-16
+8            9         Indo Supplies  James Williams             james@indosupplies.com  +91-22-2678-9101      India     4.3      2024-11-25
+9           10         LatAm Imports   Olivia Harris     olivia.harris@latamimports.com  +52-55-2345-6789     Mexico     4.5      2024-11-20
+2025-07-11 16:20:31,898-INFO-Test case execution supplier_data_file duplicate_for_specific_column check  has completed....
+2025-07-11 16:20:31,902-INFO-Test case execution for supplier_data_file null_values check initiated....
+2025-07-11 16:20:31,924-INFO-The expected data in the file is :   supplier_id         supplier_name    contact_name                      contact_email     contact_phone    country  rating last_order_date
+0            1      ABC Distributors        John Doe                johndoe@abcdist.com       +1-555-0100        USA     4.8      2024-11-20
+1            2     Global Goods Inc.      Jane Smith          janesmith@globalgoods.com       +1-555-0200     Canada     4.3      2024-11-19
+2            3   GreenTech Solutions  Robert Johnson       robert.johnson@greentech.com  +44-20-7946-0100         UK     4.6      2024-11-18
+3            4              EuroWare     Emily White          emily.white@euro-ware.com  +49-30-9876-5432    Germany     4.2      2024-11-22
+4            5      Pacific Products   Michael Brown  michael.brown@pacificproducts.com   +61-2-9345-6789  Australia     4.7      2024-11-17
+5            6     Fresh Produce Co.    Sarah Taylor      sarah.taylor@freshproduce.com   +33-1-7035-6789     France     4.4      2024-11-21
+6            7  TechCore Electronics       David Lee             david.lee@techcore.com   +81-3-4567-8901      Japan     4.9      2024-11-23
+7            8       HanYang Trading      Laura King             laura.king@hanyang.com  +86-10-8888-7777      China     4.1      2024-11-16
+8            9         Indo Supplies  James Williams             james@indosupplies.com  +91-22-2678-9101      India     4.3      2024-11-25
+9           10         LatAm Imports   Olivia Harris     olivia.harris@latamimports.com  +52-55-2345-6789     Mexico     4.5      2024-11-20
+2025-07-11 16:20:31,925-INFO-Test case execution supplier_data_file null_values check  has completed....
+2025-07-11 16:20:31,927-INFO-Test case execution for product_data_file availability check initiated....
+2025-07-11 16:20:31,929-INFO-Test case execution product_data_file availability check  has completed....
+2025-07-11 16:20:31,931-INFO-Test case execution for product_data_file size check initiated....
+2025-07-11 16:20:31,932-INFO-Test case execution product_data_file size check  has completed....
+2025-07-11 16:20:31,935-INFO-Test case execution for product_data_file duplicate_across_the_columns check initiated....
+2025-07-11 16:20:31,951-INFO-The expected data in the file is :   product_id        product_name     category  price  stock_quantity    brand  rating
+0         101           iPhone 15  Smartphones    999              50    Apple     4.8
+1         102  Samsung Galaxy S23  Smartphones    899              75  Samsung     4.7
+2         103         Dell XPS 13      Laptops   1200              30     Dell     4.6
+3         104      MacBook Pro 14      Laptops   2000              25    Apple     4.9
+4         105     Sony WH-1000XM5   Headphones    350             100     Sony     4.7
+5         106       Nike Air Zoom     Sneakers    120             200     Nike     4.5
+6         107      Samsung 55" TV  Electronics    700              40  Samsung     4.4
+7         108    Philips Hue Bulb   Smart Home     50             500  Philips     4.8
+8         109     Fitbit Charge 5    Wearables    150             150   Fitbit     4.6
+9         110   Kindle Paperwhite     eReaders    130              80   Amazon     4.7
+2025-07-11 16:20:31,954-INFO-Test case execution product_data_file duplicate_across_the_columns check  has completed....
+2025-07-11 16:20:31,957-INFO-Test case execution for product_data_file duplicate_for_specific_column check initiated....
+2025-07-11 16:20:31,974-INFO-The expected data in the file is :   product_id        product_name     category  price  stock_quantity    brand  rating
+0         101           iPhone 15  Smartphones    999              50    Apple     4.8
+1         102  Samsung Galaxy S23  Smartphones    899              75  Samsung     4.7
+2         103         Dell XPS 13      Laptops   1200              30     Dell     4.6
+3         104      MacBook Pro 14      Laptops   2000              25    Apple     4.9
+4         105     Sony WH-1000XM5   Headphones    350             100     Sony     4.7
+5         106       Nike Air Zoom     Sneakers    120             200     Nike     4.5
+6         107      Samsung 55" TV  Electronics    700              40  Samsung     4.4
+7         108    Philips Hue Bulb   Smart Home     50             500  Philips     4.8
+8         109     Fitbit Charge 5    Wearables    150             150   Fitbit     4.6
+9         110   Kindle Paperwhite     eReaders    130              80   Amazon     4.7
+2025-07-11 16:20:31,975-INFO-Test case execution product_data_file duplicate_for_specific_column check  has completed....
+2025-07-11 16:20:31,978-INFO-Test case execution for product_data_file null_values check initiated....
+2025-07-11 16:20:31,994-INFO-The expected data in the file is :   product_id        product_name     category  price  stock_quantity    brand  rating
+0         101           iPhone 15  Smartphones    999              50    Apple     4.8
+1         102  Samsung Galaxy S23  Smartphones    899              75  Samsung     4.7
+2         103         Dell XPS 13      Laptops   1200              30     Dell     4.6
+3         104      MacBook Pro 14      Laptops   2000              25    Apple     4.9
+4         105     Sony WH-1000XM5   Headphones    350             100     Sony     4.7
+5         106       Nike Air Zoom     Sneakers    120             200     Nike     4.5
+6         107      Samsung 55" TV  Electronics    700              40  Samsung     4.4
+7         108    Philips Hue Bulb   Smart Home     50             500  Philips     4.8
+8         109     Fitbit Charge 5    Wearables    150             150   Fitbit     4.6
+9         110   Kindle Paperwhite     eReaders    130              80   Amazon     4.7
+2025-07-11 16:20:31,994-INFO-Test case execution product_data_file null_values check  has completed....
+2025-07-11 16:20:31,997-INFO-Oracle connection is getting established
+2025-07-11 16:20:32,087-INFO-Oracle connection has been established
+2025-07-11 16:20:32,088-INFO-Test case execution for stores_table_data_count check initiated....
+2025-07-11 16:20:32,160-INFO-Test case execution stores_table_data_count check  has completed....
+2025-07-11 16:20:32,160-INFO-Fetched 20 rows from query.
+2025-07-11 16:20:32,161-INFO-Oracle connection has been closed
+2025-07-11 16:20:32,164-INFO-Oracle connection is getting established
+2025-07-11 16:20:32,214-INFO-Oracle connection has been established
+2025-07-11 16:20:32,215-INFO-Test case execution for stores_table_data_duplicates check initiated....
+2025-07-11 16:20:32,224-INFO-Test case execution stores_table_data_duplicates check  has completed....
+2025-07-11 16:20:32,226-INFO-Oracle connection has been closed
+2025-07-11 16:20:32,227-INFO-Oracle connection is getting established
+2025-07-11 16:20:32,277-INFO-Oracle connection has been established
+2025-07-11 16:20:32,278-INFO-Test case execution for stores_table_data_null check initiated....
+2025-07-11 16:20:32,284-INFO-Test case execution stores_table_data_null check  has completed....
+2025-07-11 16:20:32,286-INFO-Oracle connection has been closed
+2025-07-11 16:20:32,288-INFO-mysql connection is getting established
+2025-07-11 16:20:32,314-INFO-mysql connection has been established
+2025-07-11 16:20:32,314-INFO-mysql connection is getting established
+2025-07-11 16:20:32,327-INFO-mysql connection has been established
+2025-07-11 16:20:32,328-INFO-Test case execution for table_RI check initiated....
+2025-07-11 16:20:32,353-ERROR-Table not having RI: 'NoneType' object has no attribute 'cursor'
+2025-07-11 16:20:32,354-ERROR-Error while checking the table_RI table not having RI
+assert False
+ +  where False = check_table_RI('select store_id from staging_stores order by store_id', Engine(mysql+pymysql://root:***@localhost:3306/stag_retaildwh), 'select store_id from fact_sales order by store_id', None)
+2025-07-11 16:20:32,992-INFO-mysql connection has been closed
+2025-07-11 16:20:32,992-INFO-mysql connection has been closed
+2025-07-11 16:21:47,444-INFO-Test case execution for supplier_data_file availability check initiated....
+2025-07-11 16:21:47,445-INFO-Test case execution supplier_data_file availability check  has completed....
+2025-07-11 16:21:47,449-INFO-Test case execution for supplier_data_file size check initiated....
+2025-07-11 16:21:47,450-INFO-Test case execution supplier_data_file size check  has completed....
+2025-07-11 16:21:47,453-INFO-Test case execution for supplier_data_file duplicate_across_the_columns check initiated....
+2025-07-11 16:21:47,494-INFO-The expected data in the file is :   supplier_id         supplier_name    contact_name                      contact_email     contact_phone    country  rating last_order_date
+0            1      ABC Distributors        John Doe                johndoe@abcdist.com       +1-555-0100        USA     4.8      2024-11-20
+1            2     Global Goods Inc.      Jane Smith          janesmith@globalgoods.com       +1-555-0200     Canada     4.3      2024-11-19
+2            3   GreenTech Solutions  Robert Johnson       robert.johnson@greentech.com  +44-20-7946-0100         UK     4.6      2024-11-18
+3            4              EuroWare     Emily White          emily.white@euro-ware.com  +49-30-9876-5432    Germany     4.2      2024-11-22
+4            5      Pacific Products   Michael Brown  michael.brown@pacificproducts.com   +61-2-9345-6789  Australia     4.7      2024-11-17
+5            6     Fresh Produce Co.    Sarah Taylor      sarah.taylor@freshproduce.com   +33-1-7035-6789     France     4.4      2024-11-21
+6            7  TechCore Electronics       David Lee             david.lee@techcore.com   +81-3-4567-8901      Japan     4.9      2024-11-23
+7            8       HanYang Trading      Laura King             laura.king@hanyang.com  +86-10-8888-7777      China     4.1      2024-11-16
+8            9         Indo Supplies  James Williams             james@indosupplies.com  +91-22-2678-9101      India     4.3      2024-11-25
+9           10         LatAm Imports   Olivia Harris     olivia.harris@latamimports.com  +52-55-2345-6789     Mexico     4.5      2024-11-20
+2025-07-11 16:21:47,496-INFO-Test case execution supplier_data_file duplicate_across_the_columns check  has completed....
+2025-07-11 16:21:47,498-INFO-Test case execution for supplier_data_file duplicate_for_specific_column check initiated....
+2025-07-11 16:21:47,526-INFO-The expected data in the file is :   supplier_id         supplier_name    contact_name                      contact_email     contact_phone    country  rating last_order_date
+0            1      ABC Distributors        John Doe                johndoe@abcdist.com       +1-555-0100        USA     4.8      2024-11-20
+1            2     Global Goods Inc.      Jane Smith          janesmith@globalgoods.com       +1-555-0200     Canada     4.3      2024-11-19
+2            3   GreenTech Solutions  Robert Johnson       robert.johnson@greentech.com  +44-20-7946-0100         UK     4.6      2024-11-18
+3            4              EuroWare     Emily White          emily.white@euro-ware.com  +49-30-9876-5432    Germany     4.2      2024-11-22
+4            5      Pacific Products   Michael Brown  michael.brown@pacificproducts.com   +61-2-9345-6789  Australia     4.7      2024-11-17
+5            6     Fresh Produce Co.    Sarah Taylor      sarah.taylor@freshproduce.com   +33-1-7035-6789     France     4.4      2024-11-21
+6            7  TechCore Electronics       David Lee             david.lee@techcore.com   +81-3-4567-8901      Japan     4.9      2024-11-23
+7            8       HanYang Trading      Laura King             laura.king@hanyang.com  +86-10-8888-7777      China     4.1      2024-11-16
+8            9         Indo Supplies  James Williams             james@indosupplies.com  +91-22-2678-9101      India     4.3      2024-11-25
+9           10         LatAm Imports   Olivia Harris     olivia.harris@latamimports.com  +52-55-2345-6789     Mexico     4.5      2024-11-20
+2025-07-11 16:21:47,528-INFO-Test case execution supplier_data_file duplicate_for_specific_column check  has completed....
+2025-07-11 16:21:47,531-INFO-Test case execution for supplier_data_file null_values check initiated....
+2025-07-11 16:21:47,552-INFO-The expected data in the file is :   supplier_id         supplier_name    contact_name                      contact_email     contact_phone    country  rating last_order_date
+0            1      ABC Distributors        John Doe                johndoe@abcdist.com       +1-555-0100        USA     4.8      2024-11-20
+1            2     Global Goods Inc.      Jane Smith          janesmith@globalgoods.com       +1-555-0200     Canada     4.3      2024-11-19
+2            3   GreenTech Solutions  Robert Johnson       robert.johnson@greentech.com  +44-20-7946-0100         UK     4.6      2024-11-18
+3            4              EuroWare     Emily White          emily.white@euro-ware.com  +49-30-9876-5432    Germany     4.2      2024-11-22
+4            5      Pacific Products   Michael Brown  michael.brown@pacificproducts.com   +61-2-9345-6789  Australia     4.7      2024-11-17
+5            6     Fresh Produce Co.    Sarah Taylor      sarah.taylor@freshproduce.com   +33-1-7035-6789     France     4.4      2024-11-21
+6            7  TechCore Electronics       David Lee             david.lee@techcore.com   +81-3-4567-8901      Japan     4.9      2024-11-23
+7            8       HanYang Trading      Laura King             laura.king@hanyang.com  +86-10-8888-7777      China     4.1      2024-11-16
+8            9         Indo Supplies  James Williams             james@indosupplies.com  +91-22-2678-9101      India     4.3      2024-11-25
+9           10         LatAm Imports   Olivia Harris     olivia.harris@latamimports.com  +52-55-2345-6789     Mexico     4.5      2024-11-20
+2025-07-11 16:21:47,553-INFO-Test case execution supplier_data_file null_values check  has completed....
+2025-07-11 16:21:47,556-INFO-Test case execution for product_data_file availability check initiated....
+2025-07-11 16:21:47,557-INFO-Test case execution product_data_file availability check  has completed....
+2025-07-11 16:21:47,561-INFO-Test case execution for product_data_file size check initiated....
+2025-07-11 16:21:47,562-INFO-Test case execution product_data_file size check  has completed....
+2025-07-11 16:21:47,564-INFO-Test case execution for product_data_file duplicate_across_the_columns check initiated....
+2025-07-11 16:21:47,584-INFO-The expected data in the file is :   product_id        product_name     category  price  stock_quantity    brand  rating
+0         101           iPhone 15  Smartphones    999              50    Apple     4.8
+1         102  Samsung Galaxy S23  Smartphones    899              75  Samsung     4.7
+2         103         Dell XPS 13      Laptops   1200              30     Dell     4.6
+3         104      MacBook Pro 14      Laptops   2000              25    Apple     4.9
+4         105     Sony WH-1000XM5   Headphones    350             100     Sony     4.7
+5         106       Nike Air Zoom     Sneakers    120             200     Nike     4.5
+6         107      Samsung 55" TV  Electronics    700              40  Samsung     4.4
+7         108    Philips Hue Bulb   Smart Home     50             500  Philips     4.8
+8         109     Fitbit Charge 5    Wearables    150             150   Fitbit     4.6
+9         110   Kindle Paperwhite     eReaders    130              80   Amazon     4.7
+2025-07-11 16:21:47,586-INFO-Test case execution product_data_file duplicate_across_the_columns check  has completed....
+2025-07-11 16:21:47,589-INFO-Test case execution for product_data_file duplicate_for_specific_column check initiated....
+2025-07-11 16:21:47,613-INFO-The expected data in the file is :   product_id        product_name     category  price  stock_quantity    brand  rating
+0         101           iPhone 15  Smartphones    999              50    Apple     4.8
+1         102  Samsung Galaxy S23  Smartphones    899              75  Samsung     4.7
+2         103         Dell XPS 13      Laptops   1200              30     Dell     4.6
+3         104      MacBook Pro 14      Laptops   2000              25    Apple     4.9
+4         105     Sony WH-1000XM5   Headphones    350             100     Sony     4.7
+5         106       Nike Air Zoom     Sneakers    120             200     Nike     4.5
+6         107      Samsung 55" TV  Electronics    700              40  Samsung     4.4
+7         108    Philips Hue Bulb   Smart Home     50             500  Philips     4.8
+8         109     Fitbit Charge 5    Wearables    150             150   Fitbit     4.6
+9         110   Kindle Paperwhite     eReaders    130              80   Amazon     4.7
+2025-07-11 16:21:47,614-INFO-Test case execution product_data_file duplicate_for_specific_column check  has completed....
+2025-07-11 16:21:47,618-INFO-Test case execution for product_data_file null_values check initiated....
+2025-07-11 16:21:47,633-INFO-The expected data in the file is :   product_id        product_name     category  price  stock_quantity    brand  rating
+0         101           iPhone 15  Smartphones    999              50    Apple     4.8
+1         102  Samsung Galaxy S23  Smartphones    899              75  Samsung     4.7
+2         103         Dell XPS 13      Laptops   1200              30     Dell     4.6
+3         104      MacBook Pro 14      Laptops   2000              25    Apple     4.9
+4         105     Sony WH-1000XM5   Headphones    350             100     Sony     4.7
+5         106       Nike Air Zoom     Sneakers    120             200     Nike     4.5
+6         107      Samsung 55" TV  Electronics    700              40  Samsung     4.4
+7         108    Philips Hue Bulb   Smart Home     50             500  Philips     4.8
+8         109     Fitbit Charge 5    Wearables    150             150   Fitbit     4.6
+9         110   Kindle Paperwhite     eReaders    130              80   Amazon     4.7
+2025-07-11 16:21:47,634-INFO-Test case execution product_data_file null_values check  has completed....
+2025-07-11 16:21:47,636-INFO-Oracle connection is getting established
+2025-07-11 16:21:47,718-INFO-Oracle connection has been established
+2025-07-11 16:21:47,719-INFO-Test case execution for stores_table_data_count check initiated....
+2025-07-11 16:21:47,795-INFO-Test case execution stores_table_data_count check  has completed....
+2025-07-11 16:21:47,796-INFO-Fetched 20 rows from query.
+2025-07-11 16:21:47,797-INFO-Oracle connection has been closed
+2025-07-11 16:21:47,799-INFO-Oracle connection is getting established
+2025-07-11 16:21:47,851-INFO-Oracle connection has been established
+2025-07-11 16:21:47,852-INFO-Test case execution for stores_table_data_duplicates check initiated....
+2025-07-11 16:21:47,857-INFO-Test case execution stores_table_data_duplicates check  has completed....
+2025-07-11 16:21:47,859-INFO-Oracle connection has been closed
+2025-07-11 16:21:47,861-INFO-Oracle connection is getting established
+2025-07-11 16:21:47,914-INFO-Oracle connection has been established
+2025-07-11 16:21:47,916-INFO-Test case execution for stores_table_data_null check initiated....
+2025-07-11 16:21:47,922-INFO-Test case execution stores_table_data_null check  has completed....
+2025-07-11 16:21:47,924-INFO-Oracle connection has been closed
+2025-07-11 16:21:47,926-INFO-mysql connection is getting established
+2025-07-11 16:21:47,951-INFO-mysql connection has been established
+2025-07-11 16:21:47,952-INFO-mysql connection is getting established
+2025-07-11 16:21:47,964-INFO-mysql connection has been established
+2025-07-11 16:21:47,965-INFO-Test case execution for table_RI check initiated....
+2025-07-11 16:21:47,986-ERROR-Table not having RI: 'NoneType' object has no attribute 'cursor'
+2025-07-11 16:21:47,987-ERROR-Error while checking the table_RI table not having RI
+assert False
+ +  where False = check_table_RI('select store_id from staging_stores order by store_id', Engine(mysql+pymysql://root:***@localhost:3306/stag_retaildwh), 'select store_id from fact_sales order by store_id', None)
+2025-07-11 16:21:48,613-INFO-mysql connection has been closed
+2025-07-11 16:21:48,614-INFO-mysql connection has been closed
+2025-07-11 16:25:10,077-INFO-Test case execution for supplier_data_file availability check initiated....
+2025-07-11 16:25:10,077-INFO-Test case execution supplier_data_file availability check  has completed....
+2025-07-11 16:25:10,082-INFO-Test case execution for supplier_data_file size check initiated....
+2025-07-11 16:25:10,082-INFO-Test case execution supplier_data_file size check  has completed....
+2025-07-11 16:25:10,086-INFO-Test case execution for supplier_data_file duplicate_across_the_columns check initiated....
+2025-07-11 16:25:10,127-INFO-The expected data in the file is :   supplier_id         supplier_name    contact_name                      contact_email     contact_phone    country  rating last_order_date
+0            1      ABC Distributors        John Doe                johndoe@abcdist.com       +1-555-0100        USA     4.8      2024-11-20
+1            2     Global Goods Inc.      Jane Smith          janesmith@globalgoods.com       +1-555-0200     Canada     4.3      2024-11-19
+2            3   GreenTech Solutions  Robert Johnson       robert.johnson@greentech.com  +44-20-7946-0100         UK     4.6      2024-11-18
+3            4              EuroWare     Emily White          emily.white@euro-ware.com  +49-30-9876-5432    Germany     4.2      2024-11-22
+4            5      Pacific Products   Michael Brown  michael.brown@pacificproducts.com   +61-2-9345-6789  Australia     4.7      2024-11-17
+5            6     Fresh Produce Co.    Sarah Taylor      sarah.taylor@freshproduce.com   +33-1-7035-6789     France     4.4      2024-11-21
+6            7  TechCore Electronics       David Lee             david.lee@techcore.com   +81-3-4567-8901      Japan     4.9      2024-11-23
+7            8       HanYang Trading      Laura King             laura.king@hanyang.com  +86-10-8888-7777      China     4.1      2024-11-16
+8            9         Indo Supplies  James Williams             james@indosupplies.com  +91-22-2678-9101      India     4.3      2024-11-25
+9           10         LatAm Imports   Olivia Harris     olivia.harris@latamimports.com  +52-55-2345-6789     Mexico     4.5      2024-11-20
+2025-07-11 16:25:10,129-INFO-Test case execution supplier_data_file duplicate_across_the_columns check  has completed....
+2025-07-11 16:25:10,133-INFO-Test case execution for supplier_data_file duplicate_for_specific_column check initiated....
+2025-07-11 16:25:10,159-INFO-The expected data in the file is :   supplier_id         supplier_name    contact_name                      contact_email     contact_phone    country  rating last_order_date
+0            1      ABC Distributors        John Doe                johndoe@abcdist.com       +1-555-0100        USA     4.8      2024-11-20
+1            2     Global Goods Inc.      Jane Smith          janesmith@globalgoods.com       +1-555-0200     Canada     4.3      2024-11-19
+2            3   GreenTech Solutions  Robert Johnson       robert.johnson@greentech.com  +44-20-7946-0100         UK     4.6      2024-11-18
+3            4              EuroWare     Emily White          emily.white@euro-ware.com  +49-30-9876-5432    Germany     4.2      2024-11-22
+4            5      Pacific Products   Michael Brown  michael.brown@pacificproducts.com   +61-2-9345-6789  Australia     4.7      2024-11-17
+5            6     Fresh Produce Co.    Sarah Taylor      sarah.taylor@freshproduce.com   +33-1-7035-6789     France     4.4      2024-11-21
+6            7  TechCore Electronics       David Lee             david.lee@techcore.com   +81-3-4567-8901      Japan     4.9      2024-11-23
+7            8       HanYang Trading      Laura King             laura.king@hanyang.com  +86-10-8888-7777      China     4.1      2024-11-16
+8            9         Indo Supplies  James Williams             james@indosupplies.com  +91-22-2678-9101      India     4.3      2024-11-25
+9           10         LatAm Imports   Olivia Harris     olivia.harris@latamimports.com  +52-55-2345-6789     Mexico     4.5      2024-11-20
+2025-07-11 16:25:10,160-INFO-Test case execution supplier_data_file duplicate_for_specific_column check  has completed....
+2025-07-11 16:25:10,163-INFO-Test case execution for supplier_data_file null_values check initiated....
+2025-07-11 16:25:10,189-INFO-The expected data in the file is :   supplier_id         supplier_name    contact_name                      contact_email     contact_phone    country  rating last_order_date
+0            1      ABC Distributors        John Doe                johndoe@abcdist.com       +1-555-0100        USA     4.8      2024-11-20
+1            2     Global Goods Inc.      Jane Smith          janesmith@globalgoods.com       +1-555-0200     Canada     4.3      2024-11-19
+2            3   GreenTech Solutions  Robert Johnson       robert.johnson@greentech.com  +44-20-7946-0100         UK     4.6      2024-11-18
+3            4              EuroWare     Emily White          emily.white@euro-ware.com  +49-30-9876-5432    Germany     4.2      2024-11-22
+4            5      Pacific Products   Michael Brown  michael.brown@pacificproducts.com   +61-2-9345-6789  Australia     4.7      2024-11-17
+5            6     Fresh Produce Co.    Sarah Taylor      sarah.taylor@freshproduce.com   +33-1-7035-6789     France     4.4      2024-11-21
+6            7  TechCore Electronics       David Lee             david.lee@techcore.com   +81-3-4567-8901      Japan     4.9      2024-11-23
+7            8       HanYang Trading      Laura King             laura.king@hanyang.com  +86-10-8888-7777      China     4.1      2024-11-16
+8            9         Indo Supplies  James Williams             james@indosupplies.com  +91-22-2678-9101      India     4.3      2024-11-25
+9           10         LatAm Imports   Olivia Harris     olivia.harris@latamimports.com  +52-55-2345-6789     Mexico     4.5      2024-11-20
+2025-07-11 16:25:10,190-INFO-Test case execution supplier_data_file null_values check  has completed....
+2025-07-11 16:25:10,192-INFO-Test case execution for product_data_file availability check initiated....
+2025-07-11 16:25:10,193-INFO-Test case execution product_data_file availability check  has completed....
+2025-07-11 16:25:10,201-INFO-Test case execution for product_data_file size check initiated....
+2025-07-11 16:25:10,201-INFO-Test case execution product_data_file size check  has completed....
+2025-07-11 16:25:10,205-INFO-Test case execution for product_data_file duplicate_across_the_columns check initiated....
+2025-07-11 16:25:10,222-INFO-The expected data in the file is :   product_id        product_name     category  price  stock_quantity    brand  rating
+0         101           iPhone 15  Smartphones    999              50    Apple     4.8
+1         102  Samsung Galaxy S23  Smartphones    899              75  Samsung     4.7
+2         103         Dell XPS 13      Laptops   1200              30     Dell     4.6
+3         104      MacBook Pro 14      Laptops   2000              25    Apple     4.9
+4         105     Sony WH-1000XM5   Headphones    350             100     Sony     4.7
+5         106       Nike Air Zoom     Sneakers    120             200     Nike     4.5
+6         107      Samsung 55" TV  Electronics    700              40  Samsung     4.4
+7         108    Philips Hue Bulb   Smart Home     50             500  Philips     4.8
+8         109     Fitbit Charge 5    Wearables    150             150   Fitbit     4.6
+9         110   Kindle Paperwhite     eReaders    130              80   Amazon     4.7
+2025-07-11 16:25:10,224-INFO-Test case execution product_data_file duplicate_across_the_columns check  has completed....
+2025-07-11 16:25:10,227-INFO-Test case execution for product_data_file duplicate_for_specific_column check initiated....
+2025-07-11 16:25:10,247-INFO-The expected data in the file is :   product_id        product_name     category  price  stock_quantity    brand  rating
+0         101           iPhone 15  Smartphones    999              50    Apple     4.8
+1         102  Samsung Galaxy S23  Smartphones    899              75  Samsung     4.7
+2         103         Dell XPS 13      Laptops   1200              30     Dell     4.6
+3         104      MacBook Pro 14      Laptops   2000              25    Apple     4.9
+4         105     Sony WH-1000XM5   Headphones    350             100     Sony     4.7
+5         106       Nike Air Zoom     Sneakers    120             200     Nike     4.5
+6         107      Samsung 55" TV  Electronics    700              40  Samsung     4.4
+7         108    Philips Hue Bulb   Smart Home     50             500  Philips     4.8
+8         109     Fitbit Charge 5    Wearables    150             150   Fitbit     4.6
+9         110   Kindle Paperwhite     eReaders    130              80   Amazon     4.7
+2025-07-11 16:25:10,248-INFO-Test case execution product_data_file duplicate_for_specific_column check  has completed....
+2025-07-11 16:25:10,251-INFO-Test case execution for product_data_file null_values check initiated....
+2025-07-11 16:25:10,282-INFO-The expected data in the file is :   product_id        product_name     category  price  stock_quantity    brand  rating
+0         101           iPhone 15  Smartphones    999              50    Apple     4.8
+1         102  Samsung Galaxy S23  Smartphones    899              75  Samsung     4.7
+2         103         Dell XPS 13      Laptops   1200              30     Dell     4.6
+3         104      MacBook Pro 14      Laptops   2000              25    Apple     4.9
+4         105     Sony WH-1000XM5   Headphones    350             100     Sony     4.7
+5         106       Nike Air Zoom     Sneakers    120             200     Nike     4.5
+6         107      Samsung 55" TV  Electronics    700              40  Samsung     4.4
+7         108    Philips Hue Bulb   Smart Home     50             500  Philips     4.8
+8         109     Fitbit Charge 5    Wearables    150             150   Fitbit     4.6
+9         110   Kindle Paperwhite     eReaders    130              80   Amazon     4.7
+2025-07-11 16:25:10,283-INFO-Test case execution product_data_file null_values check  has completed....
+2025-07-11 16:25:10,285-INFO-Oracle connection is getting established
+2025-07-11 16:25:10,379-INFO-Oracle connection has been established
+2025-07-11 16:25:10,380-INFO-Test case execution for stores_table_data_count check initiated....
+2025-07-11 16:25:10,446-INFO-Test case execution stores_table_data_count check  has completed....
+2025-07-11 16:25:10,446-INFO-Fetched 20 rows from query.
+2025-07-11 16:25:10,448-INFO-Oracle connection has been closed
+2025-07-11 16:25:10,450-INFO-Oracle connection is getting established
+2025-07-11 16:25:10,502-INFO-Oracle connection has been established
+2025-07-11 16:25:10,502-INFO-Test case execution for stores_table_data_duplicates check initiated....
+2025-07-11 16:25:10,508-INFO-Test case execution stores_table_data_duplicates check  has completed....
+2025-07-11 16:25:10,509-INFO-Oracle connection has been closed
+2025-07-11 16:25:10,512-INFO-Oracle connection is getting established
+2025-07-11 16:25:10,561-INFO-Oracle connection has been established
+2025-07-11 16:25:10,562-INFO-Test case execution for stores_table_data_null check initiated....
+2025-07-11 16:25:10,570-INFO-Test case execution stores_table_data_null check  has completed....
+2025-07-11 16:25:10,571-INFO-Oracle connection has been closed
+2025-07-11 16:25:10,573-INFO-mysql connection is getting established
+2025-07-11 16:25:10,597-INFO-mysql connection has been established
+2025-07-11 16:25:10,598-INFO-mysql connection is getting established
+2025-07-11 16:25:10,610-INFO-mysql connection has been established
+2025-07-11 16:25:10,613-INFO-Test case execution for table_RI check initiated....
+2025-07-11 16:25:10,614-ERROR-One or both MySQL engine connections are None.
+2025-07-11 16:25:10,614-ERROR-Error while checking the table_RI table not having RI
+assert False
+ +  where False = check_table_RI('select store_id from staging_stores order by store_id', Engine(mysql+pymysql://root:***@localhost:3306/stag_retaildwh), 'select store_id from fact_sales order by store_id', None)
+2025-07-11 16:25:11,242-INFO-mysql connection has been closed
+2025-07-11 16:25:11,243-INFO-mysql connection has been closed
+2025-07-11 16:29:29,300-INFO-Test case execution for supplier_data_file availability check initiated....
+2025-07-11 16:29:29,313-INFO-Test case execution supplier_data_file availability check  has completed....
+2025-07-11 16:29:29,320-INFO-Test case execution for supplier_data_file size check initiated....
+2025-07-11 16:29:29,322-INFO-Test case execution supplier_data_file size check  has completed....
+2025-07-11 16:29:29,329-INFO-Test case execution for supplier_data_file duplicate_across_the_columns check initiated....
+2025-07-11 16:29:29,587-INFO-The expected data in the file is :   supplier_id         supplier_name    contact_name                      contact_email     contact_phone    country  rating last_order_date
+0            1      ABC Distributors        John Doe                johndoe@abcdist.com       +1-555-0100        USA     4.8      2024-11-20
+1            2     Global Goods Inc.      Jane Smith          janesmith@globalgoods.com       +1-555-0200     Canada     4.3      2024-11-19
+2            3   GreenTech Solutions  Robert Johnson       robert.johnson@greentech.com  +44-20-7946-0100         UK     4.6      2024-11-18
+3            4              EuroWare     Emily White          emily.white@euro-ware.com  +49-30-9876-5432    Germany     4.2      2024-11-22
+4            5      Pacific Products   Michael Brown  michael.brown@pacificproducts.com   +61-2-9345-6789  Australia     4.7      2024-11-17
+5            6     Fresh Produce Co.    Sarah Taylor      sarah.taylor@freshproduce.com   +33-1-7035-6789     France     4.4      2024-11-21
+6            7  TechCore Electronics       David Lee             david.lee@techcore.com   +81-3-4567-8901      Japan     4.9      2024-11-23
+7            8       HanYang Trading      Laura King             laura.king@hanyang.com  +86-10-8888-7777      China     4.1      2024-11-16
+8            9         Indo Supplies  James Williams             james@indosupplies.com  +91-22-2678-9101      India     4.3      2024-11-25
+9           10         LatAm Imports   Olivia Harris     olivia.harris@latamimports.com  +52-55-2345-6789     Mexico     4.5      2024-11-20
+2025-07-11 16:29:29,698-INFO-Test case execution supplier_data_file duplicate_across_the_columns check  has completed....
+2025-07-11 16:29:29,702-INFO-Test case execution for supplier_data_file duplicate_for_specific_column check initiated....
+2025-07-11 16:29:29,736-INFO-The expected data in the file is :   supplier_id         supplier_name    contact_name                      contact_email     contact_phone    country  rating last_order_date
+0            1      ABC Distributors        John Doe                johndoe@abcdist.com       +1-555-0100        USA     4.8      2024-11-20
+1            2     Global Goods Inc.      Jane Smith          janesmith@globalgoods.com       +1-555-0200     Canada     4.3      2024-11-19
+2            3   GreenTech Solutions  Robert Johnson       robert.johnson@greentech.com  +44-20-7946-0100         UK     4.6      2024-11-18
+3            4              EuroWare     Emily White          emily.white@euro-ware.com  +49-30-9876-5432    Germany     4.2      2024-11-22
+4            5      Pacific Products   Michael Brown  michael.brown@pacificproducts.com   +61-2-9345-6789  Australia     4.7      2024-11-17
+5            6     Fresh Produce Co.    Sarah Taylor      sarah.taylor@freshproduce.com   +33-1-7035-6789     France     4.4      2024-11-21
+6            7  TechCore Electronics       David Lee             david.lee@techcore.com   +81-3-4567-8901      Japan     4.9      2024-11-23
+7            8       HanYang Trading      Laura King             laura.king@hanyang.com  +86-10-8888-7777      China     4.1      2024-11-16
+8            9         Indo Supplies  James Williams             james@indosupplies.com  +91-22-2678-9101      India     4.3      2024-11-25
+9           10         LatAm Imports   Olivia Harris     olivia.harris@latamimports.com  +52-55-2345-6789     Mexico     4.5      2024-11-20
+2025-07-11 16:29:29,737-INFO-Test case execution supplier_data_file duplicate_for_specific_column check  has completed....
+2025-07-11 16:29:29,741-INFO-Test case execution for supplier_data_file null_values check initiated....
+2025-07-11 16:29:29,777-INFO-The expected data in the file is :   supplier_id         supplier_name    contact_name                      contact_email     contact_phone    country  rating last_order_date
+0            1      ABC Distributors        John Doe                johndoe@abcdist.com       +1-555-0100        USA     4.8      2024-11-20
+1            2     Global Goods Inc.      Jane Smith          janesmith@globalgoods.com       +1-555-0200     Canada     4.3      2024-11-19
+2            3   GreenTech Solutions  Robert Johnson       robert.johnson@greentech.com  +44-20-7946-0100         UK     4.6      2024-11-18
+3            4              EuroWare     Emily White          emily.white@euro-ware.com  +49-30-9876-5432    Germany     4.2      2024-11-22
+4            5      Pacific Products   Michael Brown  michael.brown@pacificproducts.com   +61-2-9345-6789  Australia     4.7      2024-11-17
+5            6     Fresh Produce Co.    Sarah Taylor      sarah.taylor@freshproduce.com   +33-1-7035-6789     France     4.4      2024-11-21
+6            7  TechCore Electronics       David Lee             david.lee@techcore.com   +81-3-4567-8901      Japan     4.9      2024-11-23
+7            8       HanYang Trading      Laura King             laura.king@hanyang.com  +86-10-8888-7777      China     4.1      2024-11-16
+8            9         Indo Supplies  James Williams             james@indosupplies.com  +91-22-2678-9101      India     4.3      2024-11-25
+9           10         LatAm Imports   Olivia Harris     olivia.harris@latamimports.com  +52-55-2345-6789     Mexico     4.5      2024-11-20
+2025-07-11 16:29:29,778-INFO-Test case execution supplier_data_file null_values check  has completed....
+2025-07-11 16:29:29,782-INFO-Test case execution for product_data_file availability check initiated....
+2025-07-11 16:29:29,783-INFO-Test case execution product_data_file availability check  has completed....
+2025-07-11 16:29:29,786-INFO-Test case execution for product_data_file size check initiated....
+2025-07-11 16:29:29,787-INFO-Test case execution product_data_file size check  has completed....
+2025-07-11 16:29:29,791-INFO-Test case execution for product_data_file duplicate_across_the_columns check initiated....
+2025-07-11 16:29:29,818-INFO-The expected data in the file is :   product_id        product_name     category  price  stock_quantity    brand  rating
+0         101           iPhone 15  Smartphones    999              50    Apple     4.8
+1         102  Samsung Galaxy S23  Smartphones    899              75  Samsung     4.7
+2         103         Dell XPS 13      Laptops   1200              30     Dell     4.6
+3         104      MacBook Pro 14      Laptops   2000              25    Apple     4.9
+4         105     Sony WH-1000XM5   Headphones    350             100     Sony     4.7
+5         106       Nike Air Zoom     Sneakers    120             200     Nike     4.5
+6         107      Samsung 55" TV  Electronics    700              40  Samsung     4.4
+7         108    Philips Hue Bulb   Smart Home     50             500  Philips     4.8
+8         109     Fitbit Charge 5    Wearables    150             150   Fitbit     4.6
+9         110   Kindle Paperwhite     eReaders    130              80   Amazon     4.7
+2025-07-11 16:29:29,821-INFO-Test case execution product_data_file duplicate_across_the_columns check  has completed....
+2025-07-11 16:29:29,826-INFO-Test case execution for product_data_file duplicate_for_specific_column check initiated....
+2025-07-11 16:29:29,849-INFO-The expected data in the file is :   product_id        product_name     category  price  stock_quantity    brand  rating
+0         101           iPhone 15  Smartphones    999              50    Apple     4.8
+1         102  Samsung Galaxy S23  Smartphones    899              75  Samsung     4.7
+2         103         Dell XPS 13      Laptops   1200              30     Dell     4.6
+3         104      MacBook Pro 14      Laptops   2000              25    Apple     4.9
+4         105     Sony WH-1000XM5   Headphones    350             100     Sony     4.7
+5         106       Nike Air Zoom     Sneakers    120             200     Nike     4.5
+6         107      Samsung 55" TV  Electronics    700              40  Samsung     4.4
+7         108    Philips Hue Bulb   Smart Home     50             500  Philips     4.8
+8         109     Fitbit Charge 5    Wearables    150             150   Fitbit     4.6
+9         110   Kindle Paperwhite     eReaders    130              80   Amazon     4.7
+2025-07-11 16:29:29,849-INFO-Test case execution product_data_file duplicate_for_specific_column check  has completed....
+2025-07-11 16:29:29,853-INFO-Test case execution for product_data_file null_values check initiated....
+2025-07-11 16:29:29,876-INFO-The expected data in the file is :   product_id        product_name     category  price  stock_quantity    brand  rating
+0         101           iPhone 15  Smartphones    999              50    Apple     4.8
+1         102  Samsung Galaxy S23  Smartphones    899              75  Samsung     4.7
+2         103         Dell XPS 13      Laptops   1200              30     Dell     4.6
+3         104      MacBook Pro 14      Laptops   2000              25    Apple     4.9
+4         105     Sony WH-1000XM5   Headphones    350             100     Sony     4.7
+5         106       Nike Air Zoom     Sneakers    120             200     Nike     4.5
+6         107      Samsung 55" TV  Electronics    700              40  Samsung     4.4
+7         108    Philips Hue Bulb   Smart Home     50             500  Philips     4.8
+8         109     Fitbit Charge 5    Wearables    150             150   Fitbit     4.6
+9         110   Kindle Paperwhite     eReaders    130              80   Amazon     4.7
+2025-07-11 16:29:29,878-INFO-Test case execution product_data_file null_values check  has completed....
+2025-07-11 16:29:29,881-INFO-Oracle connection is getting established
+2025-07-11 16:29:30,188-INFO-Oracle connection has been established
+2025-07-11 16:29:30,189-INFO-Test case execution for stores_table_data_count check initiated....
+2025-07-11 16:29:30,278-INFO-Test case execution stores_table_data_count check  has completed....
+2025-07-11 16:29:30,278-INFO-Fetched 20 rows from query.
+2025-07-11 16:29:30,279-INFO-Oracle connection has been closed
+2025-07-11 16:29:30,281-INFO-Oracle connection is getting established
+2025-07-11 16:29:30,338-INFO-Oracle connection has been established
+2025-07-11 16:29:30,339-INFO-Test case execution for stores_table_data_duplicates check initiated....
+2025-07-11 16:29:30,347-INFO-Test case execution stores_table_data_duplicates check  has completed....
+2025-07-11 16:29:30,349-INFO-Oracle connection has been closed
+2025-07-11 16:29:30,351-INFO-Oracle connection is getting established
+2025-07-11 16:29:30,410-INFO-Oracle connection has been established
+2025-07-11 16:29:30,411-INFO-Test case execution for stores_table_data_null check initiated....
+2025-07-11 16:29:30,418-INFO-Test case execution stores_table_data_null check  has completed....
+2025-07-11 16:29:30,419-INFO-Oracle connection has been closed
+2025-07-11 16:39:22,899-INFO-Test case execution for sales_data extraction has started....
+2025-07-11 16:39:22,948-INFO-Test case execution for sales_data extraction has completed....
+2025-07-11 16:39:22,952-INFO-Test case execution for product_data extraction has started....
+2025-07-11 16:39:22,971-INFO-Test case execution for product_data extraction has completed....
+2025-07-11 16:39:22,974-INFO-Test case execution for supplier_data extraction has started....
+2025-07-11 16:39:23,029-INFO-Test case execution for supplier_data extraction has completed....
+2025-07-11 16:39:23,032-INFO-Test case execution for inventory_data extraction has started....
+2025-07-11 16:39:23,317-INFO-Test case execution for inventory_data extraction has completed....
+2025-07-11 16:39:23,320-INFO-Oracle connection is getting established
+2025-07-11 16:39:23,619-INFO-Oracle connection has been established
+2025-07-11 16:39:23,620-INFO-mysql connection is getting established
+2025-07-11 16:39:23,686-INFO-mysql connection has been established
+2025-07-11 16:39:23,687-INFO-Test case execution for sales_data extraction has started....
+2025-07-11 16:39:23,750-INFO-The expected data in the source table is :  store_id    store_name
+0        1       Walmart
+1        2        Target
+2        3      Best Buy
+3        4        Costco
+4        5    Home Depot
+5        6        Lowe's
+6        7   Apple Store
+7        8          IKEA
+8        9     Walgreens
+9       10  CVS Pharmacy
+2025-07-11 16:39:23,829-INFO-The actual data in the stag table is :  store_id    store_name
+0        1       Walmart
+1        2        Target
+2        3      Best Buy
+3        4        Costco
+4        5    Home Depot
+5        6        Lowe's
+6        7   Apple Store
+7        8          IKEA
+8        9     Walgreens
+9       10  CVS Pharmacy
+2025-07-11 16:39:23,832-INFO-Test case execution for stores data extraction has completed....
+2025-07-11 16:39:23,834-INFO-mysql connection has been closed
+2025-07-11 16:39:23,835-INFO-Oracle connection has been closed
+2025-07-11 16:39:23,838-INFO-mysql connection is getting established
+2025-07-11 16:39:23,854-INFO-mysql connection has been established
+2025-07-11 16:39:23,855-INFO-mysql connection is getting established
+2025-07-11 16:39:23,868-INFO-mysql connection has been established
+2025-07-11 16:39:23,870-INFO-Test case execution for Monthly_sales_summary_table_check has started....
+2025-07-11 16:39:23,910-INFO-The expected data in the source table is :   product_id month  year total_sales
+0         101     9  2024       427.0
+1         101    10  2024       263.5
+2         102     9  2024       419.0
+3         102    10  2024       254.0
+4         103     9  2024       346.0
+5         103    10  2024       339.0
+6         104     9  2024       398.0
+7         104    10  2024       346.0
+8         105     9  2024       294.0
+9         105    10  2024       355.0
+10        106     9  2024       220.0
+11        106    10  2024       255.0
+12        107     9  2024       268.0
+13        107    10  2024       360.0
+14        108     9  2024       330.0
+15        108    10  2024       261.0
+16        109     9  2024       436.0
+17        109    10  2024       423.5
+18        110     9  2024       646.0
+19        110    10  2024       408.0
+2025-07-11 16:39:23,938-INFO-The actual data in the stag table is :   product_id month  year total_sales
+0         101     9  2024       427.0
+1         101    10  2024       263.5
+2         102     9  2024       419.0
+3         102    10  2024       254.0
+4         103     9  2024       346.0
+5         103    10  2024       339.0
+6         104     9  2024       398.0
+7         104    10  2024       346.0
+8         105     9  2024       294.0
+9         105    10  2024       355.0
+10        106     9  2024       220.0
+11        106    10  2024       255.0
+12        107     9  2024       268.0
+13        107    10  2024       360.0
+14        108     9  2024       330.0
+15        108    10  2024       261.0
+16        109     9  2024       436.0
+17        109    10  2024       423.5
+18        110     9  2024       646.0
+19        110    10  2024       408.0
+2025-07-11 16:39:23,940-INFO-Test case execution for Monthly_sales_summary_table_check has completed....
+2025-07-11 16:39:23,942-INFO-mysql connection has been closed
+2025-07-11 16:39:23,943-INFO-mysql connection has been closed
+2025-07-11 16:39:23,946-INFO-mysql connection is getting established
+2025-07-11 16:39:23,967-INFO-mysql connection has been established
+2025-07-11 16:39:23,968-INFO-mysql connection is getting established
+2025-07-11 16:39:23,986-INFO-mysql connection has been established
+2025-07-11 16:39:23,988-INFO-Test case execution for fact_sales_table_check has started....
+2025-07-11 16:39:24,031-INFO-The expected data in the source table is :   sales_id product_id store_id quantity total_sales   sale_date
+0        10        110        4        9       153.0  2024-09-10
+1        11        101        4       15       210.0  2024-09-11
+2        12        102        5        9       243.0  2024-09-12
+3        13        103        6       10       220.0  2024-09-13
+4        14        104        7        8       248.0  2024-09-14
+5        15        105        4       12       132.0  2024-09-15
+6        16        106        5        5       115.0  2024-09-16
+7        17        107        6        3        78.0  2024-09-17
+8        18        108        7        6       168.0  2024-09-18
+9        19        109        8       11       220.0  2024-09-19
+10       20        110        9        9       175.5  2024-09-20
+11       21        101        1       14       217.0  2024-09-21
+12       22        102        2        8       176.0  2024-09-22
+13       23        103        3        7       126.0  2024-09-23
+14       24        104        4        6       150.0  2024-09-24
+15       25        105        2       12       162.0  2024-09-25
+16       26        106        3        5       105.0  2024-09-26
+17       27        107        1       10       190.0  2024-09-27
+18       28        108        5        6       162.0  2024-09-28
+19       29        109        6        9       216.0  2024-09-29
+20       30        110        7        7       164.5  2024-09-30
+21       31        101        4       13       188.5  2024-10-01
+22       32        102        5        6       174.0  2024-10-02
+23       33        103        6        8       168.0  2024-10-03
+24       34        104        7        5       150.0  2024-10-04
+25       35        105        4        7       105.0  2024-10-05
+26       36        106        5        3        75.0  2024-10-06
+27       37        107        6       12       216.0  2024-10-07
+28       38        108        7        9       180.0  2024-10-08
+29       39        109        8       10       220.0  2024-10-09
+30       40        110        9        6       156.0  2024-10-10
+31       41        101        3        5        75.0  2024-10-11
+32       42        102        4        4        80.0  2024-10-12
+33       43        103        5        9       171.0  2024-10-13
+34       44        104        6        7       196.0  2024-10-14
+35       45        105        7       10       250.0  2024-10-15
+36       46        106        8        8       180.0  2024-10-16
+37       47        107        9        6       144.0  2024-10-17
+38       48        108        1        3        81.0  2024-10-18
+39       49        109        2       11       203.5  2024-10-19
+40       50        110        3       12       252.0  2024-10-20
+41       60        110        4        9       153.0  2024-09-10
+2025-07-11 16:39:24,055-INFO-The actual data in the stag table is :   sales_id product_id store_id quantity total_sales   sale_date
+0        10        110        4        9       153.0  2024-09-10
+1        11        101        4       15       210.0  2024-09-11
+2        12        102        5        9       243.0  2024-09-12
+3        13        103        6       10       220.0  2024-09-13
+4        14        104        7        8       248.0  2024-09-14
+5        15        105        4       12       132.0  2024-09-15
+6        16        106        5        5       115.0  2024-09-16
+7        17        107        6        3        78.0  2024-09-17
+8        18        108        7        6       168.0  2024-09-18
+9        19        109        8       11       220.0  2024-09-19
+10       20        110        9        9       175.5  2024-09-20
+11       21        101        1       14       217.0  2024-09-21
+12       22        102        2        8       176.0  2024-09-22
+13       23        103        3        7       126.0  2024-09-23
+14       24        104        4        6       150.0  2024-09-24
+15       25        105        2       12       162.0  2024-09-25
+16       26        106        3        5       105.0  2024-09-26
+17       27        107        1       10       190.0  2024-09-27
+18       28        108        5        6       162.0  2024-09-28
+19       29        109        6        9       216.0  2024-09-29
+20       30        110        7        7       164.5  2024-09-30
+21       31        101        4       13       188.5  2024-10-01
+22       32        102        5        6       174.0  2024-10-02
+23       33        103        6        8       168.0  2024-10-03
+24       34        104        7        5       150.0  2024-10-04
+25       35        105        4        7       105.0  2024-10-05
+26       36        106        5        3        75.0  2024-10-06
+27       37        107        6       12       216.0  2024-10-07
+28       38        108        7        9       180.0  2024-10-08
+29       39        109        8       10       220.0  2024-10-09
+30       40        110        9        6       156.0  2024-10-10
+31       41        101        3        5        75.0  2024-10-11
+32       42        102        4        4        80.0  2024-10-12
+33       43        103        5        9       171.0  2024-10-13
+34       44        104        6        7       196.0  2024-10-14
+35       45        105        7       10       250.0  2024-10-15
+36       46        106        8        8       180.0  2024-10-16
+37       47        107        9        6       144.0  2024-10-17
+38       48        108        1        3        81.0  2024-10-18
+39       49        109        2       11       203.5  2024-10-19
+40       50        110        3       12       252.0  2024-10-20
+41       60        110        4        9       153.0  2024-09-10
+2025-07-11 16:39:24,056-INFO-Test case execution for fact_sales_table_check has completed....
+2025-07-11 16:39:24,058-INFO-mysql connection has been closed
+2025-07-11 16:39:24,059-INFO-mysql connection has been closed
+2025-07-11 16:39:24,061-INFO-mysql connection is getting established
+2025-07-11 16:39:24,071-INFO-mysql connection has been established
+2025-07-11 16:39:24,072-INFO-mysql connection is getting established
+2025-07-11 16:39:24,084-INFO-mysql connection has been established
+2025-07-11 16:39:24,085-INFO-Test case execution for fact_inventory_table_check has started....
+2025-07-11 16:39:24,115-INFO-The expected data in the source table is :   product_id store_id quantity_on_hand last_updated
+0         101        1               50   2024-09-01
+1         101        4               50   2024-09-11
+2         101        7              160   2024-10-01
+3         101        9               65   2024-09-21
+4         102        1               30   2024-09-02
+5         102        4               40   2024-09-12
+6         102        8              170   2024-10-02
+7         102        9               75   2024-09-22
+8         103        2               40   2024-09-03
+9         103        5               30   2024-09-13
+10        103        9              180   2024-10-03
+11        103       10               80   2024-09-23
+12        104        5               20   2024-09-14
+13        104       10               90   2024-09-24
+14        105        6               50   2024-09-15
+15        106        2              110   2024-09-26
+16        106        3               25   2024-09-06
+17        106        6               60   2024-09-16
+18        107        1               35   2024-09-07
+19        107        3              120   2024-09-27
+20        107        7               30   2024-09-17
+21        108        2               45   2024-09-08
+22        108        4              130   2024-09-28
+23        108        7               40   2024-09-18
+24        109        3               55   2024-09-09
+25        109        5              140   2024-09-29
+26        109        8               45   2024-09-19
+27        110        3               65   2024-09-10
+28        110        6              150   2024-09-30
+29        110        8               55   2024-09-20
+2025-07-11 16:39:24,138-INFO-The actual data in the stag table is :   product_id store_id quantity_on_hand last_updated
+0         101        1               50   2024-09-01
+1         101        4               50   2024-09-11
+2         101        7              160   2024-10-01
+3         101        9               65   2024-09-21
+4         102        1               30   2024-09-02
+5         102        4               40   2024-09-12
+6         102        8              170   2024-10-02
+7         102        9               75   2024-09-22
+8         103        2               40   2024-09-03
+9         103        5               30   2024-09-13
+10        103        9              180   2024-10-03
+11        103       10               80   2024-09-23
+12        104        5               20   2024-09-14
+13        104       10               90   2024-09-24
+14        105        6               50   2024-09-15
+15        106        2              110   2024-09-26
+16        106        3               25   2024-09-06
+17        106        6               60   2024-09-16
+18        107        1               35   2024-09-07
+19        107        3              120   2024-09-27
+20        107        7               30   2024-09-17
+21        108        2               45   2024-09-08
+22        108        4              130   2024-09-28
+23        108        7               40   2024-09-18
+24        109        3               55   2024-09-09
+25        109        5              140   2024-09-29
+26        109        8               45   2024-09-19
+27        110        3               65   2024-09-10
+28        110        6              150   2024-09-30
+29        110        8               55   2024-09-20
+2025-07-11 16:39:24,139-INFO-Test case execution for fact_inventory_table_check has completed....
+2025-07-11 16:39:24,140-INFO-mysql connection has been closed
+2025-07-11 16:39:24,141-INFO-mysql connection has been closed
+2025-07-11 16:39:24,143-INFO-mysql connection is getting established
+2025-07-11 16:39:24,155-INFO-mysql connection has been established
+2025-07-11 16:39:24,156-INFO-mysql connection is getting established
+2025-07-11 16:39:24,194-INFO-mysql connection has been established
+2025-07-11 16:39:24,196-INFO-Test case execution for inventory_level_stores_table_check has started....
+2025-07-11 16:39:24,208-INFO-The expected data in the source table is :  store_id total_inventory
+0        1           115.0
+1        2           195.0
+2        3           265.0
+3        4           220.0
+4        5           190.0
+5        6           260.0
+6        7           230.0
+7        8           270.0
+8        9           320.0
+9       10           170.0
+2025-07-11 16:39:24,220-INFO-The actual data in the stag table is :  store_id total_inventory
+0        1           115.0
+1        2           195.0
+2        3           265.0
+3        4           220.0
+4        5           190.0
+5        6           260.0
+6        7           230.0
+7        8           270.0
+8        9           320.0
+9       10           170.0
+2025-07-11 16:39:24,221-INFO-Test case execution for inventory_level_stores_table_check has completed....
+2025-07-11 16:39:24,223-INFO-mysql connection has been closed
+2025-07-11 16:39:24,223-INFO-mysql connection has been closed
+2025-07-11 16:39:24,226-INFO-Test case execution for supplier_data_file availability check initiated....
+2025-07-11 16:39:24,226-INFO-Test case execution supplier_data_file availability check  has completed....
+2025-07-11 16:39:24,230-INFO-Test case execution for supplier_data_file size check initiated....
+2025-07-11 16:39:24,231-INFO-Test case execution supplier_data_file size check  has completed....
+2025-07-11 16:39:24,233-INFO-Test case execution for supplier_data_file duplicate_across_the_columns check initiated....
+2025-07-11 16:39:24,258-INFO-The expected data in the file is :   supplier_id         supplier_name    contact_name                      contact_email     contact_phone    country  rating last_order_date
+0            1      ABC Distributors        John Doe                johndoe@abcdist.com       +1-555-0100        USA     4.8      2024-11-20
+1            2     Global Goods Inc.      Jane Smith          janesmith@globalgoods.com       +1-555-0200     Canada     4.3      2024-11-19
+2            3   GreenTech Solutions  Robert Johnson       robert.johnson@greentech.com  +44-20-7946-0100         UK     4.6      2024-11-18
+3            4              EuroWare     Emily White          emily.white@euro-ware.com  +49-30-9876-5432    Germany     4.2      2024-11-22
+4            5      Pacific Products   Michael Brown  michael.brown@pacificproducts.com   +61-2-9345-6789  Australia     4.7      2024-11-17
+5            6     Fresh Produce Co.    Sarah Taylor      sarah.taylor@freshproduce.com   +33-1-7035-6789     France     4.4      2024-11-21
+6            7  TechCore Electronics       David Lee             david.lee@techcore.com   +81-3-4567-8901      Japan     4.9      2024-11-23
+7            8       HanYang Trading      Laura King             laura.king@hanyang.com  +86-10-8888-7777      China     4.1      2024-11-16
+8            9         Indo Supplies  James Williams             james@indosupplies.com  +91-22-2678-9101      India     4.3      2024-11-25
+9           10         LatAm Imports   Olivia Harris     olivia.harris@latamimports.com  +52-55-2345-6789     Mexico     4.5      2024-11-20
+2025-07-11 16:39:24,295-INFO-Test case execution supplier_data_file duplicate_across_the_columns check  has completed....
+2025-07-11 16:39:24,298-INFO-Test case execution for supplier_data_file duplicate_for_specific_column check initiated....
+2025-07-11 16:39:24,320-INFO-The expected data in the file is :   supplier_id         supplier_name    contact_name                      contact_email     contact_phone    country  rating last_order_date
+0            1      ABC Distributors        John Doe                johndoe@abcdist.com       +1-555-0100        USA     4.8      2024-11-20
+1            2     Global Goods Inc.      Jane Smith          janesmith@globalgoods.com       +1-555-0200     Canada     4.3      2024-11-19
+2            3   GreenTech Solutions  Robert Johnson       robert.johnson@greentech.com  +44-20-7946-0100         UK     4.6      2024-11-18
+3            4              EuroWare     Emily White          emily.white@euro-ware.com  +49-30-9876-5432    Germany     4.2      2024-11-22
+4            5      Pacific Products   Michael Brown  michael.brown@pacificproducts.com   +61-2-9345-6789  Australia     4.7      2024-11-17
+5            6     Fresh Produce Co.    Sarah Taylor      sarah.taylor@freshproduce.com   +33-1-7035-6789     France     4.4      2024-11-21
+6            7  TechCore Electronics       David Lee             david.lee@techcore.com   +81-3-4567-8901      Japan     4.9      2024-11-23
+7            8       HanYang Trading      Laura King             laura.king@hanyang.com  +86-10-8888-7777      China     4.1      2024-11-16
+8            9         Indo Supplies  James Williams             james@indosupplies.com  +91-22-2678-9101      India     4.3      2024-11-25
+9           10         LatAm Imports   Olivia Harris     olivia.harris@latamimports.com  +52-55-2345-6789     Mexico     4.5      2024-11-20
+2025-07-11 16:39:24,321-INFO-Test case execution supplier_data_file duplicate_for_specific_column check  has completed....
+2025-07-11 16:39:24,324-INFO-Test case execution for supplier_data_file null_values check initiated....
+2025-07-11 16:39:24,348-INFO-The expected data in the file is :   supplier_id         supplier_name    contact_name                      contact_email     contact_phone    country  rating last_order_date
+0            1      ABC Distributors        John Doe                johndoe@abcdist.com       +1-555-0100        USA     4.8      2024-11-20
+1            2     Global Goods Inc.      Jane Smith          janesmith@globalgoods.com       +1-555-0200     Canada     4.3      2024-11-19
+2            3   GreenTech Solutions  Robert Johnson       robert.johnson@greentech.com  +44-20-7946-0100         UK     4.6      2024-11-18
+3            4              EuroWare     Emily White          emily.white@euro-ware.com  +49-30-9876-5432    Germany     4.2      2024-11-22
+4            5      Pacific Products   Michael Brown  michael.brown@pacificproducts.com   +61-2-9345-6789  Australia     4.7      2024-11-17
+5            6     Fresh Produce Co.    Sarah Taylor      sarah.taylor@freshproduce.com   +33-1-7035-6789     France     4.4      2024-11-21
+6            7  TechCore Electronics       David Lee             david.lee@techcore.com   +81-3-4567-8901      Japan     4.9      2024-11-23
+7            8       HanYang Trading      Laura King             laura.king@hanyang.com  +86-10-8888-7777      China     4.1      2024-11-16
+8            9         Indo Supplies  James Williams             james@indosupplies.com  +91-22-2678-9101      India     4.3      2024-11-25
+9           10         LatAm Imports   Olivia Harris     olivia.harris@latamimports.com  +52-55-2345-6789     Mexico     4.5      2024-11-20
+2025-07-11 16:39:24,348-INFO-Test case execution supplier_data_file null_values check  has completed....
+2025-07-11 16:39:24,352-INFO-Test case execution for product_data_file availability check initiated....
+2025-07-11 16:39:24,352-INFO-Test case execution product_data_file availability check  has completed....
+2025-07-11 16:39:24,355-INFO-Test case execution for product_data_file size check initiated....
+2025-07-11 16:39:24,356-INFO-Test case execution product_data_file size check  has completed....
+2025-07-11 16:39:24,361-INFO-Test case execution for product_data_file duplicate_across_the_columns check initiated....
+2025-07-11 16:39:24,375-INFO-The expected data in the file is :   product_id        product_name     category  price  stock_quantity    brand  rating
+0         101           iPhone 15  Smartphones    999              50    Apple     4.8
+1         102  Samsung Galaxy S23  Smartphones    899              75  Samsung     4.7
+2         103         Dell XPS 13      Laptops   1200              30     Dell     4.6
+3         104      MacBook Pro 14      Laptops   2000              25    Apple     4.9
+4         105     Sony WH-1000XM5   Headphones    350             100     Sony     4.7
+5         106       Nike Air Zoom     Sneakers    120             200     Nike     4.5
+6         107      Samsung 55" TV  Electronics    700              40  Samsung     4.4
+7         108    Philips Hue Bulb   Smart Home     50             500  Philips     4.8
+8         109     Fitbit Charge 5    Wearables    150             150   Fitbit     4.6
+9         110   Kindle Paperwhite     eReaders    130              80   Amazon     4.7
+2025-07-11 16:39:24,378-INFO-Test case execution product_data_file duplicate_across_the_columns check  has completed....
+2025-07-11 16:39:24,383-INFO-Test case execution for product_data_file duplicate_for_specific_column check initiated....
+2025-07-11 16:39:24,401-INFO-The expected data in the file is :   product_id        product_name     category  price  stock_quantity    brand  rating
+0         101           iPhone 15  Smartphones    999              50    Apple     4.8
+1         102  Samsung Galaxy S23  Smartphones    899              75  Samsung     4.7
+2         103         Dell XPS 13      Laptops   1200              30     Dell     4.6
+3         104      MacBook Pro 14      Laptops   2000              25    Apple     4.9
+4         105     Sony WH-1000XM5   Headphones    350             100     Sony     4.7
+5         106       Nike Air Zoom     Sneakers    120             200     Nike     4.5
+6         107      Samsung 55" TV  Electronics    700              40  Samsung     4.4
+7         108    Philips Hue Bulb   Smart Home     50             500  Philips     4.8
+8         109     Fitbit Charge 5    Wearables    150             150   Fitbit     4.6
+9         110   Kindle Paperwhite     eReaders    130              80   Amazon     4.7
+2025-07-11 16:39:24,402-INFO-Test case execution product_data_file duplicate_for_specific_column check  has completed....
+2025-07-11 16:39:24,404-INFO-Test case execution for product_data_file null_values check initiated....
+2025-07-11 16:39:24,456-INFO-The expected data in the file is :   product_id        product_name     category  price  stock_quantity    brand  rating
+0         101           iPhone 15  Smartphones    999              50    Apple     4.8
+1         102  Samsung Galaxy S23  Smartphones    899              75  Samsung     4.7
+2         103         Dell XPS 13      Laptops   1200              30     Dell     4.6
+3         104      MacBook Pro 14      Laptops   2000              25    Apple     4.9
+4         105     Sony WH-1000XM5   Headphones    350             100     Sony     4.7
+5         106       Nike Air Zoom     Sneakers    120             200     Nike     4.5
+6         107      Samsung 55" TV  Electronics    700              40  Samsung     4.4
+7         108    Philips Hue Bulb   Smart Home     50             500  Philips     4.8
+8         109     Fitbit Charge 5    Wearables    150             150   Fitbit     4.6
+9         110   Kindle Paperwhite     eReaders    130              80   Amazon     4.7
+2025-07-11 16:39:24,456-INFO-Test case execution product_data_file null_values check  has completed....
+2025-07-11 16:39:24,461-INFO-Oracle connection is getting established
+2025-07-11 16:39:24,510-INFO-Oracle connection has been established
+2025-07-11 16:39:24,512-INFO-Test case execution for stores_table_data_count check initiated....
+2025-07-11 16:39:24,567-INFO-Test case execution stores_table_data_count check  has completed....
+2025-07-11 16:39:24,567-INFO-Fetched 20 rows from query.
+2025-07-11 16:39:24,569-INFO-Oracle connection has been closed
+2025-07-11 16:39:24,573-INFO-Oracle connection is getting established
+2025-07-11 16:39:24,626-INFO-Oracle connection has been established
+2025-07-11 16:39:24,627-INFO-Test case execution for stores_table_data_duplicates check initiated....
+2025-07-11 16:39:24,634-INFO-Test case execution stores_table_data_duplicates check  has completed....
+2025-07-11 16:39:24,636-INFO-Oracle connection has been closed
+2025-07-11 16:39:24,637-INFO-Oracle connection is getting established
+2025-07-11 16:39:24,683-INFO-Oracle connection has been established
+2025-07-11 16:39:24,684-INFO-Test case execution for stores_table_data_null check initiated....
+2025-07-11 16:39:24,688-INFO-Test case execution stores_table_data_null check  has completed....
+2025-07-11 16:39:24,690-INFO-Oracle connection has been closed
+2025-07-11 16:39:24,694-INFO-mysql connection is getting established
+2025-07-11 16:39:24,708-INFO-mysql connection has been established
+2025-07-11 16:39:24,709-INFO-Test case execution for SaleDate_Filter has started....
+2025-07-11 16:39:24,799-INFO-The expected data in the source table is :   sales_id product_id store_id quantity price   sale_date region
+0        10        110        4        9  17.0  2024-09-10    Low
+1        11        101        4       15  14.0  2024-09-11   High
+2        12        102        5        9  27.0  2024-09-12    Low
+3        13        103        6       10  22.0  2024-09-13   High
+4        14        104        7        8  31.0  2024-09-14    Low
+5        15        105        4       12  11.0  2024-09-15   High
+6        16        106        5        5  23.0  2024-09-16    Low
+7        17        107        6        3  26.0  2024-09-17   High
+8        18        108        7        6  28.0  2024-09-18    Low
+9        19        109        8       11  20.0  2024-09-19   High
+10       20        110        9        9  19.5  2024-09-20    Low
+11       21        101        1       14  15.5  2024-09-21   High
+12       22        102        2        8  22.0  2024-09-22    Low
+13       23        103        3        7  18.0  2024-09-23   High
+14       24        104        4        6  25.0  2024-09-24    Low
+15       25        105        2       12  13.5  2024-09-25   High
+16       26        106        3        5  21.0  2024-09-26    Low
+17       27        107        1       10  19.0  2024-09-27   High
+18       28        108        5        6  27.0  2024-09-28    Low
+19       29        109        6        9  24.0  2024-09-29   High
+20       30        110        7        7  23.5  2024-09-30    Low
+21       31        101        4       13  14.5  2024-10-01   High
+22       32        102        5        6  29.0  2024-10-02    Low
+23       33        103        6        8  21.0  2024-10-03   High
+24       34        104        7        5  30.0  2024-10-04    Low
+25       35        105        4        7  15.0  2024-10-05   High
+26       36        106        5        3  25.0  2024-10-06    Low
+27       37        107        6       12  18.0  2024-10-07   High
+28       38        108        7        9  20.0  2024-10-08    Low
+29       39        109        8       10  22.0  2024-10-09   High
+30       40        110        9        6  26.0  2024-10-10    Low
+31       41        101        3        5  15.0  2024-10-11   High
+32       42        102        4        4  20.0  2024-10-12    Low
+33       43        103        5        9  19.0  2024-10-13   High
+34       44        104        6        7  28.0  2024-10-14    Low
+35       45        105        7       10  25.0  2024-10-15   High
+36       46        106        8        8  22.5  2024-10-16    Low
+37       47        107        9        6  24.0  2024-10-17   High
+38       48        108        1        3  27.0  2024-10-18    Low
+39       49        109        2       11  18.5  2024-10-19   High
+40       50        110        3       12  21.0  2024-10-20    Low
+41       60        110        4        9  17.0  2024-09-10    Low
+2025-07-11 16:39:24,830-INFO-The actual data in the stag table is :   sales_id product_id store_id quantity price   sale_date region
+0        10        110        4        9  17.0  2024-09-10    Low
+1        11        101        4       15  14.0  2024-09-11   High
+2        12        102        5        9  27.0  2024-09-12    Low
+3        13        103        6       10  22.0  2024-09-13   High
+4        14        104        7        8  31.0  2024-09-14    Low
+5        15        105        4       12  11.0  2024-09-15   High
+6        16        106        5        5  23.0  2024-09-16    Low
+7        17        107        6        3  26.0  2024-09-17   High
+8        18        108        7        6  28.0  2024-09-18    Low
+9        19        109        8       11  20.0  2024-09-19   High
+10       20        110        9        9  19.5  2024-09-20    Low
+11       21        101        1       14  15.5  2024-09-21   High
+12       22        102        2        8  22.0  2024-09-22    Low
+13       23        103        3        7  18.0  2024-09-23   High
+14       24        104        4        6  25.0  2024-09-24    Low
+15       25        105        2       12  13.5  2024-09-25   High
+16       26        106        3        5  21.0  2024-09-26    Low
+17       27        107        1       10  19.0  2024-09-27   High
+18       28        108        5        6  27.0  2024-09-28    Low
+19       29        109        6        9  24.0  2024-09-29   High
+20       30        110        7        7  23.5  2024-09-30    Low
+21       31        101        4       13  14.5  2024-10-01   High
+22       32        102        5        6  29.0  2024-10-02    Low
+23       33        103        6        8  21.0  2024-10-03   High
+24       34        104        7        5  30.0  2024-10-04    Low
+25       35        105        4        7  15.0  2024-10-05   High
+26       36        106        5        3  25.0  2024-10-06    Low
+27       37        107        6       12  18.0  2024-10-07   High
+28       38        108        7        9  20.0  2024-10-08    Low
+29       39        109        8       10  22.0  2024-10-09   High
+30       40        110        9        6  26.0  2024-10-10    Low
+31       41        101        3        5  15.0  2024-10-11   High
+32       42        102        4        4  20.0  2024-10-12    Low
+33       43        103        5        9  19.0  2024-10-13   High
+34       44        104        6        7  28.0  2024-10-14    Low
+35       45        105        7       10  25.0  2024-10-15   High
+36       46        106        8        8  22.5  2024-10-16    Low
+37       47        107        9        6  24.0  2024-10-17   High
+38       48        108        1        3  27.0  2024-10-18    Low
+39       49        109        2       11  18.5  2024-10-19   High
+40       50        110        3       12  21.0  2024-10-20    Low
+41       60        110        4        9  17.0  2024-09-10    Low
+2025-07-11 16:39:24,831-INFO-Test case execution for SaleDate_Filter check has completed....
+2025-07-11 16:39:24,833-INFO-mysql connection has been closed
+2025-07-11 16:39:24,835-INFO-mysql connection is getting established
+2025-07-11 16:39:24,848-INFO-mysql connection has been established
+2025-07-11 16:39:24,849-INFO-Test case execution for Router_HighSales check has started....
+2025-07-11 16:39:24,874-INFO-The expected data in the source table is :   sales_id product_id store_id quantity price   sale_date region
+0        11        101        4       15  14.0  2024-09-11   High
+1        13        103        6       10  22.0  2024-09-13   High
+2        15        105        4       12  11.0  2024-09-15   High
+3        17        107        6        3  26.0  2024-09-17   High
+4        19        109        8       11  20.0  2024-09-19   High
+5        21        101        1       14  15.5  2024-09-21   High
+6        23        103        3        7  18.0  2024-09-23   High
+7        25        105        2       12  13.5  2024-09-25   High
+8        27        107        1       10  19.0  2024-09-27   High
+9        29        109        6        9  24.0  2024-09-29   High
+10       31        101        4       13  14.5  2024-10-01   High
+11       33        103        6        8  21.0  2024-10-03   High
+12       35        105        4        7  15.0  2024-10-05   High
+13       37        107        6       12  18.0  2024-10-07   High
+14       39        109        8       10  22.0  2024-10-09   High
+15       41        101        3        5  15.0  2024-10-11   High
+16       43        103        5        9  19.0  2024-10-13   High
+17       45        105        7       10  25.0  2024-10-15   High
+18       47        107        9        6  24.0  2024-10-17   High
+19       49        109        2       11  18.5  2024-10-19   High
+2025-07-11 16:39:24,906-INFO-The actual data in the stag table is :   sales_id product_id store_id quantity price   sale_date region
+0        11        101        4       15  14.0  2024-09-11   High
+1        13        103        6       10  22.0  2024-09-13   High
+2        15        105        4       12  11.0  2024-09-15   High
+3        17        107        6        3  26.0  2024-09-17   High
+4        19        109        8       11  20.0  2024-09-19   High
+5        21        101        1       14  15.5  2024-09-21   High
+6        23        103        3        7  18.0  2024-09-23   High
+7        25        105        2       12  13.5  2024-09-25   High
+8        27        107        1       10  19.0  2024-09-27   High
+9        29        109        6        9  24.0  2024-09-29   High
+10       31        101        4       13  14.5  2024-10-01   High
+11       33        103        6        8  21.0  2024-10-03   High
+12       35        105        4        7  15.0  2024-10-05   High
+13       37        107        6       12  18.0  2024-10-07   High
+14       39        109        8       10  22.0  2024-10-09   High
+15       41        101        3        5  15.0  2024-10-11   High
+16       43        103        5        9  19.0  2024-10-13   High
+17       45        105        7       10  25.0  2024-10-15   High
+18       47        107        9        6  24.0  2024-10-17   High
+19       49        109        2       11  18.5  2024-10-19   High
+2025-07-11 16:39:24,907-INFO-Test case execution for  Router_HighSales check has completed....
+2025-07-11 16:39:24,909-INFO-mysql connection has been closed
+2025-07-11 16:39:24,911-INFO-mysql connection is getting established
+2025-07-11 16:39:24,920-INFO-mysql connection has been established
+2025-07-11 16:39:24,922-INFO-Test case execution for Router_LowSales check has started....
+2025-07-11 16:39:24,945-INFO-The expected data in the source table is :   sales_id product_id store_id quantity price   sale_date region
+0        10        110        4        9  17.0  2024-09-10    Low
+1        12        102        5        9  27.0  2024-09-12    Low
+2        14        104        7        8  31.0  2024-09-14    Low
+3        16        106        5        5  23.0  2024-09-16    Low
+4        18        108        7        6  28.0  2024-09-18    Low
+5        20        110        9        9  19.5  2024-09-20    Low
+6        22        102        2        8  22.0  2024-09-22    Low
+7        24        104        4        6  25.0  2024-09-24    Low
+8        26        106        3        5  21.0  2024-09-26    Low
+9        28        108        5        6  27.0  2024-09-28    Low
+10       30        110        7        7  23.5  2024-09-30    Low
+11       32        102        5        6  29.0  2024-10-02    Low
+12       34        104        7        5  30.0  2024-10-04    Low
+13       36        106        5        3  25.0  2024-10-06    Low
+14       38        108        7        9  20.0  2024-10-08    Low
+15       40        110        9        6  26.0  2024-10-10    Low
+16       42        102        4        4  20.0  2024-10-12    Low
+17       44        104        6        7  28.0  2024-10-14    Low
+18       46        106        8        8  22.5  2024-10-16    Low
+19       48        108        1        3  27.0  2024-10-18    Low
+20       50        110        3       12  21.0  2024-10-20    Low
+21       60        110        4        9  17.0  2024-09-10    Low
+2025-07-11 16:39:24,974-INFO-The actual data in the stag table is :   sales_id product_id store_id quantity price   sale_date region
+0        10        110        4        9  17.0  2024-09-10    Low
+1        12        102        5        9  27.0  2024-09-12    Low
+2        14        104        7        8  31.0  2024-09-14    Low
+3        16        106        5        5  23.0  2024-09-16    Low
+4        18        108        7        6  28.0  2024-09-18    Low
+5        20        110        9        9  19.5  2024-09-20    Low
+6        22        102        2        8  22.0  2024-09-22    Low
+7        24        104        4        6  25.0  2024-09-24    Low
+8        26        106        3        5  21.0  2024-09-26    Low
+9        28        108        5        6  27.0  2024-09-28    Low
+10       30        110        7        7  23.5  2024-09-30    Low
+11       32        102        5        6  29.0  2024-10-02    Low
+12       34        104        7        5  30.0  2024-10-04    Low
+13       36        106        5        3  25.0  2024-10-06    Low
+14       38        108        7        9  20.0  2024-10-08    Low
+15       40        110        9        6  26.0  2024-10-10    Low
+16       42        102        4        4  20.0  2024-10-12    Low
+17       44        104        6        7  28.0  2024-10-14    Low
+18       46        106        8        8  22.5  2024-10-16    Low
+19       48        108        1        3  27.0  2024-10-18    Low
+20       50        110        3       12  21.0  2024-10-20    Low
+21       60        110        4        9  17.0  2024-09-10    Low
+2025-07-11 16:39:24,974-INFO-Test case execution for  Router_LowSales check has completed....
+2025-07-11 16:39:24,976-INFO-mysql connection has been closed
+2025-07-11 16:39:24,978-INFO-mysql connection is getting established
+2025-07-11 16:39:24,988-INFO-mysql connection has been established
+2025-07-11 16:39:24,989-INFO-Test case execution for Aggregated_sales_summary_data_check has started....
+2025-07-11 16:39:25,021-INFO-The expected data in the source table is :   product_id month  year total_sales
+0         101     9  2024       427.0
+1         101    10  2024       263.5
+2         102     9  2024       419.0
+3         102    10  2024       254.0
+4         103     9  2024       346.0
+5         103    10  2024       339.0
+6         104     9  2024       398.0
+7         104    10  2024       346.0
+8         105     9  2024       294.0
+9         105    10  2024       355.0
+10        106     9  2024       220.0
+11        106    10  2024       255.0
+12        107     9  2024       268.0
+13        107    10  2024       360.0
+14        108     9  2024       330.0
+15        108    10  2024       261.0
+16        109     9  2024       436.0
+17        109    10  2024       423.5
+18        110     9  2024       646.0
+19        110    10  2024       408.0
+2025-07-11 16:39:25,045-INFO-The actual data in the stag table is :   product_id month  year total_sales
+0         101     9  2024       427.0
+1         101    10  2024       263.5
+2         102     9  2024       419.0
+3         102    10  2024       254.0
+4         103     9  2024       346.0
+5         103    10  2024       339.0
+6         104     9  2024       398.0
+7         104    10  2024       346.0
+8         105     9  2024       294.0
+9         105    10  2024       355.0
+10        106     9  2024       220.0
+11        106    10  2024       255.0
+12        107     9  2024       268.0
+13        107    10  2024       360.0
+14        108     9  2024       330.0
+15        108    10  2024       261.0
+16        109     9  2024       436.0
+17        109    10  2024       423.5
+18        110     9  2024       646.0
+19        110    10  2024       408.0
+2025-07-11 16:39:25,046-INFO-Test case execution for  Aggregated_sales_summary_data_check  has completed....
+2025-07-11 16:39:25,048-INFO-mysql connection has been closed
+2025-07-11 16:39:25,051-INFO-mysql connection is getting established
+2025-07-11 16:39:25,059-INFO-mysql connection has been established
+2025-07-11 16:39:25,060-INFO-Test case execution for Aggregated_inventory_level_data_check has started....
+2025-07-11 16:39:25,072-INFO-The expected data in the source table is :  store_id total_inventory
+0        1           115.0
+1        2           195.0
+2        3           265.0
+3        4           220.0
+4        5           190.0
+5        6           260.0
+6        7           230.0
+7        8           270.0
+8        9           320.0
+9       10           170.0
+2025-07-11 16:39:25,086-INFO-The actual data in the stag table is :  store_id total_inventory
+0        1           115.0
+1        2           195.0
+2        3           265.0
+3        4           220.0
+4        5           190.0
+5        6           260.0
+6        7           230.0
+7        8           270.0
+8        9           320.0
+9       10           170.0
+2025-07-11 16:39:25,087-INFO-Test case execution for  Aggregated_inventory_level_data_check  has completed....
+2025-07-11 16:39:25,088-INFO-mysql connection has been closed
+2025-07-11 16:39:25,090-INFO-mysql connection is getting established
+2025-07-11 16:39:25,102-INFO-mysql connection has been established
+2025-07-11 16:39:25,103-INFO-Test case execution for Joiner_sales_products_stores_data_check has started....
+2025-07-11 16:39:25,146-INFO-The expected data in the source table is :   sales_id   sale_date price quantity total_sales product_id        product_name store_id   store_name
+0        48  2024-10-18  27.0        3        81.0        108    Philips Hue Bulb        1      Walmart
+1        27  2024-09-27  19.0       10       190.0        107      Samsung 55" TV        1      Walmart
+2        21  2024-09-21  15.5       14       217.0        101           iPhone 15        1      Walmart
+3        49  2024-10-19  18.5       11       203.5        109     Fitbit Charge 5        2       Target
+4        25  2024-09-25  13.5       12       162.0        105     Sony WH-1000XM5        2       Target
+5        22  2024-09-22  22.0        8       176.0        102  Samsung Galaxy S23        2       Target
+6        50  2024-10-20  21.0       12       252.0        110   Kindle Paperwhite        3     Best Buy
+7        41  2024-10-11  15.0        5        75.0        101           iPhone 15        3     Best Buy
+8        26  2024-09-26  21.0        5       105.0        106       Nike Air Zoom        3     Best Buy
+9        23  2024-09-23  18.0        7       126.0        103         Dell XPS 13        3     Best Buy
+10       60  2024-09-10  17.0        9       153.0        110   Kindle Paperwhite        4       Costco
+11       42  2024-10-12  20.0        4        80.0        102  Samsung Galaxy S23        4       Costco
+12       35  2024-10-05  15.0        7       105.0        105     Sony WH-1000XM5        4       Costco
+13       31  2024-10-01  14.5       13       188.5        101           iPhone 15        4       Costco
+14       24  2024-09-24  25.0        6       150.0        104      MacBook Pro 14        4       Costco
+15       15  2024-09-15  11.0       12       132.0        105     Sony WH-1000XM5        4       Costco
+16       11  2024-09-11  14.0       15       210.0        101           iPhone 15        4       Costco
+17       10  2024-09-10  17.0        9       153.0        110   Kindle Paperwhite        4       Costco
+18       43  2024-10-13  19.0        9       171.0        103         Dell XPS 13        5   Home Depot
+19       36  2024-10-06  25.0        3        75.0        106       Nike Air Zoom        5   Home Depot
+20       32  2024-10-02  29.0        6       174.0        102  Samsung Galaxy S23        5   Home Depot
+21       28  2024-09-28  27.0        6       162.0        108    Philips Hue Bulb        5   Home Depot
+22       16  2024-09-16  23.0        5       115.0        106       Nike Air Zoom        5   Home Depot
+23       12  2024-09-12  27.0        9       243.0        102  Samsung Galaxy S23        5   Home Depot
+24       44  2024-10-14  28.0        7       196.0        104      MacBook Pro 14        6       Lowe's
+25       37  2024-10-07  18.0       12       216.0        107      Samsung 55" TV        6       Lowe's
+26       33  2024-10-03  21.0        8       168.0        103         Dell XPS 13        6       Lowe's
+27       29  2024-09-29  24.0        9       216.0        109     Fitbit Charge 5        6       Lowe's
+28       17  2024-09-17  26.0        3        78.0        107      Samsung 55" TV        6       Lowe's
+29       13  2024-09-13  22.0       10       220.0        103         Dell XPS 13        6       Lowe's
+30       45  2024-10-15  25.0       10       250.0        105     Sony WH-1000XM5        7  Apple Store
+31       38  2024-10-08  20.0        9       180.0        108    Philips Hue Bulb        7  Apple Store
+32       34  2024-10-04  30.0        5       150.0        104      MacBook Pro 14        7  Apple Store
+33       30  2024-09-30  23.5        7       164.5        110   Kindle Paperwhite        7  Apple Store
+34       18  2024-09-18  28.0        6       168.0        108    Philips Hue Bulb        7  Apple Store
+35       14  2024-09-14  31.0        8       248.0        104      MacBook Pro 14        7  Apple Store
+36       46  2024-10-16  22.5        8       180.0        106       Nike Air Zoom        8         IKEA
+37       39  2024-10-09  22.0       10       220.0        109     Fitbit Charge 5        8         IKEA
+38       19  2024-09-19  20.0       11       220.0        109     Fitbit Charge 5        8         IKEA
+39       47  2024-10-17  24.0        6       144.0        107      Samsung 55" TV        9    Walgreens
+40       40  2024-10-10  26.0        6       156.0        110   Kindle Paperwhite        9    Walgreens
+41       20  2024-09-20  19.5        9       175.5        110   Kindle Paperwhite        9    Walgreens
+2025-07-11 16:39:25,174-INFO-The actual data in the stag table is :   sales_id   sale_date price quantity total_sales product_id        product_name store_id   store_name
+0        48  2024-10-18  27.0        3        81.0        108    Philips Hue Bulb        1      Walmart
+1        27  2024-09-27  19.0       10       190.0        107      Samsung 55" TV        1      Walmart
+2        21  2024-09-21  15.5       14       217.0        101           iPhone 15        1      Walmart
+3        49  2024-10-19  18.5       11       203.5        109     Fitbit Charge 5        2       Target
+4        25  2024-09-25  13.5       12       162.0        105     Sony WH-1000XM5        2       Target
+5        22  2024-09-22  22.0        8       176.0        102  Samsung Galaxy S23        2       Target
+6        50  2024-10-20  21.0       12       252.0        110   Kindle Paperwhite        3     Best Buy
+7        41  2024-10-11  15.0        5        75.0        101           iPhone 15        3     Best Buy
+8        26  2024-09-26  21.0        5       105.0        106       Nike Air Zoom        3     Best Buy
+9        23  2024-09-23  18.0        7       126.0        103         Dell XPS 13        3     Best Buy
+10       60  2024-09-10  17.0        9       153.0        110   Kindle Paperwhite        4       Costco
+11       42  2024-10-12  20.0        4        80.0        102  Samsung Galaxy S23        4       Costco
+12       35  2024-10-05  15.0        7       105.0        105     Sony WH-1000XM5        4       Costco
+13       31  2024-10-01  14.5       13       188.5        101           iPhone 15        4       Costco
+14       24  2024-09-24  25.0        6       150.0        104      MacBook Pro 14        4       Costco
+15       15  2024-09-15  11.0       12       132.0        105     Sony WH-1000XM5        4       Costco
+16       11  2024-09-11  14.0       15       210.0        101           iPhone 15        4       Costco
+17       10  2024-09-10  17.0        9       153.0        110   Kindle Paperwhite        4       Costco
+18       43  2024-10-13  19.0        9       171.0        103         Dell XPS 13        5   Home Depot
+19       36  2024-10-06  25.0        3        75.0        106       Nike Air Zoom        5   Home Depot
+20       32  2024-10-02  29.0        6       174.0        102  Samsung Galaxy S23        5   Home Depot
+21       28  2024-09-28  27.0        6       162.0        108    Philips Hue Bulb        5   Home Depot
+22       16  2024-09-16  23.0        5       115.0        106       Nike Air Zoom        5   Home Depot
+23       12  2024-09-12  27.0        9       243.0        102  Samsung Galaxy S23        5   Home Depot
+24       44  2024-10-14  28.0        7       196.0        104      MacBook Pro 14        6       Lowe's
+25       37  2024-10-07  18.0       12       216.0        107      Samsung 55" TV        6       Lowe's
+26       33  2024-10-03  21.0        8       168.0        103         Dell XPS 13        6       Lowe's
+27       29  2024-09-29  24.0        9       216.0        109     Fitbit Charge 5        6       Lowe's
+28       17  2024-09-17  26.0        3        78.0        107      Samsung 55" TV        6       Lowe's
+29       13  2024-09-13  22.0       10       220.0        103         Dell XPS 13        6       Lowe's
+30       45  2024-10-15  25.0       10       250.0        105     Sony WH-1000XM5        7  Apple Store
+31       38  2024-10-08  20.0        9       180.0        108    Philips Hue Bulb        7  Apple Store
+32       34  2024-10-04  30.0        5       150.0        104      MacBook Pro 14        7  Apple Store
+33       30  2024-09-30  23.5        7       164.5        110   Kindle Paperwhite        7  Apple Store
+34       18  2024-09-18  28.0        6       168.0        108    Philips Hue Bulb        7  Apple Store
+35       14  2024-09-14  31.0        8       248.0        104      MacBook Pro 14        7  Apple Store
+36       46  2024-10-16  22.5        8       180.0        106       Nike Air Zoom        8         IKEA
+37       39  2024-10-09  22.0       10       220.0        109     Fitbit Charge 5        8         IKEA
+38       19  2024-09-19  20.0       11       220.0        109     Fitbit Charge 5        8         IKEA
+39       47  2024-10-17  24.0        6       144.0        107      Samsung 55" TV        9    Walgreens
+40       40  2024-10-10  26.0        6       156.0        110   Kindle Paperwhite        9    Walgreens
+41       20  2024-09-20  19.5        9       175.5        110   Kindle Paperwhite        9    Walgreens
+2025-07-11 16:39:25,182-INFO-Test case execution for  Joiner_sales_products_stores_data_check  has completed....
+2025-07-11 16:39:25,185-INFO-mysql connection has been closed

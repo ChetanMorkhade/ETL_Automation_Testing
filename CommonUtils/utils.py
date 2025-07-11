@@ -186,3 +186,4 @@ def check_table_null(query_expected, db_engine_expected):
     except Exception as e:
         logger.error(f"Table having null data: {e}")
         return False
+

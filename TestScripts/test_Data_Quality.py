@@ -5,11 +5,13 @@ from sqlalchemy import create_engine
 import oracledb
 import logging
 
+from sqlalchemy.testing import fixture
+
 from CommonUtils.utils import Verify_expected_file_data_vs_actual_stag_table_data, \
     Verify_expected_source_table_data_vs_actual_stag_table_data, \
     check_file_exists, check_file_size, check_for_duplicate_across_the_columns, check_for_duplicate_for_specific_column, \
     check_for_null_values, \
-    check_table_count,check_table_duplicates,check_table_null, oracle_engine
+    check_table_count, check_table_duplicates, check_table_null, oracle_engine, mysql_engine
 from Configuration.config import *
 
 logging.basicConfig(
@@ -21,6 +23,8 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 #DQ test cases for source files(json and csv)
+@pytest.mark.smoke
+@pytest.mark.regression
 def test_DataQuality_supplier_data_file_availability():
     logger.info(f"Test case execution for supplier_data_file availability check initiated....")
     try:
@@ -30,6 +34,8 @@ def test_DataQuality_supplier_data_file_availability():
         pytest.fail("Test case execution for supplier_data_file availability check has failed")
     logger.info(f"Test case execution supplier_data_file availability check  has completed....")
 
+@pytest.mark.smoke
+@pytest.mark.regression
 def test_DataQuality_supplier_data_file_size():
     logger.info(f"Test case execution for supplier_data_file size check initiated....")
     try:
@@ -142,8 +148,6 @@ def test_DataQuality_stores_table_data_null(connect_to_oracle_database):
         logger.error(f"Error while checking the stores_table_data_null {e}")
         pytest.fail("Test case execution for stores_table_data_null check has failed")
     logger.info(f"Test case execution stores_table_data_null check  has completed....")
-
-
 
 
 
